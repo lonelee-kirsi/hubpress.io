@@ -6,12 +6,12 @@
     "cname": ""
   },
   "theme": {
-    "name": "saga"
+    "name": "uno"
   },
   "urls": {
     "site": "https://lonelee-kirsi.github.io",
     "hubpress": "https://lonelee-kirsi.github.io",
-    "theme": "//lonelee-kirsi.github.io/themes/uno",
+    "theme": "//lonelee-kirsi.github.io/themes/saga",
     "images": "https://lonelee-kirsi.github.io/images"
   },
   "initialisationConfigComponent": {
@@ -25,7 +25,7 @@
     ]
   },
   "site": {
-    "title": "",
+    "title": "lone",
     "description": "",
     "logo": "",
     "cover": "",
