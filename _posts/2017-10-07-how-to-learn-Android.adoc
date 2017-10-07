@@ -3,5 +3,11 @@
 :published_at: 2017-10-07
 :hp-tags: Android,
 :hp-alt-title: how to learn Android
+ 
+== 资源
+=== 官方
+* Java
+* https://kotlinlang.org[Kotlin]
+* https://www.android.com/[Android]
 
-https://www.android.com/[官网]
+=== 第三方
