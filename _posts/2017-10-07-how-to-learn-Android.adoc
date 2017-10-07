@@ -1,8 +1,7 @@
 = 如何学习Android
-See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
 :hp-image: /covers/cover.png
-:published_at: 2019-01-31
-:hp-tags: HubPress, Blog, Open_Source,
+:published_at: 2017-10-07
+:hp-tags: Android,
 :hp-alt-title: how to learn Android
 
-Hello,HubPress!
+https://www.android.com/[官网]
