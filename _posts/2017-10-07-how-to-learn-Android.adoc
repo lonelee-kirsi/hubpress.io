@@ -4,10 +4,14 @@
 :hp-tags: Android,
 :hp-alt-title: how to learn Android
  
+== 语言
+. Java
+. Kotlin
+. C++/C
+
 == 资源
 === 官方
-* Java
-* https://www.android.com[Android]
+https://www.android.com[Android]
 
 === 第三方
 * http://www.androidcat.com[AndrodCat]
