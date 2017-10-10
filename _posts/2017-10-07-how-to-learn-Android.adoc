@@ -4,11 +4,20 @@
 :hp-tags: Android,
 :hp-alt-title: how to learn Android
  
-== 语言
-. Java
-. Kotlin
-. C++/C
+== 语言层
+=== Java
+==== 书籍
+. http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1762429[Java核心技术 卷I：基础知识（原书第10版）]
+. http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1765355[Java核心技术卷II：高级特性（原书第10版）]
 
+TIP: Pro tip...
+
+=== Kotlin
+=== C++/C
+
+== 应用层
+
+== 内核层
 == 资源
 === 官方
 https://www.android.com[Android]
