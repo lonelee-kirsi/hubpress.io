@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee ]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 11 Oct 2017 07:21:48 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[如何学习Android]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee ]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 11 Oct 2017 07:24:57 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[如何学习Android]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all spread">
 <caption class="title">Table 1. 语言</caption>
@@ -64,7 +64,8 @@
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">网络</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">* <a href="http://www.ituring.com.cn/book/1229">图解HTTP</a>
+<td class="tableblock halign-left valign-top"><p class="tableblock">测试。
+</p><p class="tableblock">* <a href="http://www.ituring.com.cn/book/1229">图解HTTP</a>
 * <a href="http://www.ituring.com.cn/book/1018">图解TCP/IP（第5版）</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1760749">TCP/IP详解 卷1：协议（原书第2版）</a></p></td>
 </tr>
