@@ -102,7 +102,7 @@ http://linux.vbird.org/[鸟哥的Linux私房菜^]
 书籍：
 
 * http://www.epubit.com.cn/book/details/796[代码整洁之道^]
-* http://www.epubit.com.cn/book/details/1705[重构：改善既有代码的设计^]
+* http://www.epubit.com.cn/book/details/1705[重构^]
 * https://detail.tmall.com/item.htm?spm=a220m.1000858.1000725.11.d371020F5r1eH&id=15540811192&areaId=360100&user_id=349908536&cat_id=2&is_b=1&rn=e05831c4e116a1b4976fc28ce18c2e31[重构手册^]
 * http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1679731[编写可读代码的艺术^]
 |
@@ -118,15 +118,15 @@ http://linux.vbird.org/[鸟哥的Linux私房菜^]
 |开发流程
 |
 * https://git-scm.com/book/en/v2[精通Git^]
-* http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1545917[解析极限编程：拥抱变化^]
+* http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1545917[解析极限编程]
 * http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1183357[敏捷开发的艺术^]
 |
 
 |程序员
 |
-* http://www.epubit.com.cn/book/details/4096[代码整洁之道：程序员的职业素养^]
-* http://www.broadview.com.cn/book/4436[程序员修炼之道：从小工到专家^]
-* http://www.ituring.com.cn/book/1171[黑客与画家：来自计算机时代的高见^]
+* http://www.epubit.com.cn/book/details/4096[程序员的职业素养^]
+* http://www.broadview.com.cn/book/4436[程序员修炼之道^]
+* http://www.ituring.com.cn/book/1171[黑客与画家^]
 |
 |===
 
