@@ -4,6 +4,9 @@
 :hp-tags: Android,
 :hp-alt-title: how to learn Android
  
+ 
+ TIP: Pro tip...
+ 
 .语言
 |===
 |名称 |入门 |进阶
