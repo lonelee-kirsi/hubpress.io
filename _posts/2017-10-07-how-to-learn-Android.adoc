@@ -24,6 +24,7 @@
 === 书籍
 入门
 
+. https://developer.android.google.cn/index.html?utm_source=androiddevtools.cn&utm_medium=website[Android 官方镜像]
 . http://hukai.me/android-training-course-in-chinese/index.html[Android官方培训课程中文版(v0.9.7)]
 . http://www.ituring.com.cn/book/1841[第一行代码——Android（第2版）]
 . http://www.ituring.com.cn/book/1976[Android编程权威指南（第3版）]
