@@ -1,10 +1,16 @@
-= 我的 Android 学习指南
+= 如何学习Android
 :hp-image: /covers/cover.png
 :published_at: 2017-10-07
 :hp-tags: Android,
 :hp-alt-title: how to learn Android
 
 TIP: 测试
+
+IMPORTANT: Don't forget...
+
+WARNING: Watch out for...
+
+CAUTION: Ensure that...
 
 .语言
 |===
