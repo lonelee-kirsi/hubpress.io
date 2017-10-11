@@ -6,15 +6,15 @@
  
 .语言
 |===
-|Name of Column 1 |Name of Column 2 |Name of Column 3 
+|名称 |入门 |进阶
 
 |Java
-|Cell in column 2, row 1
-|Cell in column 3, row 1
+|
+|
 
 |Kotlin
-|Cell in column 2, row 2
-|Cell in column 3, row 2
+|
+|
 
 |C/C++
 |
