@@ -6,12 +6,12 @@
     "cname": ""
   },
   "theme": {
-    "name": "the-shell"
+    "name": "uno-zen"
   },
   "urls": {
     "site": "https://lonelee-kirsi.github.io",
     "hubpress": "https://lonelee-kirsi.github.io",
-    "theme": "//lonelee-kirsi.github.io/themes/roon",
+    "theme": "//lonelee-kirsi.github.io/themes/the-shell",
     "images": "https://lonelee-kirsi.github.io/images"
   },
   "initialisationConfigComponent": {
