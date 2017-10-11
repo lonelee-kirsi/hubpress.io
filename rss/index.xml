@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee ]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 11 Oct 2017 07:30:16 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[如何学习Android]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee ]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 11 Oct 2017 07:33:50 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[如何学习Android]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all spread">
 <caption class="title">Table 1. 语言</caption>
@@ -56,8 +56,13 @@
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">OS</p></td>
-<td class="tableblock halign-left valign-top"><div><div class="paragraph">
+<td class="tableblock halign-left valign-top"><div><div class="sect1">
+<h2 id="__">网站</h2>
+<div class="sectionbody">
+<div class="paragraph">
 <p><a href="http://linux.vbird.org/">鳥哥的 Linux 私房菜 </a></p>
+</div>
+</div>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div></div></td>
 </tr>
@@ -72,7 +77,10 @@
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">网络</p></td>
-<td class="tableblock halign-left valign-top"><div><div class="ulist">
+<td class="tableblock halign-left valign-top"><div><div class="sect1">
+<h2 id="___2">书籍</h2>
+<div class="sectionbody">
+<div class="ulist">
 <ul>
 <li>
 <p><a href="http://www.ituring.com.cn/book/1229">图解HTTP</a></p>
@@ -81,6 +89,8 @@
 <p><a href="http://www.ituring.com.cn/book/1018">图解TCP/IP（第5版）</a></p>
 </li>
 </ul>
+</div>
+</div>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div><div class="paragraph">
 <p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1760749">TCP/IP详解 卷1：协议（原书第2版）</a></p>
@@ -91,12 +101,12 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="__">语言层</h2>
+<h2 id="___3">语言层</h2>
 <div class="sectionbody">
 <div class="sect2">
 <h3 id="_java">Java</h3>
 <div class="sect3">
-<h4 id="___2">书籍</h4>
+<h4 id="___4">书籍</h4>
 <div class="paragraph">
 <p>入门</p>
 </div>
@@ -145,10 +155,10 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="___3">应用层</h2>
+<h2 id="___5">应用层</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="___4">书籍</h3>
+<h3 id="___6">书籍</h3>
 <div class="paragraph">
 <p>入门</p>
 </div>
@@ -277,22 +287,22 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="___5">内核层</h2>
+<h2 id="___7">内核层</h2>
 <div class="sectionbody">
 
 </div>
 </div>
 <div class="sect1">
-<h2 id="___6">资源</h2>
+<h2 id="___8">资源</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="___7">官方</h3>
+<h3 id="___9">官方</h3>
 <div class="paragraph">
 <p><a href="https://www.android.com">Android</a></p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="___8">第三方</h3>
+<h3 id="___10">第三方</h3>
 <div class="ulist">
 <ul>
 <li>
