@@ -6,7 +6,7 @@
 
 .语言
 |===
-|名称 |入门 |进阶
+|条目 |入门 |进阶
 
 |Java
 |
@@ -24,7 +24,7 @@
 [cols="1,1a,1a"]
 .其他
 |===
-|名称 |入门 |进阶
+|条目 |入门 |进阶
 
 |算法与数据结构
 |http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1759705[数据结构与算法分析：Java语言描述（原书第3版）]
@@ -32,7 +32,8 @@
 
 |OS
 |
-== 网站
+网站：
+
 http://linux.vbird.org/[鳥哥的 Linux 私房菜 ]
 |
 
@@ -42,7 +43,7 @@ http://linux.vbird.org/[鳥哥的 Linux 私房菜 ]
 
 |网络
 |
-## 书籍
+书籍：
 
 * http://www.ituring.com.cn/book/1229[图解HTTP]
 * http://www.ituring.com.cn/book/1018[图解TCP/IP（第5版）]
