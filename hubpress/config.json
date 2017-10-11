@@ -6,12 +6,12 @@
     "cname": ""
   },
   "theme": {
-    "name": "uno-zen"
+    "name": "ghostium"
   },
   "urls": {
     "site": "https://lonelee-kirsi.github.io",
     "hubpress": "https://lonelee-kirsi.github.io",
-    "theme": "//lonelee-kirsi.github.io/themes/the-shell",
+    "theme": "//lonelee-kirsi.github.io/themes/uno-zen",
     "images": "https://lonelee-kirsi.github.io/images"
   },
   "initialisationConfigComponent": {
