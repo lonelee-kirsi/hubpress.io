@@ -11,7 +11,7 @@
   "urls": {
     "site": "https://lonelee-kirsi.github.io",
     "hubpress": "https://lonelee-kirsi.github.io",
-    "theme": "//lonelee-kirsi.github.io/themes/uno-zen",
+    "theme": "//lonelee-kirsi.github.io/themes/ghostium",
     "images": "https://lonelee-kirsi.github.io/images"
   },
   "initialisationConfigComponent": {
@@ -25,8 +25,8 @@
     ]
   },
   "site": {
-    "title": "Lonelee ",
-    "description": "For fun",
+    "title": "Lonelee  Code",
+    "description": "Programming  lonely",
     "logo": "",
     "cover": "",
     "delay": "",
