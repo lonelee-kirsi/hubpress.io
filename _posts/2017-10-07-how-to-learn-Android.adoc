@@ -4,7 +4,7 @@
 :hp-tags: Android,
 :hp-alt-title: how to learn Android
 
-TIP: Pro tip...
+TIP: 测试
 
 .语言
 |===
