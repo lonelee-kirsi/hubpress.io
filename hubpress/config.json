@@ -6,12 +6,12 @@
     "cname": ""
   },
   "theme": {
-    "name": "ichi"
+    "name": "roon"
   },
   "urls": {
     "site": "https://lonelee-kirsi.github.io",
     "hubpress": "https://lonelee-kirsi.github.io",
-    "theme": "//lonelee-kirsi.github.io/themes/ghostium",
+    "theme": "//lonelee-kirsi.github.io/themes/ichi",
     "images": "https://lonelee-kirsi.github.io/images"
   },
   "initialisationConfigComponent": {
