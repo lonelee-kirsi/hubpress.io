@@ -4,21 +4,71 @@
 :hp-tags: Android,
 :hp-alt-title: how to learn Android
 
+[cols=",a,a"]
 .语言
 |===
 |条目 |入门 |进阶
 
 |Java
 |
-|
+* http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1762429[Java核心技术 卷I：基础知识]
+* http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1765355[Java核心技术 卷II：高级特性]
 
-|Kotlin
+|
+* http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=707868[Java编程思想]
+* http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1753558[Effective Java中文版]
+
+|https://kotlinlang.org/[Kotlin]
 |
 |
 
 |C/C++
 |
 |
+|===
+
+[cols=",a"]
+.应用
+|===
+|条目 |资源
+
+|基础
+|
+* https://developer.android.google.cn/index.html?utm_source=androiddevtools.cn&utm_medium=website[Android 官方镜像]
+* http://hukai.me/android-training-course-in-chinese/index.html[Android官方培训课程中文版(v0.9.7)]
+
+书籍：
+
+* http://www.ituring.com.cn/book/1841[第一行代码——Android（第2版）]
+* http://www.ituring.com.cn/book/1976[Android编程权威指南（第3版）]
+* http://www.broadview.com.cn/book/492[疯狂Android讲义（第3版）]
+* http://www.tup.tsinghua.edu.cn/bookscenter/book_04578801.html[Android 4高级编程（第3版）]
+
+|进阶
+|
+* http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1758514[App研发录：架构设计、Crash分析和竞品技术分析]
+* http://www.broadview.com.cn/book/2677[Android群英传]
+* http://www.tup.tsinghua.edu.cn/booksCenter/book_06153701.html[深入理解Android系统]
+* http://www.broadview.com.cn/book/539[Android开发艺术探索]
+* http://www.broadview.com.cn/book/2549[Android系统源代码情景分析（修订版）]
+|===
+
+[cols=",a"]
+.底层
+|===
+|条目 |资源
+
+|基础
+|
+* http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1537596[深入理解Android:卷Ⅰ]
+* http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1702071[深入理解android：卷II]
+* http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1752416[深入理解Android：Wi-Fi、NFC和GPS卷]
+* http://www.epubit.com.cn/book/details/4859[Android 源码设计模式解析与实战（第2版）]
+* http://www.epubit.com.cn/book/details/1110[Android框架揭秘]
+
+|内核
+|* http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1491137[Linux内核设计与实现 （原书第3版）]
+* https://detail.tmall.com/item.htm?spm=a1z10.3-b.w4011-7992896792.27.3eb5c812kSWDR2&id=37045140798&rn=ac0a6acdb98be4a024e97f81e9924fdc&abbucket=1[深入理解LINUX内核(第三版)]
 |===
 
 [cols=",a,a"]
@@ -79,60 +129,6 @@ http://linux.vbird.org/[鳥哥的 Linux 私房菜 ]
 * http://www.ituring.com.cn/book/1171[黑客与画家：来自计算机时代的高见]
 |
 |===
-
-== 语言层
-=== Java
-==== 书籍
-入门
-
-. http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1762429[Java核心技术 卷I：基础知识]
-. http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1765355[Java核心技术 卷II：高级特性]
-
-进阶
-
-. http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=707868[Java编程思想]
-. http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1753558[Effective Java中文版]
-
-=== Kotlin
-官方
-
-. https://kotlinlang.org/[官网]
-
-=== C++/C
-
-== 应用层
-=== 书籍
-入门
-
-. https://developer.android.google.cn/index.html?utm_source=androiddevtools.cn&utm_medium=website[Android 官方镜像]
-. http://hukai.me/android-training-course-in-chinese/index.html[Android官方培训课程中文版(v0.9.7)]
-. http://www.ituring.com.cn/book/1841[第一行代码——Android（第2版）]
-. http://www.ituring.com.cn/book/1976[Android编程权威指南（第3版）]
-. http://www.broadview.com.cn/book/492[疯狂Android讲义（第3版）]
-. http://www.tup.tsinghua.edu.cn/bookscenter/book_04578801.html[Android 4高级编程（第3版）]
-
-进阶
-
-. http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1758514[App研发录：架构设计、Crash分析和竞品技术分析]
-. http://www.broadview.com.cn/book/2677[Android群英传]
-. http://www.tup.tsinghua.edu.cn/booksCenter/book_06153701.html[深入理解Android系统]
-. http://www.broadview.com.cn/book/539[Android开发艺术探索]
-. http://www.broadview.com.cn/book/2549[Android系统源代码情景分析（修订版）]
-
-底层
-
-. http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1537596[深入理解Android:卷Ⅰ]
-. http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1702071[深入理解android：卷II]
-. http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1752416[深入理解Android：Wi-Fi、NFC和GPS卷]
-. http://www.epubit.com.cn/book/details/4859[Android 源码设计模式解析与实战（第2版）]
-. http://www.epubit.com.cn/book/details/1110[Android框架揭秘]
-. http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1491137[Linux内核设计与实现 （原书第3版）]
-. https://detail.tmall.com/item.htm?spm=a1z10.3-b.w4011-7992896792.27.3eb5c812kSWDR2&id=37045140798&rn=ac0a6acdb98be4a024e97f81e9924fdc&abbucket=1[深入理解LINUX内核(第三版)]
-
-== 内核层
-== 资源
-=== 官方
-https://www.android.com[Android]
 
 === 第三方
 * http://www.androidcat.com[AndrodCat]
