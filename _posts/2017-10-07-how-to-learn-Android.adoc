@@ -1,9 +1,26 @@
-= 如何学习Android
+= 我的 Android 学习指南
 :hp-image: /covers/cover.png
 :published_at: 2017-10-07
 :hp-tags: Android,
 :hp-alt-title: how to learn Android
  
+.语言
+|===
+|Name of Column 1 |Name of Column 2 |Name of Column 3 
+
+|Java
+|Cell in column 2, row 1
+|Cell in column 3, row 1
+
+|Kotlin
+|Cell in column 2, row 2
+|Cell in column 3, row 2
+
+|C/C++
+|
+|
+|===
+
 == 语言层
 === Java
 ==== 书籍
