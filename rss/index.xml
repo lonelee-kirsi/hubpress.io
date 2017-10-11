@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee ]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 11 Oct 2017 07:50:44 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[如何学习Android]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee ]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 11 Oct 2017 08:03:39 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[如何学习Android]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all spread">
 <caption class="title">Table 1. 语言</caption>
@@ -17,23 +17,160 @@
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Java</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><div><div class="ulist">
+<ul>
+<li>
+<p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1762429">Java核心技术 卷I：基础知识</a></p>
+</li>
+<li>
+<p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1765355">Java核心技术 卷II：高级特性</a></p>
+</li>
+</ul>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div><div class="ulist">
+<ul>
+<li>
+<p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=707868">Java编程思想</a></p>
+</li>
+<li>
+<p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1753558">Effective Java中文版</a></p>
+</li>
+</ul>
+</div></div></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Kotlin</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://kotlinlang.org/">Kotlin</a></p></td>
+<td class="tableblock halign-left valign-top"><div></div></td>
+<td class="tableblock halign-left valign-top"><div></div></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">C/C++</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><div></div></td>
+<td class="tableblock halign-left valign-top"><div></div></td>
 </tr>
 </tbody>
 </table>
 <table class="tableblock frame-all grid-all spread">
-<caption class="title">Table 2. 其他</caption>
+<caption class="title">Table 2. 应用</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">条目</th>
+<th class="tableblock halign-left valign-top">资源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">基础</p></td>
+<td class="tableblock halign-left valign-top"><div><div class="ulist">
+<ul>
+<li>
+<p><a href="https://developer.android.google.cn/index.html?utm_source=androiddevtools.cn&amp;utm_medium=website">Android 官方镜像</a></p>
+</li>
+<li>
+<p><a href="http://hukai.me/android-training-course-in-chinese/index.html">Android官方培训课程中文版(v0.9.7)</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>书籍：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://www.ituring.com.cn/book/1841">第一行代码——Android（第2版）</a></p>
+</li>
+<li>
+<p><a href="http://www.ituring.com.cn/book/1976">Android编程权威指南（第3版）</a></p>
+</li>
+<li>
+<p><a href="http://www.broadview.com.cn/book/492">疯狂Android讲义（第3版）</a></p>
+</li>
+<li>
+<p><a href="http://www.tup.tsinghua.edu.cn/bookscenter/book_04578801.html">Android 4高级编程（第3版）</a></p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">进阶</p></td>
+<td class="tableblock halign-left valign-top"><div><div class="ulist">
+<ul>
+<li>
+<p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1758514">App研发录：架构设计、Crash分析和竞品技术分析</a></p>
+</li>
+<li>
+<p><a href="http://www.broadview.com.cn/book/2677">Android群英传</a></p>
+</li>
+<li>
+<p><a href="http://www.tup.tsinghua.edu.cn/booksCenter/book_06153701.html">深入理解Android系统</a></p>
+</li>
+<li>
+<p><a href="http://www.broadview.com.cn/book/539">Android开发艺术探索</a></p>
+</li>
+<li>
+<p><a href="http://www.broadview.com.cn/book/2549">Android系统源代码情景分析（修订版）</a></p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-all spread">
+<caption class="title">Table 3. 底层</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">条目</th>
+<th class="tableblock halign-left valign-top">资源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">基础</p></td>
+<td class="tableblock halign-left valign-top"><div><div class="ulist">
+<ul>
+<li>
+<p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1537596">深入理解Android:卷Ⅰ</a></p>
+</li>
+<li>
+<p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1702071">深入理解android：卷II</a></p>
+</li>
+<li>
+<p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1752416">深入理解Android：Wi-Fi、NFC和GPS卷</a></p>
+</li>
+<li>
+<p><a href="http://www.epubit.com.cn/book/details/4859">Android 源码设计模式解析与实战（第2版）</a></p>
+</li>
+<li>
+<p><a href="http://www.epubit.com.cn/book/details/1110">Android框架揭秘</a></p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">内核</p></td>
+<td class="tableblock halign-left valign-top"><div><div class="ulist">
+<ul>
+<li>
+<p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1491137">Linux内核设计与实现 （原书第3版）</a></p>
+</li>
+<li>
+<p><a href="https://detail.tmall.com/item.htm?spm=a1z10.3-b.w4011-7992896792.27.3eb5c812kSWDR2&amp;id=37045140798&amp;rn=ac0a6acdb98be4a024e97f81e9924fdc&amp;abbucket=1">深入理解LINUX内核(第三版)</a></p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-all spread">
+<caption class="title">Table 4. 其他</caption>
 <colgroup>
 <col style="width: 33.3333%;">
 <col style="width: 33.3333%;">
@@ -173,167 +310,13 @@
 </table>
 </div>
 </div>
-<div class="sect1">
-<h2 id="__">语言层</h2>
-<div class="sectionbody">
 <div class="sect2">
-<h3 id="_java">Java</h3>
-<div class="sect3">
-<h4 id="___2">书籍</h4>
-<div class="paragraph">
-<p>入门</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1762429">Java核心技术 卷I：基础知识</a></p>
-</li>
-<li>
-<p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1765355">Java核心技术 卷II：高级特性</a></p>
-</li>
-</ol>
-</div>
-<div class="paragraph">
-<p>进阶</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=707868">Java编程思想</a></p>
-</li>
-<li>
-<p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1753558">Effective Java中文版</a></p>
-</li>
-</ol>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_kotlin">Kotlin</h3>
-<div class="paragraph">
-<p>官方</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p><a href="https://kotlinlang.org/">官网</a></p>
-</li>
-</ol>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_c_c">C++/C</h3>
-
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="___3">应用层</h2>
-<div class="sectionbody">
-<div class="sect2">
-<h3 id="___4">书籍</h3>
-<div class="paragraph">
-<p>入门</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p><a href="https://developer.android.google.cn/index.html?utm_source=androiddevtools.cn&amp;utm_medium=website">Android 官方镜像</a></p>
-</li>
-<li>
-<p><a href="http://hukai.me/android-training-course-in-chinese/index.html">Android官方培训课程中文版(v0.9.7)</a></p>
-</li>
-<li>
-<p><a href="http://www.ituring.com.cn/book/1841">第一行代码——Android（第2版）</a></p>
-</li>
-<li>
-<p><a href="http://www.ituring.com.cn/book/1976">Android编程权威指南（第3版）</a></p>
-</li>
-<li>
-<p><a href="http://www.broadview.com.cn/book/492">疯狂Android讲义（第3版）</a></p>
-</li>
-<li>
-<p><a href="http://www.tup.tsinghua.edu.cn/bookscenter/book_04578801.html">Android 4高级编程（第3版）</a></p>
-</li>
-</ol>
-</div>
-<div class="paragraph">
-<p>进阶</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1758514">App研发录：架构设计、Crash分析和竞品技术分析</a></p>
-</li>
-<li>
-<p><a href="http://www.broadview.com.cn/book/2677">Android群英传</a></p>
-</li>
-<li>
-<p><a href="http://www.tup.tsinghua.edu.cn/booksCenter/book_06153701.html">深入理解Android系统</a></p>
-</li>
-<li>
-<p><a href="http://www.broadview.com.cn/book/539">Android开发艺术探索</a></p>
-</li>
-<li>
-<p><a href="http://www.broadview.com.cn/book/2549">Android系统源代码情景分析（修订版）</a></p>
-</li>
-</ol>
-</div>
-<div class="paragraph">
-<p>底层</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1537596">深入理解Android:卷Ⅰ</a></p>
-</li>
-<li>
-<p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1702071">深入理解android：卷II</a></p>
-</li>
-<li>
-<p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1752416">深入理解Android：Wi-Fi、NFC和GPS卷</a></p>
-</li>
-<li>
-<p><a href="http://www.epubit.com.cn/book/details/4859">Android 源码设计模式解析与实战（第2版）</a></p>
-</li>
-<li>
-<p><a href="http://www.epubit.com.cn/book/details/1110">Android框架揭秘</a></p>
-</li>
-<li>
-<p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1491137">Linux内核设计与实现 （原书第3版）</a></p>
-</li>
-<li>
-<p><a href="https://detail.tmall.com/item.htm?spm=a1z10.3-b.w4011-7992896792.27.3eb5c812kSWDR2&amp;id=37045140798&amp;rn=ac0a6acdb98be4a024e97f81e9924fdc&amp;abbucket=1">深入理解LINUX内核(第三版)</a></p>
-</li>
-</ol>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="___5">内核层</h2>
-<div class="sectionbody">
-
-</div>
-</div>
-<div class="sect1">
-<h2 id="___6">资源</h2>
-<div class="sectionbody">
-<div class="sect2">
-<h3 id="___7">官方</h3>
-<div class="paragraph">
-<p><a href="https://www.android.com">Android</a></p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="___8">第三方</h3>
+<h3 id="__">第三方</h3>
 <div class="ulist">
 <ul>
 <li>
 <p><a href="http://www.androidcat.com">AndrodCat</a></p>
 </li>
 </ul>
-</div>
-</div>
 </div>
 </div>]]></description><link>https://lonelee-kirsi.github.io/2017/10/07/how-to-learn-Android.html</link><guid isPermaLink="true">https://lonelee-kirsi.github.io/2017/10/07/how-to-learn-Android.html</guid><category><![CDATA[Android]]></category><dc:creator><![CDATA[Lonelee]]></dc:creator><pubDate>Sat, 07 Oct 2017 00:00:00 GMT</pubDate></item></channel></rss>
