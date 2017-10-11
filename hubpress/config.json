@@ -6,12 +6,12 @@
     "cname": ""
   },
   "theme": {
-    "name": "saga"
+    "name": "casper"
   },
   "urls": {
     "site": "https://lonelee-kirsi.github.io",
     "hubpress": "https://lonelee-kirsi.github.io",
-    "theme": "//lonelee-kirsi.github.io/themes/uno",
+    "theme": "//lonelee-kirsi.github.io/themes/saga",
     "images": "https://lonelee-kirsi.github.io/images"
   },
   "initialisationConfigComponent": {
@@ -25,8 +25,8 @@
     ]
   },
   "site": {
-    "title": "lone",
-    "description": "for fun",
+    "title": "Lonelee ",
+    "description": "For fun",
     "logo": "",
     "cover": "",
     "delay": "",
