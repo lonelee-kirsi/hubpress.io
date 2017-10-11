@@ -31,7 +31,9 @@
 |
 
 |OS
-|http://linux.vbird.org/[鳥哥的 Linux 私房菜 ]
+|
+== 网站
+http://linux.vbird.org/[鳥哥的 Linux 私房菜 ]
 |
 
 |设计模式
@@ -40,6 +42,8 @@
 
 |网络
 |
+## 书籍
+
 * http://www.ituring.com.cn/book/1229[图解HTTP]
 * http://www.ituring.com.cn/book/1018[图解TCP/IP（第5版）]
 |http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1760749[TCP/IP详解 卷1：协议（原书第2版）]
