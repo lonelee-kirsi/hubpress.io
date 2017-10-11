@@ -6,12 +6,12 @@
     "cname": ""
   },
   "theme": {
-    "name": "ghostium"
+    "name": "ichi"
   },
   "urls": {
     "site": "https://lonelee-kirsi.github.io",
     "hubpress": "https://lonelee-kirsi.github.io",
-    "theme": "//lonelee-kirsi.github.io/themes/casper",
+    "theme": "//lonelee-kirsi.github.io/themes/ghostium",
     "images": "https://lonelee-kirsi.github.io/images"
   },
   "initialisationConfigComponent": {
