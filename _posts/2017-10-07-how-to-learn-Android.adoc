@@ -8,8 +8,8 @@
 .语言
 |===
 |条目 |入门 |进阶
-
-|Java
+ 
+|http://docs.oracle.com/en/java/[Java^]
 |
 * http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1762429[Java核心技术 卷I：基础知识^]
 * http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1765355[Java核心技术 卷II：高级特性^]
