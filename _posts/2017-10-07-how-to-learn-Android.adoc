@@ -131,6 +131,6 @@ http://linux.vbird.org/[鸟哥的Linux私房菜^]
 |===
 
 === 第三方
-* http://www.androidcat.com[AndrodCat]
+* http://www.androidcat.com[AndrodCat^]
  
 
