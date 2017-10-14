@@ -1,0 +1,17 @@
+= 如何学习
+:hp-image: /covers/cover.png
+:published_at: 2019-01-31
+:hp-tags: learn,
+:hp-alt-title: how to learn
+
+== 获取
+* 接触本体
+* 人
+* 知识载体
+** 网络
+** 书籍
+
+== 过滤
+== 记录
+== 反馈
+== 传播
