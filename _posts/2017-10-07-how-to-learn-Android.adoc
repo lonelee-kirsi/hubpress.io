@@ -143,7 +143,12 @@ http://linux.vbird.org/[鸟哥的Linux私房菜^]
 |
 * http://www.imooc.com/course/list?c=android[慕课网^]
 * http://www.jikexueyuan.com/course/android/[极客学院^]
+* http://edu.51cto.com/courselist/35.html[51CTO学院]
 
+|个人
+|
+* http://mars.apkbus.com/[Mars]
+* http://luo.apkbus.com/[老罗]
 
 |===
 
