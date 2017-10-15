@@ -3,6 +3,7 @@
 :published_at: 2017-10-07
 :hp-tags: Android,
 :hp-alt-title: how to learn Android
+:toc: right
 
 [cols=",a,a"]
 .语言
