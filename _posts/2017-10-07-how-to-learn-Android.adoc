@@ -135,6 +135,19 @@ http://linux.vbird.org/[鸟哥的Linux私房菜^]
 |===
 
 == 其他资源
+[cols=",a"]
+|===
+|条目 |资源
+
+|慕课
+|
+* http://www.imooc.com/course/list?c=android[慕课网^]
+* http://www.jikexueyuan.com/course/android/[极客学院^]
+
+
+|===
+
 * http://www.androidcat.com[AndrodCat^]
+
  
 
