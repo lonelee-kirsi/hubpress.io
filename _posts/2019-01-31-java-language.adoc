@@ -1,0 +1,18 @@
+= Java 语言
+:hp-image: /covers/cover.png
+:published_at: 2019-01-31
+:hp-tags: Java,
+:hp-alt-title: java language
+
+== 基础
+=== 面向对象编程概念
+核心概念：
+
+* 对象
+* 消息（messages）
+* 类
+* 继承
+
+* 与现实的关联
+* 语法
+
