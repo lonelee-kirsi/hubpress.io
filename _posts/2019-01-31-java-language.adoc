@@ -24,20 +24,7 @@
 进入面向对象编程世界::
 现实世界的状态与行为对应代码世界的方法(Methods)与字段(Fields)
 
-NOTE: An admonition paragraph draws the reader's attention to
-auxiliary information.
-Its purpose is determined by the label
-at the beginning of the paragraph.
-
-Here are the other built-in admonition types:
-
-TIP: Pro tip...
-
-IMPORTANT: Don't forget...
-
-WARNING: Watch out for...
-
-CAUTION: Ensure that...
+NOTE: test
 
 * 状态与行为如何用对象表示
 * 数据封装
