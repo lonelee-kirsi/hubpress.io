@@ -38,9 +38,9 @@
     <link href="//fonts.googleapis.com/" rel="dns-prefetch">
     <link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Open+Sans:700,400&subset=latin,latin-ext" rel="stylesheet">
 
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/main.min.css?v=1508224401614"/>
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/custom.css?v=1508224401614"/>
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1508224401614"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/main.min.css?v=1508224581031"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/custom.css?v=1508224581031"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1508224581031"/>
 
 
 
@@ -70,7 +70,7 @@
       GHOSTIUM.enablePjax = typeof enable_pjax !== 'undefined' ? enable_pjax : true;
     </script>
 
-    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1508224401614"></script>
+    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1508224581031"></script>
 
     <link rel="canonical" href="https://lonelee-kirsi.github.io/2019/01/31/java-language.html" />
     <meta name="referrer" content="origin" />
@@ -78,7 +78,7 @@
     <meta property="og:site_name" content="Lonelee  Code" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Java 语言基础" />
-    <meta property="og:description" content="面向对象编程 核心概念 对象 消息（messages） 类 继承 对象 对象是面向对象技术的关键，常用于对现实事物建模，是其相关的状态与行为的软件封装。 源于现实 思考一下，现实事物是否皆可分离为两种特征：状态(state)与行为(behavior)。 更进一步，你会发现一些复杂性，比如每个事物的状态与行为不尽相同，又比如某些事物能够囊括其他事物的状态与行为，诸如此类。 尝试辨识每个现实事物的状态与行为，这是理解面对对象的好方法。 代码概念 现实世界的状态与行为对应面向对象编程世界的方法(Methods)与字段(Fields) 状态与行为如何用对象表示 数据封装 使用对象的益处" />
+    <meta property="og:description" content="面向对象编程 核心概念 对象 消息（messages） 类 继承 对象 对象是面向对象技术的关键，常用于对现实事物建模，是其相关的状态与行为的软件封装。 源于现实 思考一下，现实事物是否皆可分离为两种特征：状态(state)与行为(behavior)。 更进一步，你会发现一些复杂性，比如每个事物的状态与行为不尽相同，又比如某些事物可囊括其他事物的状态与行为。 尝试辨识现实事物的状态与行为，这是理解面对对象的好方法。 代码概念 现实世界的状态与行为对应面向对象编程世界的方法(Methods)与字段(Fields) 状态与行为如何用对象表示 数据封装 使用对象的益处" />
     <meta property="og:url" content="https://lonelee-kirsi.github.io/2019/01/31/java-language.html" />
     <meta property="og:image" content="/covers/cover.png" />
     <meta property="article:published_time" content="2019-01-31T00:00:00.000Z" />
@@ -86,7 +86,7 @@
     
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Java 语言基础" />
-    <meta name="twitter:description" content="面向对象编程 核心概念 对象 消息（messages） 类 继承 对象 对象是面向对象技术的关键，常用于对现实事物建模，是其相关的状态与行为的软件封装。 源于现实 思考一下，现实事物是否皆可分离为两种特征：状态(state)与行为(behavior)。 更进一步，你会发现一些复杂性，比如每个事物的状态与行为不尽相同，又比如某些事物能够囊括其他事物的状态与行为，诸如此类。 尝试辨识每个现实事物的状态与行为，这是理解面对对象的好方法。 代码概念 现实世界的状态与行为对应面向对象编程世界的方法(Methods)与字段(Fields) 状态与行为如何用对象表示 数据封装 使用对象的益处" />
+    <meta name="twitter:description" content="面向对象编程 核心概念 对象 消息（messages） 类 继承 对象 对象是面向对象技术的关键，常用于对现实事物建模，是其相关的状态与行为的软件封装。 源于现实 思考一下，现实事物是否皆可分离为两种特征：状态(state)与行为(behavior)。 更进一步，你会发现一些复杂性，比如每个事物的状态与行为不尽相同，又比如某些事物可囊括其他事物的状态与行为。 尝试辨识现实事物的状态与行为，这是理解面对对象的好方法。 代码概念 现实世界的状态与行为对应面向对象编程世界的方法(Methods)与字段(Fields) 状态与行为如何用对象表示 数据封装 使用对象的益处" />
     <meta name="twitter:url" content="https://lonelee-kirsi.github.io/2019/01/31/java-language.html" />
     <meta name="twitter:image:src" content="/covers/cover.png" />
     
@@ -107,7 +107,7 @@
     "datePublished": "2019-01-31T00:00:00.000Z",
     "image": "/covers/cover.png",
     "keywords": "Java",
-    "description": "面向对象编程 核心概念 对象 消息（messages） 类 继承 对象 对象是面向对象技术的关键，常用于对现实事物建模，是其相关的状态与行为的软件封装。 源于现实 思考一下，现实事物是否皆可分离为两种特征：状态(state)与行为(behavior)。 更进一步，你会发现一些复杂性，比如每个事物的状态与行为不尽相同，又比如某些事物能够囊括其他事物的状态与行为，诸如此类。 尝试辨识每个现实事物的状态与行为，这是理解面对对象的好方法。 代码概念 现实世界的状态与行为对应面向对象编程世界的方法(Methods)与字段(Fields) 状态与行为如何用对象表示 数据封装 使用对象的益处"
+    "description": "面向对象编程 核心概念 对象 消息（messages） 类 继承 对象 对象是面向对象技术的关键，常用于对现实事物建模，是其相关的状态与行为的软件封装。 源于现实 思考一下，现实事物是否皆可分离为两种特征：状态(state)与行为(behavior)。 更进一步，你会发现一些复杂性，比如每个事物的状态与行为不尽相同，又比如某些事物可囊括其他事物的状态与行为。 尝试辨识现实事物的状态与行为，这是理解面对对象的好方法。 代码概念 现实世界的状态与行为对应面向对象编程世界的方法(Methods)与字段(Fields) 状态与行为如何用对象表示 数据封装 使用对象的益处"
 }
     </script>
 
@@ -231,7 +231,7 @@
 <p>思考一下，现实事物是否皆可分离为两种特征：状态(state)与行为(behavior)。</p>
 </div>
 <div class="paragraph">
-<p>更进一步，你会发现一些复杂性，比如每个事物的状态与行为不尽相同，又比如某些事物能够囊括其他事物的状态与行为，诸如此类。</p>
+<p>更进一步，你会发现一些复杂性，比如每个事物的状态与行为不尽相同，又比如某些事物可囊括其他事物的状态与行为。</p>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -240,7 +240,7 @@
 <i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-尝试辨识每个现实事物的状态与行为，这是理解面对对象的好方法。
+尝试辨识现实事物的状态与行为，这是理解面对对象的好方法。
 </td>
 </tr>
 </table>
@@ -328,7 +328,7 @@
         hljs.initHighlightingOnLoad();
       </script>
 
-    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1508224401614"></script>
+    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1508224581031"></script>
 
 
   </body>
