@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 18 Oct 2017 00:27:01 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java 语言基础]]></title><description><![CDATA[<div class="sect1">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 18 Oct 2017 01:28:57 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java 语言基础]]></title><description><![CDATA[<div class="sect1">
 <h2 id="__">面向对象编程概念</h2>
 <div class="sectionbody">
 <div class="dlist">
@@ -35,7 +35,7 @@
 <p>思考一下，现实事物是否皆可分离为两种特征：状态(State)与行为(Behavior)。</p>
 </div>
 <div class="paragraph">
-<p>更进一步，你会发现一些复杂性，如事物间的状态与行为存在共性或不尽相同，如某些事物可囊括其他事物的状态与行为。</p>
+<p>更进一步，你会发现一些复杂性，如事物间的状态与行为存在共性或差异，如某些事物可囊括其他事物的状态与行为。</p>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -53,13 +53,13 @@
 <div class="sect3">
 <h4 id="___4">编程抽象</h4>
 <div class="paragraph">
-<p>编程抽象的字段(Field)与方法(Method)映射现实事物的状态与行为。</p>
+<p>字段(Field)与方法(Method)映射现实事物的状态与行为。</p>
 </div>
 <div class="paragraph">
-<p>其中方法用于操作对象的内部状态并充当对象间通讯的主要途径。</p>
+<p>方法用于操作对象的内部状态并充当对象间通讯的主要途径。</p>
 </div>
 <div class="paragraph">
-<p>隐藏内部状态且交互只通过方法，称为数据封装，这是面向对象的基本原则。</p>
+<p>隐藏内部状态且交互只通过方法，这称为数据封装，是面向对象的基本原则。</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -76,28 +76,21 @@
 </div>
 <div class="sect3">
 <h4 id="___5">有何益处</h4>
-<div class="ulist">
-<ul>
-<li>
-<p>模块化</p>
-</li>
-<li>
-<p>信息隐藏</p>
-</li>
-<li>
-<p>代码重用</p>
-</li>
-<li>
-<p>提高可插拔性与可调试性</p>
-</li>
-</ul>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">模块化</dt>
+<dd>
+<p>一个对象的源码可独立于其他对象源码进行改写与维护。</p>
+</dd>
+<dt class="hdlist1">信息隐藏</dt>
+<dt class="hdlist1">代码重用</dt>
+<dt class="hdlist1">提高可插拔性与可调试性</dt>
+<dd>
+<p>=== 类
+在对对象的解释中，我提到事物间的状态与行为可能存在共性，</p>
+</dd>
+</dl>
 </div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="___6">类</h3>
-<div class="paragraph">
-<p>在对对象的解释中，我提到事物间的状态与行为可能存在共性，</p>
 </div>
 </div>
 </div>
