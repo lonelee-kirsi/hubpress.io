@@ -1,0 +1,16 @@
+= Java进阶
+:hp-image: /covers/cover.png
+:published_at: 2019-01-31
+:hp-tags: Java,
+:hp-alt-title: My English Title
+
+== 集合
+== Lambda表达式
+== 聚合操作
+== 打包程序为JAR文件
+== 国际化
+== 反射
+== 安全
+== JavaBeans
+== 扩展机制
+== 泛型
