@@ -1,5 +1,14 @@
-= Java
+= Java服务
 :hp-image: /covers/cover.png
 :published_at: 2019-01-31
-:hp-tags: HubPress, Blog, Open_Source,
-// :hp-alt-title: My English Title
+:hp-tags: Java, 
+:hp-alt-title: Java server
+
+IMPORTANT: 中间件、服务端、web应用开发
+
+== JDBC数据库访问
+== JMX
+== JNDI
+== JAXP
+== RMI
+== 并发
