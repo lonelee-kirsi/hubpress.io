@@ -5,13 +5,8 @@
 :hp-alt-title: java language
 
 == 面向对象编程概念
-IMPORTANT: 
-核心概念
 
-* 对象
-* 消息（messages）
-* 类
-* 继承
+IMPORTANT: 核心概念:对象、消息（Message）、类、继承
 
 === 对象
 对象是面向对象技术的关键，常用于对现实事物建模，对其状态与行为进行软件封装。
