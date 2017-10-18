@@ -5,7 +5,8 @@
 :hp-alt-title: java language
 
 == 面向对象编程概念
-核心概念::
+IMPORTANT: 
+核心概念
 
 * 对象
 * 消息（messages）
