@@ -38,9 +38,9 @@
     <link href="//fonts.googleapis.com/" rel="dns-prefetch">
     <link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Open+Sans:700,400&subset=latin,latin-ext" rel="stylesheet">
 
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/main.min.css?v=1508297697254"/>
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/custom.css?v=1508297697254"/>
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1508297697254"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/main.min.css?v=1508327236011"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/custom.css?v=1508327236011"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1508327236011"/>
 
 
 
@@ -70,7 +70,7 @@
       GHOSTIUM.enablePjax = typeof enable_pjax !== 'undefined' ? enable_pjax : true;
     </script>
 
-    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1508297697254"></script>
+    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1508327236011"></script>
 
     <link rel="canonical" href="https://lonelee-kirsi.github.io/2019/01/31/java-language.html" />
     <meta name="referrer" content="origin" />
@@ -279,14 +279,25 @@
 <p>一个对象的源码可独立于其他对象源码进行改写与维护。</p>
 </dd>
 <dt class="hdlist1">信息隐藏</dt>
+<dd>
+<p>交互只通过方法，内部实现细节对外部隐藏。</p>
+</dd>
 <dt class="hdlist1">代码重用</dt>
+<dd>
+<p>若对象已经存在（如库），可在你的程序中使用其对象。由专家实现、测试、调试复杂的、特定任务的对象，而你只需使用。</p>
+</dd>
 <dt class="hdlist1">提高可插拔性与可调试性</dt>
 <dd>
-<p>=== 类
-在对对象的解释中，我提到事物间的状态与行为可能存在共性，</p>
+<p>若某个对象出现问题，只需简单地从应用中移除它并以正确的对象替代它，而无需触碰整个应用。</p>
 </dd>
 </dl>
 </div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="___6">类</h3>
+<div class="paragraph">
+<p>在对对象的解释中，我提到事物间的状态与行为可能存在共性，</p>
 </div>
 </div>
 </div>
@@ -351,7 +362,7 @@
         hljs.initHighlightingOnLoad();
       </script>
 
-    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1508297697254"></script>
+    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1508327236011"></script>
 
 
   </body>
