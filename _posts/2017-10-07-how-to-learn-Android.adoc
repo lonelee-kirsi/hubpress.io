@@ -17,9 +17,10 @@
 
 * http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1762429[Java核心技术 卷I：基础知识^]
 * http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1765355[Java核心技术 卷II：高级特性^]
+* https://detail.tmall.com/item.htm?spm=a1z10.3-b.w4011-7992896792.31.60a7e35bzj4RYU&id=36992272880&rn=71950b4ad441351ff2c4b1622d1891ec&abbucket=1[Head first Java中文版]
+* http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=707868[Java编程思想^]
 
 |
-* http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=707868[Java编程思想^]
 * http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1753558[Effective Java中文版^]
 
 |https://kotlinlang.org/[Kotlin^]
