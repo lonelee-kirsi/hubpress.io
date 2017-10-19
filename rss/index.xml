@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 19 Oct 2017 07:10:06 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java 语言编程基础]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 19 Oct 2017 07:43:53 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java 语言编程基础]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
 <li><a href="#__">面向对象编程概念</a>
@@ -154,7 +154,7 @@
 <i class="fa icon-important" title="Important"></i>
 </td>
 <td class="content">
-变量比字段的概念范围更大。
+变量比字段的概念范围更大。成员包括类型字段、方法、嵌套类型。
 </td>
 </tr>
 </table>
@@ -169,7 +169,7 @@
 </dd>
 <dt class="hdlist1">类变量（静态字段）</dt>
 <dd>
-<p>用<code>static</code>声明的字段。这告诉编译器，不论类实例化多少次，</p>
+<p>用<code>static</code>声明的字段。它的值对每个对象不唯一。增加<code>final</code>声明指示该字段无法改变。</p>
 </dd>
 <dt class="hdlist1">局部变量</dt>
 <dd>
