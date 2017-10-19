@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 19 Oct 2017 10:08:26 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java 语言编程基础]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 19 Oct 2017 13:09:30 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java 语言编程基础]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
 <li><a href="#__">面向对象编程概念</a>
@@ -558,9 +558,6 @@
 <li>
 <p><a href="https://developer.android.google.cn/index.html?utm_source=androiddevtools.cn&amp;utm_medium=website" target="_blank">Android 官方镜像</a></p>
 </li>
-<li>
-<p><a href="http://hukai.me/android-training-course-in-chinese/index.html" target="_blank">Android官方培训课程中文版</a></p>
-</li>
 </ul>
 </div>
 <div class="paragraph">
@@ -685,6 +682,9 @@
 <td class="tableblock halign-left valign-top"><div><div class="ulist">
 <ul>
 <li>
+<p><a href="http://www.ituring.com.cn/book/875">算法</a></p>
+</li>
+<li>
 <p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1759705" target="_blank">数据结构与算法分析：Java语言描述</a></p>
 </li>
 <li>
@@ -802,6 +802,50 @@
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div></div></td>
 </tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">程序设计</p></td>
+<td class="tableblock halign-left valign-top"><div><div class="ulist">
+<ul>
+<li>
+<p><a href="http://www.ccs.neu.edu/home/matthias/HtDP2e/">程序设计方法</a></p>
+</li>
+</ul>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">编译原理</p></td>
+<td class="tableblock halign-left valign-top"><div><div class="ulist">
+<ul>
+<li>
+<p><a href="https://detail.tmall.com/item.htm?spm=a1z10.3-b.w4011-9314112581.17.2cb41fe8NIcf59&amp;id=526305494501&amp;rn=a94543de4c0b6a720b224749ab87a0cd&amp;abbucket=1">编程语言实现模式</a></p>
+</li>
+</ul>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">计算机原理</p></td>
+<td class="tableblock halign-left valign-top"><div><div class="ulist">
+<ul>
+<li>
+<p><a href="http://www.broadview.com.cn/book/2901">编码</a></p>
+</li>
+</ul>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">调试</p></td>
+<td class="tableblock halign-left valign-top"><div><div class="ulist">
+<ul>
+<li>
+<p><a href="http://www.ituring.com.cn/book/84">调试九法</a></p>
+</li>
+</ul>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div></div></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -838,7 +882,7 @@
 </div></div></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">个人</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">个人教程</p></td>
 <td class="tableblock halign-left valign-top"><div><div class="ulist">
 <ul>
 <li>
