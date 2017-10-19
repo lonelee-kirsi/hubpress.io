@@ -39,7 +39,6 @@
 |基础
 |
 * https://developer.android.google.cn/index.html?utm_source=androiddevtools.cn&utm_medium=website[Android 官方镜像^]
-* http://hukai.me/android-training-course-in-chinese/index.html[Android官方培训课程中文版^]
 
 书籍：
 
@@ -82,6 +81,7 @@
 
 |算法与数据结构
 |
+* http://www.ituring.com.cn/book/875[算法]
 * http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1759705[数据结构与算法分析：Java语言描述^]
 * http://www.epubit.com.cn/book/details/1652[编程珠玑^]
 * http://www.epubit.com.cn/book/details/1734[编程珠玑（续）^]
@@ -132,6 +132,26 @@ http://linux.vbird.org/[鸟哥的Linux私房菜^]
 * http://www.broadview.com.cn/book/4436[程序员修炼之道^]
 * http://www.ituring.com.cn/book/1171[黑客与画家^]
 |
+
+|程序设计
+|
+* http://www.ccs.neu.edu/home/matthias/HtDP2e/[程序设计方法]
+|
+
+|编译原理
+|
+* https://detail.tmall.com/item.htm?spm=a1z10.3-b.w4011-9314112581.17.2cb41fe8NIcf59&id=526305494501&rn=a94543de4c0b6a720b224749ab87a0cd&abbucket=1[编程语言实现模式]
+|
+
+|计算机原理
+| 
+* http://www.broadview.com.cn/book/2901[编码]
+|
+
+|调试
+|
+* http://www.ituring.com.cn/book/84[调试九法]
+|
 |===
 
 == 暂未归类资源
@@ -145,7 +165,7 @@ http://linux.vbird.org/[鸟哥的Linux私房菜^]
 * http://www.jikexueyuan.com/course/android/[极客学院^]
 * http://edu.51cto.com/courselist/35.html[51CTO学院]
 
-|个人
+|个人教程
 |
 * http://mars.apkbus.com/[Mars]
 * http://luo.apkbus.com/[老罗]
