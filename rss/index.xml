@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 19 Oct 2017 07:43:53 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java 语言编程基础]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 19 Oct 2017 10:06:25 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java 语言编程基础]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
 <li><a href="#__">面向对象编程概念</a>
@@ -13,25 +13,25 @@
 <li><a href="#___10">语言基础</a>
 <ul class="sectlevel2">
 <li><a href="#___11">变量</a></li>
-<li><a href="#___14">运算符</a></li>
-<li><a href="#___15">表达式、语句、代码块</a></li>
-<li><a href="#___16">控制流语句</a></li>
+<li><a href="#___15">运算符</a></li>
+<li><a href="#___16">表达式、语句、代码块</a></li>
+<li><a href="#___17">控制流语句</a></li>
 </ul>
 </li>
-<li><a href="#___17">类与对象</a>
+<li><a href="#___18">类与对象</a>
 <ul class="sectlevel2">
-<li><a href="#___18">类</a></li>
-<li><a href="#___19">对象</a></li>
-<li><a href="#___20">类进阶</a></li>
-<li><a href="#___21">嵌套类</a></li>
-<li><a href="#___22">枚举类型</a></li>
+<li><a href="#___19">类</a></li>
+<li><a href="#___20">对象</a></li>
+<li><a href="#___21">类进阶</a></li>
+<li><a href="#___22">嵌套类</a></li>
+<li><a href="#___23">枚举类型</a></li>
 </ul>
 </li>
-<li><a href="#___23">注解</a></li>
-<li><a href="#___24">接口和继承</a></li>
-<li><a href="#___25">数值和字符串</a></li>
-<li><a href="#___26">泛型</a></li>
-<li><a href="#___27">包</a></li>
+<li><a href="#___24">注解</a></li>
+<li><a href="#___25">接口和继承</a></li>
+<li><a href="#___26">数值和字符串</a></li>
+<li><a href="#___27">泛型</a></li>
+<li><a href="#___28">包</a></li>
 </ul>
 </div>
 <div class="sect1">
@@ -198,72 +198,78 @@
 </ul>
 </div>
 </div>
+<div class="sect3">
+<h4 id="___14">原始数据类型</h4>
+<div class="paragraph">
+<p>Java 语言为静态类型。</p>
+</div>
+</div>
 </div>
 <div class="sect2">
-<h3 id="___14">运算符</h3>
+<h3 id="___15">运算符</h3>
 
 </div>
 <div class="sect2">
-<h3 id="___15">表达式、语句、代码块</h3>
+<h3 id="___16">表达式、语句、代码块</h3>
 
 </div>
 <div class="sect2">
-<h3 id="___16">控制流语句</h3>
+<h3 id="___17">控制流语句</h3>
 
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="___17">类与对象</h2>
+<h2 id="___18">类与对象</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="___18">类</h3>
+<h3 id="___19">类</h3>
 
 </div>
 <div class="sect2">
-<h3 id="___19">对象</h3>
+<h3 id="___20">对象</h3>
 
 </div>
 <div class="sect2">
-<h3 id="___20">类进阶</h3>
+<h3 id="___21">类进阶</h3>
 
 </div>
 <div class="sect2">
-<h3 id="___21">嵌套类</h3>
+<h3 id="___22">嵌套类</h3>
 
 </div>
 <div class="sect2">
-<h3 id="___22">枚举类型</h3>
+<h3 id="___23">枚举类型</h3>
 
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="___23">注解</h2>
-<div class="sectionbody">
-
-</div>
-</div>
-<div class="sect1">
-<h2 id="___24">接口和继承</h2>
-<div class="sectionbody">
-
-</div>
-</div>
-<div class="sect1">
-<h2 id="___25">数值和字符串</h2>
+<h2 id="___24">注解</h2>
 <div class="sectionbody">
 
 </div>
 </div>
 <div class="sect1">
-<h2 id="___26">泛型</h2>
+<h2 id="___25">接口和继承</h2>
 <div class="sectionbody">
 
 </div>
 </div>
 <div class="sect1">
-<h2 id="___27">包</h2>
+<h2 id="___26">数值和字符串</h2>
+<div class="sectionbody">
+
+</div>
+</div>
+<div class="sect1">
+<h2 id="___27">泛型</h2>
+<div class="sectionbody">
+
+</div>
+</div>
+<div class="sect1">
+<h2 id="___28">包</h2>
 <div class="sectionbody">
 
 </div>
@@ -466,15 +472,15 @@
 </div>]]></description><link>https://lonelee-kirsi.github.io/2019/01/31/Java-server.html</link><guid isPermaLink="true">https://lonelee-kirsi.github.io/2019/01/31/Java-server.html</guid><category><![CDATA[Java]]></category><dc:creator><![CDATA[Lonelee]]></dc:creator><pubDate>Thu, 31 Jan 2019 00:00:00 GMT</pubDate></item><item><title><![CDATA[如何学习Android]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">目录</div>
 <ul class="sectlevel1">
-<li><a href="#__">语言</a></li>
+<li><a href="#__">编程语言</a></li>
 <li><a href="#___2">应用</a></li>
 <li><a href="#___3">底层</a></li>
 <li><a href="#___4">计算机基础</a></li>
-<li><a href="#___5">其他资源</a></li>
+<li><a href="#___5">暂未归类资源</a></li>
 </ul>
 </div>
 <div class="sect1">
-<h2 id="__">语言</h2>
+<h2 id="__">编程语言</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all spread">
 <colgroup>
@@ -801,7 +807,7 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="___5">其他资源</h2>
+<h2 id="___5">暂未归类资源</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all spread">
 <colgroup>
