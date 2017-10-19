@@ -17,12 +17,12 @@
 
 * http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1762429[Java核心技术 卷I：基础知识^]
 * http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1765355[Java核心技术 卷II：高级特性^]
-* [Head first Java]
+* http://isbn.directory/book/9780596009205[Head first Java]
 * http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=707868[Java编程思想^]
 * http://www.oracle.com/technetwork/java/javamagazine/index.html[Oracle Java Magazine 图书部分]
 
 |
-* [Effective Java^]
+* http://isbn.directory/book/9780134685991[Effective Java^]
 
 |https://kotlinlang.org/[Kotlin^]
 |
