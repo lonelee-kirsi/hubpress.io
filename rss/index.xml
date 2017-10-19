@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 19 Oct 2017 16:09:02 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java 语言编程基础]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 19 Oct 2017 16:16:18 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java 语言编程基础]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
 <li><a href="#__">面向对象编程概念</a>
@@ -504,7 +504,7 @@
 <p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1765355" target="_blank">Java核心技术 卷II：高级特性</a></p>
 </li>
 <li>
-<p>[Head first Java]</p>
+<p><a href="http://isbn.directory/book/9780596009205">Head first Java</a></p>
 </li>
 <li>
 <p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=707868" target="_blank">Java编程思想</a></p>
@@ -517,7 +517,7 @@
 <td class="tableblock halign-left valign-top"><div><div class="ulist">
 <ul>
 <li>
-<p>[Effective Java^]</p>
+<p><a href="http://isbn.directory/book/9780134685991" target="_blank">Effective Java</a></p>
 </li>
 </ul>
 </div></div></td>
