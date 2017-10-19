@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 18 Oct 2017 15:42:50 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java 语言编程基础]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 19 Oct 2017 06:18:26 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java 语言编程基础]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
 <li><a href="#__">面向对象编程概念</a>
@@ -44,7 +44,7 @@
 <i class="fa icon-important" title="Important"></i>
 </td>
 <td class="content">
-核心概念：对象、消息（Message）、类、继承
+核心：对象、消息（Message）、类、继承
 </td>
 </tr>
 </table>
@@ -102,7 +102,7 @@
 <dl>
 <dt class="hdlist1">模块化</dt>
 <dd>
-<p>对象源码可独立于其他对象源码进行改写与维护。</p>
+<p>对象源码可独立于其他对象源码进行改写与维护。一旦创建，一个对象可以很容易地传递到系统内部</p>
 </dd>
 <dt class="hdlist1">信息隐藏</dt>
 <dd>
@@ -110,7 +110,7 @@
 </dd>
 <dt class="hdlist1">代码重用</dt>
 <dd>
-<p>若对象已经存在（如库），可在你的程序中使用其对象。由专家实现、测试、调试复杂的、特定任务的对象，而你只需使用。</p>
+<p>可在程序中复次使用对象。另外，可由专家实现、测试、调试复杂的、特定任务的对象（如库），而你只需使用。</p>
 </dd>
 <dt class="hdlist1">提高可插拔性与可调试性</dt>
 <dd>
