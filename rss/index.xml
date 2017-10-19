@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 19 Oct 2017 13:09:30 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java 语言编程基础]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 19 Oct 2017 15:45:13 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java 语言编程基础]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
 <li><a href="#__">面向对象编程概念</a>
@@ -509,13 +509,16 @@
 <li>
 <p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1765355" target="_blank">Java核心技术 卷II：高级特性</a></p>
 </li>
+<li>
+<p><a href="https://detail.tmall.com/item.htm?spm=a1z10.3-b.w4011-7992896792.31.60a7e35bzj4RYU&amp;id=36992272880&amp;rn=71950b4ad441351ff2c4b1622d1891ec&amp;abbucket=1">Head first Java中文版</a></p>
+</li>
+<li>
+<p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=707868" target="_blank">Java编程思想</a></p>
+</li>
 </ul>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div><div class="ulist">
 <ul>
-<li>
-<p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=707868" target="_blank">Java编程思想</a></p>
-</li>
 <li>
 <p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1753558" target="_blank">Effective Java中文版</a></p>
 </li>
