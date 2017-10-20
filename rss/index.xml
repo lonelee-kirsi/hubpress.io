@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 20 Oct 2017 02:44:00 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java 语言编程基础]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 20 Oct 2017 02:54:11 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java 语言编程基础]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
 <li><a href="#__">面向对象编程概念</a>
@@ -473,7 +473,7 @@
 <div id="toctitle">目录</div>
 <ul class="sectlevel1">
 <li><a href="#__">编程语言</a></li>
-<li><a href="#___2">应用</a></li>
+<li><a href="#___2">应用开发</a></li>
 <li><a href="#___3">底层</a></li>
 <li><a href="#___4">计算机基础</a></li>
 <li><a href="#___5">暂未归类资源</a></li>
@@ -561,7 +561,7 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="___2">应用</h2>
+<h2 id="___2">应用开发</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all spread">
 <colgroup>
@@ -577,10 +577,13 @@
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">基础</p></td>
-<td class="tableblock halign-left valign-top"><div><div class="ulist">
+<td class="tableblock halign-left valign-top"><div><div class="paragraph">
+<p>官方：</p>
+</div>
+<div class="ulist">
 <ul>
 <li>
-<p><a href="https://developer.android.google.cn/index.html?utm_source=androiddevtools.cn&amp;utm_medium=website" target="_blank">Android 官方镜像</a></p>
+<p><a href="https://developer.android.google.cn/index.html?utm_source=androiddevtools.cn&amp;utm_medium=website" target="_blank">镜像</a></p>
 </li>
 </ul>
 </div>
@@ -672,10 +675,10 @@
 <td class="tableblock halign-left valign-top"><div><div class="ulist">
 <ul>
 <li>
-<p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1491137" target="_blank">Linux内核设计与实现</a></p>
+<p><a href="http://www.informit.com/store/linux-kernel-development-9780672329463" target="_blank">Linux Kernel Development</a>, <a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1491137" target="_blank">中文</a></p>
 </li>
 <li>
-<p><a href="https://detail.tmall.com/item.htm?spm=a1z10.3-b.w4011-7992896792.27.3eb5c812kSWDR2&amp;id=37045140798&amp;rn=ac0a6acdb98be4a024e97f81e9924fdc&amp;abbucket=1" target="_blank">深入理解LINUX内核</a></p>
+<p><a href="http://shop.oreilly.com/product/9780596005658.do" target="_blank">Understanding the Linux kernel</a>, <a href="https://detail.tmall.com/item.htm?spm=a1z10.3-b.w4011-7992896792.27.3eb5c812kSWDR2&amp;id=37045140798&amp;rn=ac0a6acdb98be4a024e97f81e9924fdc&amp;abbucket=1" target="_blank">中文</a></p>
 </li>
 </ul>
 </div></div></td>
