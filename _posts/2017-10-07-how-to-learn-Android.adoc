@@ -109,7 +109,7 @@ http://linux.vbird.org/[鸟哥的Linux私房菜^]
 
 |设计模式
 |
-* http://shop.oreilly.com/product/9780596007126.do[Head First Design Patterns^], https://detail.tmall.com/item.htm?spm=a1z10.3-b.w4011-7992896792.27.c32950bQHTzS1&id=37058212911&rn=83af5bfa138538cd6ee2ebab3c5785f3&abbucket=1[中文^]
+* http://shop.oreilly.com/product/9780596007126.do[Head First Design Patterns^], https://detail.tmall.com/item.htm?spm=a1z10.3-b.w4011-7992896792.27.c32950bQHTzS1&id=37058212911&rn=83af5bfa138538cd6ee2ebab3c5785f3&abbucket=1[中译^]
 * http://www.tup.tsinghua.edu.cn/booksCenter/book_02665301.html[大话设计模式^]
 |
 * http://www.informit.com/store/design-patterns-elements-of-reusable-object-oriented-9780201633610[Design Patterns^], http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=10421[中译^]
@@ -119,7 +119,7 @@ http://linux.vbird.org/[鸟哥的Linux私房菜^]
 书籍：
 
 * https://www.pearson.com/us/higher-education/program/Martin-Clean-Code-A-Handbook-of-Agile-Software-Craftsmanship/PGM63937.html#[Clean Code], http://www.epubit.com.cn/book/details/796[中译^]
-* http://www.epubit.com.cn/book/details/1705[重构^]
+* http://www.informit.com/store/refactoring-improving-the-design-of-existing-code-9780201485677[Refactoring^], http://www.epubit.com.cn/book/details/1705[中译^]
 * https://detail.tmall.com/item.htm?spm=a220m.1000858.1000725.11.d371020F5r1eH&id=15540811192&areaId=360100&user_id=349908536&cat_id=2&is_b=1&rn=e05831c4e116a1b4976fc28ce18c2e31[重构手册^]
 * http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1679731[编写可读代码的艺术^]
 |
@@ -134,15 +134,15 @@ http://linux.vbird.org/[鸟哥的Linux私房菜^]
 
 |开发流程
 |
-* https://git-scm.com/book/en/v2[精通Git^]
+* https://git-scm.com/book/en/v2[Pro Git^]
 * http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1545917[解析极限编程]
 * http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1183357[敏捷开发的艺术^]
 |
 
 |程序员
 |
-* https://www.pearson.com/us/higher-education/program/Martin-Clean-Coder-The-A-Code-of-Conduct-for-Professional-Programmers/PGM8366.html#[The Clean Coder], http://www.epubit.com.cn/book/details/4096[中译^]
-* http://www.broadview.com.cn/book/4436[程序员修炼之道^]
+* https://www.pearson.com/us/higher-education/program/Martin-Clean-Coder-The-A-Code-of-Conduct-for-Professional-Programmers/PGM8366.html#[Clean Coder], http://www.epubit.com.cn/book/details/4096[中译^]
+* http://www.informit.com/store/pragmatic-programmer-from-journeyman-to-master-9780201616224[Pragmatic Programmer], http://www.broadview.com.cn/book/4436[中译^]
 * http://www.ituring.com.cn/book/1171[黑客与画家^]
 |
 
@@ -158,7 +158,7 @@ http://linux.vbird.org/[鸟哥的Linux私房菜^]
 
 |计算机原理
 | 
-* http://www.broadview.com.cn/book/2901[编码]
+* https://www.microsoftpressstore.com/store/code-the-hidden-language-of-computer-hardware-and-software-9780735611313[Code^], http://www.broadview.com.cn/book/2901[中译^]
 |
 
 |调试
