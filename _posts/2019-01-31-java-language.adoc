@@ -94,17 +94,17 @@ IMPORTANT: Java 语言为静态类型
 |float
 |单精度32位IEEE754标准浮点数
 |
-|
+|内存需求大时，用于浮点数大数组中节省内存。不应用于精确值（如货币），而应用`java.math.BigDecimal`类
 |0.0f
 
 |double
 |双精度64位IEEE754标准浮点数
 |
-|
+|用于十进制值。不应用于精确值（如货币），而应用`java.math.BigDecimal`类
 |0.0d
 
 |boolean
-|
+|1位信息，但长度不确定
 |true，false
 |跟踪true/false条件的简单标志
 |false
