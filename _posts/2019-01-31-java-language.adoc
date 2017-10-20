@@ -92,26 +92,26 @@ Java 语言为静态类型。
 |0L
 
 |float
-|
+|单精度32位IEEE754标准浮点数
 |
 |
 |0.0f
 
 |double
-|
+|双精度64位IEEE754标准浮点数
 |
 |
 |0.0d
 
 |boolean
 |
-|
-|
+|true，false
+|跟踪true/false条件的简单标志
 |false
 
 |char
-|
-|
+|16位Unicode字符
+|('\u0000' ,'\uffff']或(0,65535]
 |
 |'\u0000'
 |===
