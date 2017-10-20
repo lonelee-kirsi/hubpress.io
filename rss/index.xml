@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 20 Oct 2017 07:00:06 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java 语言编程基础]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 20 Oct 2017 07:48:51 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java 语言编程基础]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">目录</div>
 <ul class="sectlevel1">
 <li><a href="#__">面向对象编程概念</a>
@@ -290,7 +290,7 @@ Java 语言为静态类型
 </tbody>
 </table>
 <div class="paragraph">
-<p>Java通过<code>Java.lang.</code></p>
+<p>Java语言通过<code>Java.lang.String</code>对字符串提供支持。用双引号包裹字符串会创建一个字符串对象，该对象是不变的。</p>
 </div>
 <div class="admonitionblock important">
 <table>
@@ -299,7 +299,7 @@ Java 语言为静态类型
 <i class="fa icon-important" title="Important"></i>
 </td>
 <td class="content">
-默认值只对字段有效。
+默认值只对字段有效。对象的默认值是null
 </td>
 </tr>
 </table>
@@ -311,7 +311,7 @@ Java 语言为静态类型
 <i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-声明变量时保证初始化是好的编程风格。
+声明变量时保证初始化是好的编程风格
 </td>
 </tr>
 </table>
