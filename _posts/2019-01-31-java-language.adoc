@@ -59,6 +59,10 @@ IMPORTANT: 变量比字段的概念范围更大。成员包括类型字段、方
 * 语义化，以此提高自注释性。不用 http://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html[关键字与保留字]。
 * 一个单词用小驼峰法，多单词用大驼峰法，常量用大写下划线法。
 
+
+==== 原始数据类型
+Java 语言为静态类型。
+
 === 运算符
 === 表达式、语句、代码块
 === 控制流语句
@@ -75,3 +79,6 @@ IMPORTANT: 变量比字段的概念范围更大。成员包括类型字段、方
 == 数值和字符串
 == 泛型
 == 包
+
+== 参考
+* http://docs.oracle.com/javase/tutorial/java/index.html[官方文档]
