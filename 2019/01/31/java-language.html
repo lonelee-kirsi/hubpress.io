@@ -38,9 +38,9 @@
     <link href="//fonts.googleapis.com/" rel="dns-prefetch">
     <link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Open+Sans:700,400&subset=latin,latin-ext" rel="stylesheet">
 
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/main.min.css?v=1508471721457"/>
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/custom.css?v=1508471721457"/>
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1508471721457"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/main.min.css?v=1508474391048"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/custom.css?v=1508474391048"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1508474391048"/>
 
 
 
@@ -70,7 +70,7 @@
       GHOSTIUM.enablePjax = typeof enable_pjax !== 'undefined' ? enable_pjax : true;
     </script>
 
-    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1508471721457"></script>
+    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1508474391048"></script>
 
     <link rel="canonical" href="https://lonelee-kirsi.github.io/2019/01/31/java-language.html" />
     <meta name="referrer" content="origin" />
@@ -400,6 +400,94 @@
 <div class="paragraph">
 <p>Java 语言为静态类型。</p>
 </div>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">类型</th>
+<th class="tableblock halign-left valign-top">说明</th>
+<th class="tableblock halign-left valign-top">值范围</th>
+<th class="tableblock halign-left valign-top">应用场景</th>
+<th class="tableblock halign-left valign-top">默认值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">byte</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8位有符二进制补码</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">(-128,127]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">内存需求大时，用于大数组中节省内存</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">short</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">16位有符二进制补码</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">(-32768,32767]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">同<code>byte</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">int</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">默认时为32位有符二进制补码</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">(-2<sup>31</sup>,2<sup>31</sup>-1)</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">long</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">64位二进制补码</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0L</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">float</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0.0f</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">double</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0.0d</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">boolean</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">false</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">char</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">'\u0000'</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+默认值只在字段中有效。
+</td>
+</tr>
+</table>
+</div>
 </div>
 </div>
 <div class="sect2">
@@ -543,7 +631,7 @@
         hljs.initHighlightingOnLoad();
       </script>
 
-    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1508471721457"></script>
+    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1508474391048"></script>
 
 
   </body>

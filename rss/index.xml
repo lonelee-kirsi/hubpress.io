@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 20 Oct 2017 03:55:21 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java 语言编程基础]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 20 Oct 2017 04:39:51 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java 语言编程基础]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">目录</div>
 <ul class="sectlevel1">
 <li><a href="#__">面向对象编程概念</a>
@@ -203,6 +203,94 @@
 <h4 id="___14">原始数据类型</h4>
 <div class="paragraph">
 <p>Java 语言为静态类型。</p>
+</div>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">类型</th>
+<th class="tableblock halign-left valign-top">说明</th>
+<th class="tableblock halign-left valign-top">值范围</th>
+<th class="tableblock halign-left valign-top">应用场景</th>
+<th class="tableblock halign-left valign-top">默认值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">byte</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8位有符二进制补码</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">(-128,127]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">内存需求大时，用于大数组中节省内存</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">short</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">16位有符二进制补码</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">(-32768,32767]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">同<code>byte</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">int</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">默认时为32位有符二进制补码</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">(-2<sup>31</sup>,2<sup>31</sup>-1)</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">long</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">64位二进制补码</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0L</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">float</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0.0f</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">double</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0.0d</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">boolean</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">false</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">char</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">'\u0000'</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+默认值只在字段中有效。
+</td>
+</tr>
+</table>
 </div>
 </div>
 </div>
