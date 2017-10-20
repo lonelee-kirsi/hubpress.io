@@ -38,9 +38,9 @@
     <link href="//fonts.googleapis.com/" rel="dns-prefetch">
     <link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Open+Sans:700,400&subset=latin,latin-ext" rel="stylesheet">
 
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/main.min.css?v=1508475025278"/>
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/custom.css?v=1508475025278"/>
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1508475025278"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/main.min.css?v=1508482519609"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/custom.css?v=1508482519609"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1508482519609"/>
 
 
 
@@ -70,7 +70,7 @@
       GHOSTIUM.enablePjax = typeof enable_pjax !== 'undefined' ? enable_pjax : true;
     </script>
 
-    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1508475025278"></script>
+    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1508482519609"></script>
 
     <link rel="canonical" href="https://lonelee-kirsi.github.io/2019/01/31/java-language.html" />
     <meta name="referrer" content="origin" />
@@ -78,7 +78,7 @@
     <meta property="og:site_name" content="Lonelee  Code" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Java 语言编程基础" />
-    <meta property="og:description" content="目录 面向对象编程概念 对象 类 继承 接口 包 语言基础 变量 运算符 表达式、语句、代码块 控制流语句 类与对象 类 对象 类进阶 嵌套类 枚举类型 注解 接口和继承 数值和字符串 泛型 包 参考 面向对象编程概念 核心：对象、消息（Message）、类、继承 对象 对象是面向对象技术的关键，常用于对现实事物建模，对其状态与行为进行软件封装。 源于现实 现实事物皆可分离为两种特征：状态(State)与行为(Behavior)。 更进一步，存在一些复杂性，如事物间的状态与行为存在共性或差异，如某些事物可囊括其他事物的状态与行为。 尝试辨识现实事物的状态与行为，是理解面对对象的好方法。 编程抽象" />
+    <meta property="og:description" content="目录 面向对象编程概念 对象 类 继承 接口 包 语言基础 变量 运算符 表达式、语句、代码块 控制流语句 类与对象 类 对象 类进阶 嵌套类 枚举类型 注解 接口和继承 数值和字符串 泛型 包 参考 面向对象编程概念 核心：对象、消息（Message）、类、继承 对象 对象是面向对象技术的关键，常用于对现实事物建模，对其状态与行为进行软件封装。 源于现实 现实事物皆可分离为两种特征：状态(State)与行为(Behavior)。 更进一步，存在一些复杂性，如事物间的状态与行为存在共性或差异，如某些事物可囊括其他事物的状态与行为。 尝试辨识现实事物的状态与行为，是理解面对对象的好方法 编程抽象" />
     <meta property="og:url" content="https://lonelee-kirsi.github.io/2019/01/31/java-language.html" />
     <meta property="og:image" content="/covers/cover.png" />
     <meta property="article:published_time" content="2019-01-31T00:00:00.000Z" />
@@ -86,7 +86,7 @@
     
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Java 语言编程基础" />
-    <meta name="twitter:description" content="目录 面向对象编程概念 对象 类 继承 接口 包 语言基础 变量 运算符 表达式、语句、代码块 控制流语句 类与对象 类 对象 类进阶 嵌套类 枚举类型 注解 接口和继承 数值和字符串 泛型 包 参考 面向对象编程概念 核心：对象、消息（Message）、类、继承 对象 对象是面向对象技术的关键，常用于对现实事物建模，对其状态与行为进行软件封装。 源于现实 现实事物皆可分离为两种特征：状态(State)与行为(Behavior)。 更进一步，存在一些复杂性，如事物间的状态与行为存在共性或差异，如某些事物可囊括其他事物的状态与行为。 尝试辨识现实事物的状态与行为，是理解面对对象的好方法。 编程抽象" />
+    <meta name="twitter:description" content="目录 面向对象编程概念 对象 类 继承 接口 包 语言基础 变量 运算符 表达式、语句、代码块 控制流语句 类与对象 类 对象 类进阶 嵌套类 枚举类型 注解 接口和继承 数值和字符串 泛型 包 参考 面向对象编程概念 核心：对象、消息（Message）、类、继承 对象 对象是面向对象技术的关键，常用于对现实事物建模，对其状态与行为进行软件封装。 源于现实 现实事物皆可分离为两种特征：状态(State)与行为(Behavior)。 更进一步，存在一些复杂性，如事物间的状态与行为存在共性或差异，如某些事物可囊括其他事物的状态与行为。 尝试辨识现实事物的状态与行为，是理解面对对象的好方法 编程抽象" />
     <meta name="twitter:url" content="https://lonelee-kirsi.github.io/2019/01/31/java-language.html" />
     <meta name="twitter:image:src" content="/covers/cover.png" />
     
@@ -107,7 +107,7 @@
     "datePublished": "2019-01-31T00:00:00.000Z",
     "image": "/covers/cover.png",
     "keywords": "Java",
-    "description": "目录 面向对象编程概念 对象 类 继承 接口 包 语言基础 变量 运算符 表达式、语句、代码块 控制流语句 类与对象 类 对象 类进阶 嵌套类 枚举类型 注解 接口和继承 数值和字符串 泛型 包 参考 面向对象编程概念 核心：对象、消息（Message）、类、继承 对象 对象是面向对象技术的关键，常用于对现实事物建模，对其状态与行为进行软件封装。 源于现实 现实事物皆可分离为两种特征：状态(State)与行为(Behavior)。 更进一步，存在一些复杂性，如事物间的状态与行为存在共性或差异，如某些事物可囊括其他事物的状态与行为。 尝试辨识现实事物的状态与行为，是理解面对对象的好方法。 编程抽象"
+    "description": "目录 面向对象编程概念 对象 类 继承 接口 包 语言基础 变量 运算符 表达式、语句、代码块 控制流语句 类与对象 类 对象 类进阶 嵌套类 枚举类型 注解 接口和继承 数值和字符串 泛型 包 参考 面向对象编程概念 核心：对象、消息（Message）、类、继承 对象 对象是面向对象技术的关键，常用于对现实事物建模，对其状态与行为进行软件封装。 源于现实 现实事物皆可分离为两种特征：状态(State)与行为(Behavior)。 更进一步，存在一些复杂性，如事物间的状态与行为存在共性或差异，如某些事物可囊括其他事物的状态与行为。 尝试辨识现实事物的状态与行为，是理解面对对象的好方法 编程抽象"
 }
     </script>
 
@@ -266,7 +266,7 @@
 <i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-尝试辨识现实事物的状态与行为，是理解面对对象的好方法。
+尝试辨识现实事物的状态与行为，是理解面对对象的好方法
 </td>
 </tr>
 </table>
@@ -287,7 +287,7 @@
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-某些编程语言称字段与方法为变量（Variable）与函数（Function）。
+某些编程语言称字段与方法为变量（Variable）与函数（Function）
 </td>
 </tr>
 </table>
@@ -351,7 +351,7 @@
 <i class="fa icon-important" title="Important"></i>
 </td>
 <td class="content">
-变量比字段的概念范围更大。成员包括类型字段、方法、嵌套类型。
+变量比字段的概念范围更大。成员包括类型字段、方法、嵌套类型
 </td>
 </tr>
 </table>
@@ -397,8 +397,17 @@
 </div>
 <div class="sect3">
 <h4 id="___14">原始数据类型</h4>
-<div class="paragraph">
-<p>Java 语言为静态类型。</p>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Java 语言为静态类型
+</td>
+</tr>
+</table>
 </div>
 <table class="tableblock frame-all grid-all spread">
 <colgroup>
@@ -476,6 +485,9 @@
 </tr>
 </tbody>
 </table>
+<div class="paragraph">
+<p>Java通过<code>Java.lang.</code></p>
+</div>
 <div class="admonitionblock important">
 <table>
 <tr>
@@ -483,7 +495,19 @@
 <i class="fa icon-important" title="Important"></i>
 </td>
 <td class="content">
-默认值只在字段中有效。
+默认值只对字段有效。
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+声明变量时保证初始化是好的编程风格。
 </td>
 </tr>
 </table>
@@ -631,7 +655,7 @@
         hljs.initHighlightingOnLoad();
       </script>
 
-    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1508475025278"></script>
+    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1508482519609"></script>
 
 
   </body>
