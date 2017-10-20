@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 20 Oct 2017 02:20:02 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java 语言编程基础]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 20 Oct 2017 02:44:00 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java 语言编程基础]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
 <li><a href="#__">面向对象编程概念</a>
@@ -518,10 +518,10 @@
 <p><a href="https://www.pearson.com/us/higher-education/program/Horstmann-Core-Java-Volume-II-Advanced-Features-10th-Edition/PGM158431.html" target="_blank">Core Java,Volume II</a>， <a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1765355" target="_blank">中文</a></p>
 </li>
 <li>
-<p><a href="http://isbn.directory/book/9780596009205" target="_blank">Head first Java</a></p>
+<p><a href="http://shop.oreilly.com/product/9780596009205.do" target="_blank">Head first Java</a>, <a href="https://detail.tmall.com/item.htm?spm=a1z10.3-b.w4011-7992896792.27.a93c6e8XdHhYp&amp;id=36992272880&amp;rn=77ecbebafae9da76037a918288bd19fc&amp;abbucket=1">中文</a></p>
 </li>
 <li>
-<p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=707868" target="_blank">Java编程思想</a></p>
+<p><a href="https://www.pearson.com/us/higher-education/program/Eckel-Thinking-in-Java-4th-Edition/PGM194075.html" target="_blank">Thinking in Java</a>, <a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=707868" target="_blank">中文</a></p>
 </li>
 <li>
 <p><a href="http://www.oracle.com/technetwork/java/javamagazine/index.html" target="_blank">Oracle Java Magazine 图书部分</a></p>
@@ -534,7 +534,7 @@
 <div class="ulist">
 <ul>
 <li>
-<p><a href="http://isbn.directory/book/9780134685991" target="_blank">Effective Java</a></p>
+<p><a href="http://www.informit.com/store/effective-java-9780134685991" target="_blank">Effective Java</a></p>
 </li>
 </ul>
 </div></div></td>
@@ -593,7 +593,7 @@
 <p><a href="http://www.ituring.com.cn/book/1841" target="_blank">第一行代码——Android</a></p>
 </li>
 <li>
-<p><a href="http://www.ituring.com.cn/book/1976" target="_blank">Android编程权威指南</a></p>
+<p><a href="https://www.bignerdranch.com/books/android-programming/" target="_blank">Android Programming</a>, <a href="http://www.ituring.com.cn/book/1976" target="_blank">中文</a></p>
 </li>
 <li>
 <p><a href="http://www.broadview.com.cn/book/492" target="_blank">疯狂Android讲义</a></p>
@@ -739,7 +739,7 @@
 <td class="tableblock halign-left valign-top"><div><div class="ulist">
 <ul>
 <li>
-<p><a href="https://detail.tmall.com/item.htm?spm=a1z10.3-b.w4011-7992896792.27.c32950bQHTzS1&amp;id=37058212911&amp;rn=83af5bfa138538cd6ee2ebab3c5785f3&amp;abbucket=1" target="_blank">Head First设计模式</a></p>
+<p><a href="http://shop.oreilly.com/product/9780596007126.do" target="_blank">Head First Design Patterns</a>, <a href="https://detail.tmall.com/item.htm?spm=a1z10.3-b.w4011-7992896792.27.c32950bQHTzS1&amp;id=37058212911&amp;rn=83af5bfa138538cd6ee2ebab3c5785f3&amp;abbucket=1" target="_blank">中文</a></p>
 </li>
 <li>
 <p><a href="http://www.tup.tsinghua.edu.cn/booksCenter/book_02665301.html" target="_blank">大话设计模式</a></p>
