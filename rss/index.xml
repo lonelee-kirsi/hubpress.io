@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 19 Oct 2017 16:16:18 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java 语言编程基础]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 20 Oct 2017 02:20:02 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java 语言编程基础]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
 <li><a href="#__">面向对象编程概念</a>
@@ -13,25 +13,25 @@
 <li><a href="#___10">语言基础</a>
 <ul class="sectlevel2">
 <li><a href="#___11">变量</a></li>
-<li><a href="#___14">运算符</a></li>
-<li><a href="#___15">表达式、语句、代码块</a></li>
-<li><a href="#___16">控制流语句</a></li>
+<li><a href="#___15">运算符</a></li>
+<li><a href="#___16">表达式、语句、代码块</a></li>
+<li><a href="#___17">控制流语句</a></li>
 </ul>
 </li>
-<li><a href="#___17">类与对象</a>
+<li><a href="#___18">类与对象</a>
 <ul class="sectlevel2">
-<li><a href="#___18">类</a></li>
-<li><a href="#___19">对象</a></li>
-<li><a href="#___20">类进阶</a></li>
-<li><a href="#___21">嵌套类</a></li>
-<li><a href="#___22">枚举类型</a></li>
+<li><a href="#___19">类</a></li>
+<li><a href="#___20">对象</a></li>
+<li><a href="#___21">类进阶</a></li>
+<li><a href="#___22">嵌套类</a></li>
+<li><a href="#___23">枚举类型</a></li>
 </ul>
 </li>
-<li><a href="#___23">注解</a></li>
-<li><a href="#___24">接口和继承</a></li>
-<li><a href="#___25">数值和字符串</a></li>
-<li><a href="#___26">泛型</a></li>
-<li><a href="#___27">包</a></li>
+<li><a href="#___24">注解</a></li>
+<li><a href="#___25">接口和继承</a></li>
+<li><a href="#___26">数值和字符串</a></li>
+<li><a href="#___27">泛型</a></li>
+<li><a href="#___28">包</a></li>
 </ul>
 </div>
 <div class="sect1">
@@ -198,72 +198,78 @@
 </ul>
 </div>
 </div>
+<div class="sect3">
+<h4 id="___14">原始数据类型</h4>
+<div class="paragraph">
+<p>Java 语言为静态类型。</p>
+</div>
+</div>
 </div>
 <div class="sect2">
-<h3 id="___14">运算符</h3>
+<h3 id="___15">运算符</h3>
 
 </div>
 <div class="sect2">
-<h3 id="___15">表达式、语句、代码块</h3>
+<h3 id="___16">表达式、语句、代码块</h3>
 
 </div>
 <div class="sect2">
-<h3 id="___16">控制流语句</h3>
+<h3 id="___17">控制流语句</h3>
 
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="___17">类与对象</h2>
+<h2 id="___18">类与对象</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="___18">类</h3>
+<h3 id="___19">类</h3>
 
 </div>
 <div class="sect2">
-<h3 id="___19">对象</h3>
+<h3 id="___20">对象</h3>
 
 </div>
 <div class="sect2">
-<h3 id="___20">类进阶</h3>
+<h3 id="___21">类进阶</h3>
 
 </div>
 <div class="sect2">
-<h3 id="___21">嵌套类</h3>
+<h3 id="___22">嵌套类</h3>
 
 </div>
 <div class="sect2">
-<h3 id="___22">枚举类型</h3>
+<h3 id="___23">枚举类型</h3>
 
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="___23">注解</h2>
-<div class="sectionbody">
-
-</div>
-</div>
-<div class="sect1">
-<h2 id="___24">接口和继承</h2>
-<div class="sectionbody">
-
-</div>
-</div>
-<div class="sect1">
-<h2 id="___25">数值和字符串</h2>
+<h2 id="___24">注解</h2>
 <div class="sectionbody">
 
 </div>
 </div>
 <div class="sect1">
-<h2 id="___26">泛型</h2>
+<h2 id="___25">接口和继承</h2>
 <div class="sectionbody">
 
 </div>
 </div>
 <div class="sect1">
-<h2 id="___27">包</h2>
+<h2 id="___26">数值和字符串</h2>
+<div class="sectionbody">
+
+</div>
+</div>
+<div class="sect1">
+<h2 id="___27">泛型</h2>
+<div class="sectionbody">
+
+</div>
+</div>
+<div class="sect1">
+<h2 id="___28">包</h2>
 <div class="sectionbody">
 
 </div>
@@ -478,43 +484,54 @@
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all spread">
 <colgroup>
-<col style="width: 33.3333%;">
-<col style="width: 33.3333%;">
-<col style="width: 33.3334%;">
+<col style="width: 50%;">
+<col style="width: 50%;">
 </colgroup>
 <thead>
 <tr>
 <th class="tableblock halign-left valign-top">条目</th>
-<th class="tableblock halign-left valign-top">入门</th>
-<th class="tableblock halign-left valign-top">进阶</th>
+<th class="tableblock halign-left valign-top">资源</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://docs.oracle.com/en/java/" target="_blank">Java</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Java</p></td>
 <td class="tableblock halign-left valign-top"><div><div class="paragraph">
-<p>书籍：</p>
+<p>官方：</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1762429" target="_blank">Java核心技术 卷I：基础知识</a></p>
+<p><a href="http://docs.oracle.com/en/java/" target="_blank">Java</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>官方推荐书籍：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://www.pearson.com/us/higher-education/program/Horstmann-Core-Java-Volume-I-Fundamentals-10th-Edition/PGM178934.html" target="_blank">Core Java,Volume I</a>， <a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1762429" target="_blank">中文</a></p>
 </li>
 <li>
-<p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1765355" target="_blank">Java核心技术 卷II：高级特性</a></p>
+<p><a href="https://www.pearson.com/us/higher-education/program/Horstmann-Core-Java-Volume-II-Advanced-Features-10th-Edition/PGM158431.html" target="_blank">Core Java,Volume II</a>， <a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1765355" target="_blank">中文</a></p>
 </li>
 <li>
-<p><a href="http://isbn.directory/book/9780596009205">Head first Java</a></p>
+<p><a href="http://isbn.directory/book/9780596009205" target="_blank">Head first Java</a></p>
 </li>
 <li>
 <p><a href="http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=707868" target="_blank">Java编程思想</a></p>
 </li>
 <li>
-<p><a href="http://www.oracle.com/technetwork/java/javamagazine/index.html">Oracle Java Magazine 图书部分</a></p>
+<p><a href="http://www.oracle.com/technetwork/java/javamagazine/index.html" target="_blank">Oracle Java Magazine 图书部分</a></p>
 </li>
 </ul>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div><div class="ulist">
+</div>
+<div class="paragraph">
+<p>其他书籍：</p>
+</div>
+<div class="ulist">
 <ul>
 <li>
 <p><a href="http://isbn.directory/book/9780134685991" target="_blank">Effective Java</a></p>
@@ -523,13 +540,20 @@
 </div></div></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://kotlinlang.org/" target="_blank">Kotlin</a></p></td>
-<td class="tableblock halign-left valign-top"><div></div></td>
-<td class="tableblock halign-left valign-top"><div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Kotlin</p></td>
+<td class="tableblock halign-left valign-top"><div><div class="paragraph">
+<p>官方：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://kotlinlang.org/" target="_blank">Kotlin</a></p>
+</li>
+</ul>
+</div></div></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">C/C++</p></td>
-<td class="tableblock halign-left valign-top"><div></div></td>
 <td class="tableblock halign-left valign-top"><div></div></td>
 </tr>
 </tbody>
