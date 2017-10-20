@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 20 Oct 2017 10:33:52 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java 语言编程基础]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 20 Oct 2017 11:55:20 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java 语言编程基础]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">目录</div>
 <ul class="sectlevel1">
 <li><a href="#__">面向对象编程概念</a>
@@ -247,16 +247,16 @@ Java 语言为静态类型
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">int</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">默认时为32位有符二进制补码</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">(-2<sup>31</sup>,2<sup>31</sup>-1)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">默认时为32位有符二进制补码，8以上版本可用<code>Integer</code>类表示无符32位整数。可用<code>Interger</code>类的<code>compareUnsigned</code>、<code>divideUnsigne</code>等静态方法支持无符整数的算术运算。</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">有符(-2<sup>31</sup>,2<sup>31</sup>-1),无符(0,2<sup>32</sup>-1)</p></td>
 <td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">0</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">long</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">64位二进制补码</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">64位二进制补码。8以上版本可表示无符64位长整数。可用<code>Long</code>类的<code>compareUnsigned</code>、<code>divideUnsigne</code>等方法支持无符长整数的算术运算。</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">有符(-2<sup>63</sup>,2<sup>63</sup>-1),无符(0,2<sup>64</sup>-1)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">需要的值比<code>int</code>大时</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">0L</p></td>
 </tr>
 <tr>

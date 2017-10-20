@@ -38,9 +38,9 @@
     <link href="//fonts.googleapis.com/" rel="dns-prefetch">
     <link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Open+Sans:700,400&subset=latin,latin-ext" rel="stylesheet">
 
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/main.min.css?v=1508495632702"/>
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/custom.css?v=1508495632702"/>
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1508495632702"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/main.min.css?v=1508500520507"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/custom.css?v=1508500520507"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1508500520507"/>
 
 
 
@@ -70,7 +70,7 @@
       GHOSTIUM.enablePjax = typeof enable_pjax !== 'undefined' ? enable_pjax : true;
     </script>
 
-    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1508495632702"></script>
+    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1508500520507"></script>
 
     <link rel="canonical" href="https://lonelee-kirsi.github.io/2019/01/31/java-language.html" />
     <meta name="referrer" content="origin" />
@@ -443,16 +443,16 @@ Java 语言为静态类型
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">int</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">默认时为32位有符二进制补码</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">(-2<sup>31</sup>,2<sup>31</sup>-1)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">默认时为32位有符二进制补码，8以上版本可用<code>Integer</code>类表示无符32位整数。可用<code>Interger</code>类的<code>compareUnsigned</code>、<code>divideUnsigne</code>等静态方法支持无符整数的算术运算。</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">有符(-2<sup>31</sup>,2<sup>31</sup>-1),无符(0,2<sup>32</sup>-1)</p></td>
 <td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">0</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">long</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">64位二进制补码</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">64位二进制补码。8以上版本可表示无符64位长整数。可用<code>Long</code>类的<code>compareUnsigned</code>、<code>divideUnsigne</code>等方法支持无符长整数的算术运算。</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">有符(-2<sup>63</sup>,2<sup>63</sup>-1),无符(0,2<sup>64</sup>-1)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">需要的值比<code>int</code>大时</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">0L</p></td>
 </tr>
 <tr>
@@ -655,7 +655,7 @@ Java 语言为静态类型
         hljs.initHighlightingOnLoad();
       </script>
 
-    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1508495632702"></script>
+    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1508500520507"></script>
 
 
   </body>
