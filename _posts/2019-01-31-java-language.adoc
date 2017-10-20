@@ -3,7 +3,7 @@
 :published_at: 2019-01-31
 :hp-tags: Java,
 :hp-alt-title: java language
-:toc:
+:toc: left
 :toc-title: 目录
 
 
@@ -116,7 +116,7 @@ IMPORTANT: Java 语言为静态类型
 |'\u0000'
 |===
 
-Java语言通过`Java.lang.String`对字符串提供支持。用双引号包裹字符串会创建一个字符串对象，该对象是不变的。
+Java语言通过`Java.lang.String`对字符串提供支持。用双引号包裹字符串会创建一个字符串对象，该对象是不可变的。
 
 IMPORTANT: 默认值只对字段有效。对象的默认值是null
 
