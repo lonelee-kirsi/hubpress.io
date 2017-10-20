@@ -7,29 +7,36 @@
 :toc-title: 目录
 
 == 编程语言
-[cols=",a,a"]
+[cols=",a"]
 |===
-|条目 |入门 |进阶
+|条目 |资源
  
-|http://docs.oracle.com/en/java/[Java^]
+|Java
 |
-书籍：
+官方：
 
-* http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1762429[Java核心技术 卷I：基础知识^]
-* http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1765355[Java核心技术 卷II：高级特性^]
-* http://isbn.directory/book/9780596009205[Head first Java]
+* http://docs.oracle.com/en/java/[Java^]
+
+官方推荐书籍：
+
+* https://www.pearson.com/us/higher-education/program/Horstmann-Core-Java-Volume-I-Fundamentals-10th-Edition/PGM178934.html[Core Java,Volume I^]， http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1762429[中文^]
+* https://www.pearson.com/us/higher-education/program/Horstmann-Core-Java-Volume-II-Advanced-Features-10th-Edition/PGM158431.html[Core Java,Volume II^]， http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1765355[中文^]
+* http://isbn.directory/book/9780596009205[Head first Java^]
 * http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=707868[Java编程思想^]
-* http://www.oracle.com/technetwork/java/javamagazine/index.html[Oracle Java Magazine 图书部分]
+* http://www.oracle.com/technetwork/java/javamagazine/index.html[Oracle Java Magazine 图书部分^]
 
-|
+其他书籍：
+
 * http://isbn.directory/book/9780134685991[Effective Java^]
 
-|https://kotlinlang.org/[Kotlin^]
+|Kotlin
 |
-|
+官方：
+
+* https://kotlinlang.org/[Kotlin^]
+
 
 |C/C++
-|
 |
 |===
 
