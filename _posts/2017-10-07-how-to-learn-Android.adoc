@@ -40,14 +40,16 @@
 |
 |===
 
-== 应用
+== 应用开发
 [cols=",a"]
 |===
 |条目 |资源
 
 |基础
 |
-* https://developer.android.google.cn/index.html?utm_source=androiddevtools.cn&utm_medium=website[Android 官方镜像^]
+官方：
+
+* https://developer.android.google.cn/index.html?utm_source=androiddevtools.cn&utm_medium=website[镜像^]
 
 书籍：
 
@@ -79,8 +81,9 @@
 * http://www.epubit.com.cn/book/details/1110[Android框架揭秘^]
 
 |内核
-|* http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1491137[Linux内核设计与实现^]
-* https://detail.tmall.com/item.htm?spm=a1z10.3-b.w4011-7992896792.27.3eb5c812kSWDR2&id=37045140798&rn=ac0a6acdb98be4a024e97f81e9924fdc&abbucket=1[深入理解LINUX内核^]
+|
+* http://www.informit.com/store/linux-kernel-development-9780672329463[Linux Kernel Development^], http://www.golden-book.com/product/getnewProductInfodatafortxt.asp?id=1491137[中文^]
+* http://shop.oreilly.com/product/9780596005658.do[Understanding the Linux kernel^], https://detail.tmall.com/item.htm?spm=a1z10.3-b.w4011-7992896792.27.3eb5c812kSWDR2&id=37045140798&rn=ac0a6acdb98be4a024e97f81e9924fdc&abbucket=1[中文^]
 |===
 
 == 计算机基础
