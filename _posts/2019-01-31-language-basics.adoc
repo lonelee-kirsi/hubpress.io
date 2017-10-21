@@ -190,6 +190,25 @@ public static void arraycopy(
 
 ==== 数组操作
 `java.util.Arrays`类的几个方法可用于数组常见操作（如复制、排序、检索）。`copyOfRange`方法
+|===
+|方法 | 说明
+|binarySearch
+|获取数组中一个值的索引
+
+|equals
+|比较两个数组是否相等
+
+|fill
+|以一个值填充整个数组
+
+|sort
+|非并发升序数组
+
+|parallelSort（8版本）
+|并发升序数组
+|===
+
+TIP: 多处理器系统中，使用并发升序比非并发速度更快
 
 == 参考
 * http://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html[官方文档^]
