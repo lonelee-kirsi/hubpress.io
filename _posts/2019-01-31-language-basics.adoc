@@ -158,7 +158,7 @@ Unicode（UTF-16）字符，若编辑器、文件系统不支持，使用Unicode
 
 数据类型 数组名[]，不推荐
 
-=== 创建、初始化、访问数组
+==== 创建、初始化、访问数组
 创建：new 数据类型[长度]
 
 初始化：数组名[索引] = 值
@@ -169,5 +169,13 @@ Unicode（UTF-16）字符，若编辑器、文件系统不支持，使用Unicode
 
 可通过`length`属性访问数组长度。
 
+==== 复制数组
+
+.`System`类的`arraycopy`方法
+[source,java]
+----
+public static void arraycopy(Object src, int srcPos,
+                             Object dest, int destPos, int length)
+----
 == 参考
 * http://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html[官方文档^]
