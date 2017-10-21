@@ -189,9 +189,13 @@ public static void arraycopy(
 <5> 复制的元素数量
 
 ==== 数组操作
-`java.util.Arrays`类的几个方法可用于数组常见操作（如复制、排序、检索）。`copyOfRange`方法
+`java.util.Arrays`类的几个方法可用于数组常见操作（如复制、排序、检索）。
 |===
 |方法 | 说明
+
+|copyOfRange
+|完全或局部复制数组
+
 |binarySearch
 |获取数组中一个值的索引
 
