@@ -42,4 +42,4 @@ NOTE: 某些编程语言称字段与方法为变量（Variable）与函数（Fun
 == 包
 
 == 参考
-* http://docs.oracle.com/javase/tutorial/java/index.html[官方文档^]
+* http://docs.oracle.com/javase/tutorial/java/concepts/index.html[官方文档^]
