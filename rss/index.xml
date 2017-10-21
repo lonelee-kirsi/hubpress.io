@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 20 Oct 2017 14:38:05 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java 语言编程基础]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 21 Oct 2017 01:47:01 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java 语言编程基础]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">目录</div>
 <ul class="sectlevel1">
 <li><a href="#__">面向对象编程概念</a>
@@ -13,26 +13,26 @@
 <li><a href="#___10">语言基础</a>
 <ul class="sectlevel2">
 <li><a href="#___11">变量</a></li>
-<li><a href="#___16">运算符</a></li>
-<li><a href="#___17">表达式、语句、代码块</a></li>
-<li><a href="#___18">控制流语句</a></li>
+<li><a href="#___17">运算符</a></li>
+<li><a href="#___18">表达式、语句、代码块</a></li>
+<li><a href="#___19">控制流语句</a></li>
 </ul>
 </li>
-<li><a href="#___19">类与对象</a>
+<li><a href="#___20">类与对象</a>
 <ul class="sectlevel2">
-<li><a href="#___20">类</a></li>
-<li><a href="#___21">对象</a></li>
-<li><a href="#___22">类进阶</a></li>
-<li><a href="#___23">嵌套类</a></li>
-<li><a href="#___24">枚举类型</a></li>
+<li><a href="#___21">类</a></li>
+<li><a href="#___22">对象</a></li>
+<li><a href="#___23">类进阶</a></li>
+<li><a href="#___24">嵌套类</a></li>
+<li><a href="#___25">枚举类型</a></li>
 </ul>
 </li>
-<li><a href="#___25">注解</a></li>
-<li><a href="#___26">接口和继承</a></li>
-<li><a href="#___27">数值和字符串</a></li>
-<li><a href="#___28">泛型</a></li>
-<li><a href="#___29">包</a></li>
-<li><a href="#___30">参考</a></li>
+<li><a href="#___26">注解</a></li>
+<li><a href="#___27">接口和继承</a></li>
+<li><a href="#___28">数值和字符串</a></li>
+<li><a href="#___29">泛型</a></li>
+<li><a href="#___30">包</a></li>
+<li><a href="#___31">参考</a></li>
 </ul>
 </div>
 <div class="sect1">
@@ -262,14 +262,14 @@ Java 语言为静态类型
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">float</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">单精度32位IEEE754标准浮点数</p></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://docs.oracle.com/javase/specs/jls/se7/html/jls-4.html#jls-4.2.3" class="bare">https://docs.oracle.com/javase/specs/jls/se7/html/jls-4.html#jls-4.2.3</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">内存需求大时，用于浮点数大数组中节省内存。不应用于精确值（如货币），而应用<code>java.math.BigDecimal</code>类</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">0.0f</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">double</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">双精度64位IEEE754标准浮点数</p></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://docs.oracle.com/javase/specs/jls/se7/html/jls-4.html#jls-4.2.3" class="bare">https://docs.oracle.com/javase/specs/jls/se7/html/jls-4.html#jls-4.2.3</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">用于十进制值。不应用于精确值（如货币），而应用<code>java.math.BigDecimal</code>类</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">0.0d</p></td>
 </tr>
@@ -321,78 +321,82 @@ Java 语言为静态类型
 <h4 id="___15">字面值</h4>
 
 </div>
+<div class="sect3">
+<h4 id="___16">数组</h4>
+
+</div>
 </div>
 <div class="sect2">
-<h3 id="___16">运算符</h3>
+<h3 id="___17">运算符</h3>
 
 </div>
 <div class="sect2">
-<h3 id="___17">表达式、语句、代码块</h3>
+<h3 id="___18">表达式、语句、代码块</h3>
 
 </div>
 <div class="sect2">
-<h3 id="___18">控制流语句</h3>
+<h3 id="___19">控制流语句</h3>
 
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="___19">类与对象</h2>
+<h2 id="___20">类与对象</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="___20">类</h3>
+<h3 id="___21">类</h3>
 
 </div>
 <div class="sect2">
-<h3 id="___21">对象</h3>
+<h3 id="___22">对象</h3>
 
 </div>
 <div class="sect2">
-<h3 id="___22">类进阶</h3>
+<h3 id="___23">类进阶</h3>
 
 </div>
 <div class="sect2">
-<h3 id="___23">嵌套类</h3>
+<h3 id="___24">嵌套类</h3>
 
 </div>
 <div class="sect2">
-<h3 id="___24">枚举类型</h3>
+<h3 id="___25">枚举类型</h3>
 
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="___25">注解</h2>
-<div class="sectionbody">
-
-</div>
-</div>
-<div class="sect1">
-<h2 id="___26">接口和继承</h2>
+<h2 id="___26">注解</h2>
 <div class="sectionbody">
 
 </div>
 </div>
 <div class="sect1">
-<h2 id="___27">数值和字符串</h2>
+<h2 id="___27">接口和继承</h2>
 <div class="sectionbody">
 
 </div>
 </div>
 <div class="sect1">
-<h2 id="___28">泛型</h2>
+<h2 id="___28">数值和字符串</h2>
 <div class="sectionbody">
 
 </div>
 </div>
 <div class="sect1">
-<h2 id="___29">包</h2>
+<h2 id="___29">泛型</h2>
 <div class="sectionbody">
 
 </div>
 </div>
 <div class="sect1">
-<h2 id="___30">参考</h2>
+<h2 id="___30">包</h2>
+<div class="sectionbody">
+
+</div>
+</div>
+<div class="sect1">
+<h2 id="___31">参考</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
@@ -547,58 +551,7 @@ Java 语言为静态类型
 <div class="sectionbody">
 
 </div>
-</div>]]></description><link>https://lonelee-kirsi.github.io/2019/01/31/My-English-Title.html</link><guid isPermaLink="true">https://lonelee-kirsi.github.io/2019/01/31/My-English-Title.html</guid><category><![CDATA[Java]]></category><dc:creator><![CDATA[Lonelee]]></dc:creator><pubDate>Thu, 31 Jan 2019 00:00:00 GMT</pubDate></item><item><title><![CDATA[Java服务]]></title><description><![CDATA[<div id="preamble">
-<div class="sectionbody">
-<div class="admonitionblock important">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-important" title="Important"></i>
-</td>
-<td class="content">
-中间件、服务端、web应用开发
-</td>
-</tr>
-</table>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_jdbc">JDBC数据库访问</h2>
-<div class="sectionbody">
-
-</div>
-</div>
-<div class="sect1">
-<h2 id="_jmx">JMX</h2>
-<div class="sectionbody">
-
-</div>
-</div>
-<div class="sect1">
-<h2 id="_jndi">JNDI</h2>
-<div class="sectionbody">
-
-</div>
-</div>
-<div class="sect1">
-<h2 id="_jaxp">JAXP</h2>
-<div class="sectionbody">
-
-</div>
-</div>
-<div class="sect1">
-<h2 id="_rmi">RMI</h2>
-<div class="sectionbody">
-
-</div>
-</div>
-<div class="sect1">
-<h2 id="__">并发</h2>
-<div class="sectionbody">
-
-</div>
-</div>]]></description><link>https://lonelee-kirsi.github.io/2019/01/31/Java-server.html</link><guid isPermaLink="true">https://lonelee-kirsi.github.io/2019/01/31/Java-server.html</guid><category><![CDATA[Java]]></category><dc:creator><![CDATA[Lonelee]]></dc:creator><pubDate>Thu, 31 Jan 2019 00:00:00 GMT</pubDate></item><item><title><![CDATA[如何学习Android]]></title><description><![CDATA[<div id="toc" class="toc">
+</div>]]></description><link>https://lonelee-kirsi.github.io/2019/01/31/My-English-Title.html</link><guid isPermaLink="true">https://lonelee-kirsi.github.io/2019/01/31/My-English-Title.html</guid><category><![CDATA[Java]]></category><dc:creator><![CDATA[Lonelee]]></dc:creator><pubDate>Thu, 31 Jan 2019 00:00:00 GMT</pubDate></item><item><title><![CDATA[如何学习Android]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">目录</div>
 <ul class="sectlevel1">
 <li><a href="#__">编程语言</a></li>
