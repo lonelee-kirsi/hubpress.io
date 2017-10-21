@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 21 Oct 2017 02:05:18 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[面向对象编程概念]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 21 Oct 2017 02:15:44 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[面向对象编程概念]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">目录</div>
 <ul class="sectlevel1">
 <li><a href="#__">对象</a>
@@ -151,9 +151,13 @@
 <li><a href="#___2">种类</a></li>
 <li><a href="#___3">命名</a></li>
 <li><a href="#___4">数据类型</a></li>
+<li><a href="#___6">字面值</a></li>
+<li><a href="#___7">整数字面值</a></li>
+<li><a href="#___8">浮点字面值</a></li>
+<li><a href="#___9">字符与字符串字面值</a></li>
 </ul>
 </li>
-<li><a href="#___6">参考</a></li>
+<li><a href="#___10">参考</a></li>
 </ul>
 </div>
 <div class="sect1">
@@ -331,10 +335,62 @@ Java 语言为静态类型
 </div>
 </div>
 </div>
+<div class="sect2">
+<h3 id="___6">字面值</h3>
+
+</div>
+<div class="sect2">
+<h3 id="___7">整数字面值</h3>
+<div class="paragraph">
+<p>整数。<code>long</code>类型需以<code>L</code>或<code>l</code>结尾，推荐<code>L</code>,防止与<code>1</code>混淆。</p>
+</div>
+<div class="paragraph">
+<p>支持进制：</p>
+</div>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">进制</th>
+<th class="tableblock halign-left valign-top">语法</th>
+<th class="tableblock halign-left valign-top">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">十进制</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">整数</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">最常用</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">十六进制</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>0x</code>前缀</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">二进制</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>0b</code>前缀</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">7以上版本</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="___8">浮点字面值</h3>
+
+</div>
+<div class="sect2">
+<h3 id="___9">字符与字符串字面值</h3>
+
+</div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="___6">参考</h2>
+<h2 id="___10">参考</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>

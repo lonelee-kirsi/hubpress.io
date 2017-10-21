@@ -38,9 +38,9 @@
     <link href="//fonts.googleapis.com/" rel="dns-prefetch">
     <link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Open+Sans:700,400&subset=latin,latin-ext" rel="stylesheet">
 
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/main.min.css?v=1508551518247"/>
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/custom.css?v=1508551518247"/>
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1508551518247"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/main.min.css?v=1508552144104"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/custom.css?v=1508552144104"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1508552144104"/>
 
 
 
@@ -70,7 +70,7 @@
       GHOSTIUM.enablePjax = typeof enable_pjax !== 'undefined' ? enable_pjax : true;
     </script>
 
-    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1508551518247"></script>
+    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1508552144104"></script>
 
     <link rel="canonical" href="https://lonelee-kirsi.github.io/2019/01/31/language-basics.html" />
     <meta name="referrer" content="origin" />
@@ -78,7 +78,7 @@
     <meta property="og:site_name" content="Lonelee  Code" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="语言基础" />
-    <meta property="og:description" content="目录 变量 种类 命名 数据类型 参考 变量 变量比字段的概念范围更大。成员包括类型字段、方法、嵌套类型 种类 实例变量(非静态字段) 无static声明的字段。对象将各自状态存储在此变量中，它的值对每个对象唯一。 类变量（静态字段） 用static声明的字段。它的值对每个对象不唯一。增加final声明指示该字段无法改变。 局部变量 方法体中声明的变量。方法常将临时状态存储于此变量，此变量只对声明它的方法可见，而无法从类的其他地方访问。 参数 方法接收的变量。 命名 大小写敏感。以字母或美元符或下划线开头，由无限长度的Unicode字母及数字组成。避免使用美元符与下划线。不允许空格。 语义化，以此提高自注释性。不用 关键字与保留字。 一个单词用小驼峰法，多单词用大驼峰法，常量用大写下划线法" />
+    <meta property="og:description" content="目录 变量 种类 命名 数据类型 字面值 整数字面值 浮点字面值 字符与字符串字面值 参考 变量 变量比字段的概念范围更大。成员包括类型字段、方法、嵌套类型 种类 实例变量(非静态字段) 无static声明的字段。对象将各自状态存储在此变量中，它的值对每个对象唯一。 类变量（静态字段） 用static声明的字段。它的值对每个对象不唯一。增加final声明指示该字段无法改变。 局部变量 方法体中声明的变量。方法常将临时状态存储于此变量，此变量只对声明它的方法可见，而无法从类的其他地方访问。 参数 方法接收的变量。 命名 大小写敏感。以字母或美元符或下划线开头，由无限长度的Unicode字母及数字组成。避免使用美元符与下划线。不允许空格。 语义化，以此提高自注释性。不用 关键字与保留字。 一个" />
     <meta property="og:url" content="https://lonelee-kirsi.github.io/2019/01/31/language-basics.html" />
     <meta property="og:image" content="/covers/cover.png" />
     <meta property="article:published_time" content="2019-01-31T00:00:00.000Z" />
@@ -86,7 +86,7 @@
     
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="语言基础" />
-    <meta name="twitter:description" content="目录 变量 种类 命名 数据类型 参考 变量 变量比字段的概念范围更大。成员包括类型字段、方法、嵌套类型 种类 实例变量(非静态字段) 无static声明的字段。对象将各自状态存储在此变量中，它的值对每个对象唯一。 类变量（静态字段） 用static声明的字段。它的值对每个对象不唯一。增加final声明指示该字段无法改变。 局部变量 方法体中声明的变量。方法常将临时状态存储于此变量，此变量只对声明它的方法可见，而无法从类的其他地方访问。 参数 方法接收的变量。 命名 大小写敏感。以字母或美元符或下划线开头，由无限长度的Unicode字母及数字组成。避免使用美元符与下划线。不允许空格。 语义化，以此提高自注释性。不用 关键字与保留字。 一个单词用小驼峰法，多单词用大驼峰法，常量用大写下划线法" />
+    <meta name="twitter:description" content="目录 变量 种类 命名 数据类型 字面值 整数字面值 浮点字面值 字符与字符串字面值 参考 变量 变量比字段的概念范围更大。成员包括类型字段、方法、嵌套类型 种类 实例变量(非静态字段) 无static声明的字段。对象将各自状态存储在此变量中，它的值对每个对象唯一。 类变量（静态字段） 用static声明的字段。它的值对每个对象不唯一。增加final声明指示该字段无法改变。 局部变量 方法体中声明的变量。方法常将临时状态存储于此变量，此变量只对声明它的方法可见，而无法从类的其他地方访问。 参数 方法接收的变量。 命名 大小写敏感。以字母或美元符或下划线开头，由无限长度的Unicode字母及数字组成。避免使用美元符与下划线。不允许空格。 语义化，以此提高自注释性。不用 关键字与保留字。 一个" />
     <meta name="twitter:url" content="https://lonelee-kirsi.github.io/2019/01/31/language-basics.html" />
     <meta name="twitter:image:src" content="/covers/cover.png" />
     
@@ -107,7 +107,7 @@
     "datePublished": "2019-01-31T00:00:00.000Z",
     "image": "/covers/cover.png",
     "keywords": "Java",
-    "description": "目录 变量 种类 命名 数据类型 参考 变量 变量比字段的概念范围更大。成员包括类型字段、方法、嵌套类型 种类 实例变量(非静态字段) 无static声明的字段。对象将各自状态存储在此变量中，它的值对每个对象唯一。 类变量（静态字段） 用static声明的字段。它的值对每个对象不唯一。增加final声明指示该字段无法改变。 局部变量 方法体中声明的变量。方法常将临时状态存储于此变量，此变量只对声明它的方法可见，而无法从类的其他地方访问。 参数 方法接收的变量。 命名 大小写敏感。以字母或美元符或下划线开头，由无限长度的Unicode字母及数字组成。避免使用美元符与下划线。不允许空格。 语义化，以此提高自注释性。不用 关键字与保留字。 一个单词用小驼峰法，多单词用大驼峰法，常量用大写下划线法"
+    "description": "目录 变量 种类 命名 数据类型 字面值 整数字面值 浮点字面值 字符与字符串字面值 参考 变量 变量比字段的概念范围更大。成员包括类型字段、方法、嵌套类型 种类 实例变量(非静态字段) 无static声明的字段。对象将各自状态存储在此变量中，它的值对每个对象唯一。 类变量（静态字段） 用static声明的字段。它的值对每个对象不唯一。增加final声明指示该字段无法改变。 局部变量 方法体中声明的变量。方法常将临时状态存储于此变量，此变量只对声明它的方法可见，而无法从类的其他地方访问。 参数 方法接收的变量。 命名 大小写敏感。以字母或美元符或下划线开头，由无限长度的Unicode字母及数字组成。避免使用美元符与下划线。不允许空格。 语义化，以此提高自注释性。不用 关键字与保留字。 一个"
 }
     </script>
 
@@ -202,9 +202,13 @@
 <li><a href="#___2">种类</a></li>
 <li><a href="#___3">命名</a></li>
 <li><a href="#___4">数据类型</a></li>
+<li><a href="#___6">字面值</a></li>
+<li><a href="#___7">整数字面值</a></li>
+<li><a href="#___8">浮点字面值</a></li>
+<li><a href="#___9">字符与字符串字面值</a></li>
 </ul>
 </li>
-<li><a href="#___6">参考</a></li>
+<li><a href="#___10">参考</a></li>
 </ul>
 </div>
 <div class="sect1">
@@ -382,10 +386,62 @@ Java 语言为静态类型
 </div>
 </div>
 </div>
+<div class="sect2">
+<h3 id="___6">字面值</h3>
+
+</div>
+<div class="sect2">
+<h3 id="___7">整数字面值</h3>
+<div class="paragraph">
+<p>整数。<code>long</code>类型需以<code>L</code>或<code>l</code>结尾，推荐<code>L</code>,防止与<code>1</code>混淆。</p>
+</div>
+<div class="paragraph">
+<p>支持进制：</p>
+</div>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">进制</th>
+<th class="tableblock halign-left valign-top">语法</th>
+<th class="tableblock halign-left valign-top">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">十进制</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">整数</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">最常用</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">十六进制</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>0x</code>前缀</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">二进制</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>0b</code>前缀</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">7以上版本</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="___8">浮点字面值</h3>
+
+</div>
+<div class="sect2">
+<h3 id="___9">字符与字符串字面值</h3>
+
+</div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="___6">参考</h2>
+<h2 id="___10">参考</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
@@ -456,7 +512,7 @@ Java 语言为静态类型
         hljs.initHighlightingOnLoad();
       </script>
 
-    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1508551518247"></script>
+    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1508552144104"></script>
 
 
   </body>
