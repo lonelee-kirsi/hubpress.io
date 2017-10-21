@@ -38,9 +38,9 @@
     <link href="//fonts.googleapis.com/" rel="dns-prefetch">
     <link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Open+Sans:700,400&subset=latin,latin-ext" rel="stylesheet">
 
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/main.min.css?v=1508557000733"/>
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/custom.css?v=1508557000733"/>
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1508557000733"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/main.min.css?v=1508557403137"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/custom.css?v=1508557403137"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1508557403137"/>
 
 
 
@@ -70,7 +70,7 @@
       GHOSTIUM.enablePjax = typeof enable_pjax !== 'undefined' ? enable_pjax : true;
     </script>
 
-    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1508557000733"></script>
+    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1508557403137"></script>
 
     <link rel="canonical" href="https://lonelee-kirsi.github.io/2019/01/31/language-basics.html" />
     <meta name="referrer" content="origin" />
@@ -540,19 +540,36 @@ Java 语言为静态类型
 <div class="listingblock">
 <div class="title"><code>System</code>类的<code>arraycopy</code>方法</div>
 <div class="content">
-<pre class="highlight"><code class="language-java" data-lang="java">public static void arraycopy(Object src, // &lt;1&gt; int srcPos, <i class="conum" data-value="2"></i><b>(2)</b>
-                             Object dest, int destPos, int length)</code></pre>
+<pre class="highlight"><code class="language-java" data-lang="java">public static void arraycopy(
+  Object src, <i class="conum" data-value="1"></i><b>(1)</b>
+  int srcPos, <i class="conum" data-value="2"></i><b>(2)</b>
+  Object dest, <i class="conum" data-value="3"></i><b>(3)</b>
+  int destPos, <i class="conum" data-value="4"></i><b>(4)</b>
+  int length <i class="conum" data-value="5"></i><b>(5)</b>
+)</code></pre>
 </div>
 </div>
 <div class="colist arabic">
 <table>
 <tr>
 <td><i class="conum" data-value="1"></i><b>1</b></td>
-<td>Library import</td>
+<td>要复制的数组</td>
 </tr>
 <tr>
 <td><i class="conum" data-value="2"></i><b>2</b></td>
-<td>cs</td>
+<td>源数组的起始位置</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="3"></i><b>3</b></td>
+<td>复制出的数组</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="4"></i><b>4</b></td>
+<td>目标数组的起始位置</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="5"></i><b>5</b></td>
+<td>复制的元素数量</td>
 </tr>
 </table>
 </div>
@@ -632,7 +649,7 @@ Java 语言为静态类型
         hljs.initHighlightingOnLoad();
       </script>
 
-    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1508557000733"></script>
+    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1508557403137"></script>
 
 
   </body>

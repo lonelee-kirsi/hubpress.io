@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 21 Oct 2017 03:36:40 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[面向对象编程概念]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 21 Oct 2017 03:43:23 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[面向对象编程概念]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">目录</div>
 <ul class="sectlevel1">
 <li><a href="#__">对象</a>
@@ -489,19 +489,36 @@ Java 语言为静态类型
 <div class="listingblock">
 <div class="title"><code>System</code>类的<code>arraycopy</code>方法</div>
 <div class="content">
-<pre class="highlight"><code class="language-java" data-lang="java">public static void arraycopy(Object src, // &lt;1&gt; int srcPos, <i class="conum" data-value="2"></i><b>(2)</b>
-                             Object dest, int destPos, int length)</code></pre>
+<pre class="highlight"><code class="language-java" data-lang="java">public static void arraycopy(
+  Object src, <i class="conum" data-value="1"></i><b>(1)</b>
+  int srcPos, <i class="conum" data-value="2"></i><b>(2)</b>
+  Object dest, <i class="conum" data-value="3"></i><b>(3)</b>
+  int destPos, <i class="conum" data-value="4"></i><b>(4)</b>
+  int length <i class="conum" data-value="5"></i><b>(5)</b>
+)</code></pre>
 </div>
 </div>
 <div class="colist arabic">
 <table>
 <tr>
 <td><i class="conum" data-value="1"></i><b>1</b></td>
-<td>Library import</td>
+<td>要复制的数组</td>
 </tr>
 <tr>
 <td><i class="conum" data-value="2"></i><b>2</b></td>
-<td>cs</td>
+<td>源数组的起始位置</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="3"></i><b>3</b></td>
+<td>复制出的数组</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="4"></i><b>4</b></td>
+<td>目标数组的起始位置</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="5"></i><b>5</b></td>
+<td>复制的元素数量</td>
 </tr>
 </table>
 </div>
