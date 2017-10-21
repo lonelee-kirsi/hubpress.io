@@ -38,9 +38,9 @@
     <link href="//fonts.googleapis.com/" rel="dns-prefetch">
     <link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Open+Sans:700,400&subset=latin,latin-ext" rel="stylesheet">
 
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/main.min.css?v=1508563823114"/>
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/custom.css?v=1508563823114"/>
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1508563823114"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/main.min.css?v=1508564581110"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/custom.css?v=1508564581110"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1508564581110"/>
 
 
 
@@ -70,7 +70,7 @@
       GHOSTIUM.enablePjax = typeof enable_pjax !== 'undefined' ? enable_pjax : true;
     </script>
 
-    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1508563823114"></script>
+    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1508564581110"></script>
 
     <link rel="canonical" href="https://lonelee-kirsi.github.io/2019/01/31/language-basics.html" />
     <meta name="referrer" content="origin" />
@@ -646,7 +646,81 @@ Java 语言为静态类型
 <div class="sect1">
 <h2 id="___16">运算符</h2>
 <div class="sectionbody">
-
+<table class="tableblock frame-all grid-all spread">
+<caption class="title">Table 4. 优先级</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">运算符</th>
+<th class="tableblock halign-left valign-top">优先级</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">后缀</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">++,--</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">一元</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">+,--,,-,~,!</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">倍数</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">*,/,%</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">加减</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">+,-</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">位</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&lt;&lt;,&gt;&gt;,&gt;&gt;&gt;</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">等式</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">==,!=</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">按位与</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&amp;</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">按位异或</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">^</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">按位或</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">`</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">`</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">逻辑与</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&amp;&amp;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">逻辑或</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">`</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">`</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">三元</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">?,:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">赋值</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">=,+=,-=,*=,/=,%=,&amp;=,^=,`</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">=`,&lt;&#8656;,&gt;&gt;=,&gt;&gt;&gt;=</p></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 <div class="sect1">
@@ -721,7 +795,7 @@ Java 语言为静态类型
         hljs.initHighlightingOnLoad();
       </script>
 
-    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1508563823114"></script>
+    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1508564581110"></script>
 
 
   </body>
