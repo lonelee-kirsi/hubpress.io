@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 21 Oct 2017 01:54:02 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[面向对象编程概念]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 21 Oct 2017 02:03:00 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[面向对象编程概念]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">目录</div>
 <ul class="sectlevel1">
 <li><a href="#__">对象</a>
@@ -143,7 +143,195 @@
 </ul>
 </div>
 </div>
-</div>]]></description><link>https://lonelee-kirsi.github.io/2019/01/31/object-oriented-programming-concepts.html</link><guid isPermaLink="true">https://lonelee-kirsi.github.io/2019/01/31/object-oriented-programming-concepts.html</guid><category><![CDATA[Java]]></category><dc:creator><![CDATA[Lonelee]]></dc:creator><pubDate>Thu, 31 Jan 2019 00:00:00 GMT</pubDate></item><item><title><![CDATA[如何学习]]></title><description><![CDATA[<div class="sect1">
+</div>]]></description><link>https://lonelee-kirsi.github.io/2019/01/31/object-oriented-programming-concepts.html</link><guid isPermaLink="true">https://lonelee-kirsi.github.io/2019/01/31/object-oriented-programming-concepts.html</guid><category><![CDATA[Java]]></category><dc:creator><![CDATA[Lonelee]]></dc:creator><pubDate>Thu, 31 Jan 2019 00:00:00 GMT</pubDate></item><item><title><![CDATA[语言基础]]></title><description><![CDATA[<div id="toc" class="toc">
+<div id="toctitle">目录</div>
+<ul class="sectlevel1">
+<li><a href="#__">变量</a>
+<ul class="sectlevel2">
+<li><a href="#___2">种类</a></li>
+<li><a href="#___3">命名</a></li>
+<li><a href="#___4">数据类型</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="__">变量</h2>
+<div class="sectionbody">
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+变量比字段的概念范围更大。成员包括类型字段、方法、嵌套类型
+</td>
+</tr>
+</table>
+</div>
+<div class="sect2">
+<h3 id="___2">种类</h3>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">实例变量(非静态字段)</dt>
+<dd>
+<p>无<code>static</code>声明的字段。对象将各自状态存储在此变量中，它的值对每个对象唯一。</p>
+</dd>
+<dt class="hdlist1">类变量（静态字段）</dt>
+<dd>
+<p>用<code>static</code>声明的字段。它的值对每个对象不唯一。增加final声明指示该字段无法改变。</p>
+</dd>
+<dt class="hdlist1">局部变量</dt>
+<dd>
+<p>方法体中声明的变量。方法常将临时状态存储于此变量，此变量只对声明它的方法可见，而无法从类的其他地方访问。</p>
+</dd>
+<dt class="hdlist1">参数</dt>
+<dd>
+<p>方法接收的变量。</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect2">
+<h3 id="___3">命名</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>大小写敏感。以字母或美元符或下划线开头，由无限长度的Unicode字母及数字组成。避免使用美元符与下划线。不允许空格。</p>
+</li>
+<li>
+<p>语义化，以此提高自注释性。不用 关键字与保留字。</p>
+</li>
+<li>
+<p>一个单词用小驼峰法，多单词用大驼峰法，常量用大写下划线法。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="___4">数据类型</h3>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Java 语言为静态类型
+</td>
+</tr>
+</table>
+</div>
+<div class="sect3">
+<h4 id="___5">原始数据类型</h4>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">类型</th>
+<th class="tableblock halign-left valign-top">说明</th>
+<th class="tableblock halign-left valign-top">值范围</th>
+<th class="tableblock halign-left valign-top">应用场景</th>
+<th class="tableblock halign-left valign-top">默认值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">byte</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8位有符二进制补码</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">(-128,127]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">内存需求大时，用于大数组中节省内存</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">short</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">16位有符二进制补码</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">(-32768,32767]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">同byte</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">int</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">默认时为32位有符二进制补码，8以上版本可用Integer类表示无符32位整数。可用Interger类的compareUnsigned、divideUnsigne等静态方法支持无符整数的算术运算。</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">有符(-231,231-1),无符(0,232-1)</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">long</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">64位二进制补码。8以上版本可表示无符64位长整数。可用Long类的compareUnsigned、divideUnsigne等方法支持无符长整数的算术运算。</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">有符(-263,263-1),无符(0,264-1)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">需要的值比int大时</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0L</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">float</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">单精度32位IEEE754标准浮点数</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">内存需求大时，用于浮点数大数组中节省内存。不应用于精确值（如货币），而应用java.math.BigDecimal类</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0.0f</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">double</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">双精度64位IEEE754标准浮点数</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">用于十进制值。不应用于精确值（如货币），而应用java.math.BigDecimal类</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0.0d</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">boolean</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1位信息，但长度不确定</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">true，false</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">跟踪true/false条件的简单标志</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">false</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">char</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">16位Unicode字符</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">('\u0000' ,'\uffff']或(0,65535]</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">'\u0000'</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Java语言通过Java.lang.String对字符串提供支持。用双引号包裹字符串会创建一个不可变字符串对象。</p>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+默认值只对字段有效。对象的默认值是null
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+声明变量时保证初始化是好的编程风格
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>]]></description><link>https://lonelee-kirsi.github.io/2019/01/31/language-basics.html</link><guid isPermaLink="true">https://lonelee-kirsi.github.io/2019/01/31/language-basics.html</guid><category><![CDATA[Java]]></category><dc:creator><![CDATA[Lonelee]]></dc:creator><pubDate>Thu, 31 Jan 2019 00:00:00 GMT</pubDate></item><item><title><![CDATA[如何学习]]></title><description><![CDATA[<div class="sect1">
 <h2 id="__">获取</h2>
 <div class="sectionbody">
 <div class="olist arabic">
