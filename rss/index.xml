@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 21 Oct 2017 03:20:10 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[面向对象编程概念]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 21 Oct 2017 03:22:38 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[面向对象编程概念]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">目录</div>
 <ul class="sectlevel1">
 <li><a href="#__">对象</a>
@@ -152,11 +152,11 @@
 <li><a href="#___3">命名</a></li>
 <li><a href="#___4">数据类型</a></li>
 <li><a href="#___5">字面值</a></li>
-<li><a href="#___9">数组</a></li>
-<li><a href="#___11">创建、初始化、访问数组</a></li>
+<li><a href="#___10">数组</a></li>
+<li><a href="#___12">创建、初始化、访问数组</a></li>
 </ul>
 </li>
-<li><a href="#___12">参考</a></li>
+<li><a href="#___13">参考</a></li>
 </ul>
 </div>
 <div class="sect1">
@@ -436,16 +436,22 @@ Java 语言为静态类型
 </tr>
 </tbody>
 </table>
-<div class="paragraph">
-<p>还有一个<code>null</code>值可用于引用数据类型，作用是作为表明某对象不可用的标记。</p>
 </div>
+<div class="sect3">
+<h4 id="_null">null字面值</h4>
 <div class="paragraph">
-<p>类字面值，语法为数据类型+<code>.class</code>，引用的是对象的类型。</p>
+<p>用于引用数据类型，表明某对象不可用。</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="___9">类字面值</h4>
+<div class="paragraph">
+<p>语法为数据类型+<code>.class</code>，引用的是对象的类型。</p>
 </div>
 </div>
 </div>
 <div class="sect2">
-<h3 id="___9">数组</h3>
+<h3 id="___10">数组</h3>
 <div class="paragraph">
 <p>数组是保持一个固定数量的单类型值的容器对象。数组创建时长度是既定的，创建后长度是固定的。</p>
 </div>
@@ -453,7 +459,7 @@ Java 语言为静态类型
 <p>数组中的每一项称为元素，元素通过数字索引访问，索引从<code>0</code>开始。</p>
 </div>
 <div class="sect3">
-<h4 id="___10">声明变量来引用数组</h4>
+<h4 id="___11">声明变量来引用数组</h4>
 <div class="paragraph">
 <p>数据类型[] 数组名</p>
 </div>
@@ -463,7 +469,7 @@ Java 语言为静态类型
 </div>
 </div>
 <div class="sect2">
-<h3 id="___11">创建、初始化、访问数组</h3>
+<h3 id="___12">创建、初始化、访问数组</h3>
 <div class="paragraph">
 <p>创建：new 数据类型[长度]</p>
 </div>
@@ -483,7 +489,7 @@ Java 语言为静态类型
 </div>
 </div>
 <div class="sect1">
-<h2 id="___12">参考</h2>
+<h2 id="___13">参考</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
