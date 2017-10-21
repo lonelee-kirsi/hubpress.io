@@ -82,3 +82,6 @@ Java语言通过Java.lang.String对字符串提供支持。用双引号包裹字
 IMPORTANT: 默认值只对字段有效。对象的默认值是null
 
 TIP: 声明变量时保证初始化是好的编程风格
+
+== 参考
+* http://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html[官方文档^]
