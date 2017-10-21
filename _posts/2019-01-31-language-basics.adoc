@@ -174,8 +174,10 @@ Unicode（UTF-16）字符，若编辑器、文件系统不支持，使用Unicode
 .`System`类的`arraycopy`方法
 [source,java]
 ----
-public static void arraycopy(Object src, int srcPos,
+public static void arraycopy(Object src,// <1> int srcPos,
                              Object dest, int destPos, int length)
 ----
+<1> Library import
+
 == 参考
 * http://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html[官方文档^]
