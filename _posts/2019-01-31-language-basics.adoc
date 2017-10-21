@@ -55,13 +55,13 @@ IMPORTANT: Java 语言为静态类型
 
 |float
 |单精度32位IEEE754标准浮点数
-|
+|https://docs.oracle.com/javase/specs/jls/se7/html/jls-4.html#jls-4.2.3[文档]
 |内存需求大时，用于浮点数大数组中节省内存。不应用于精确值（如货币），而应用java.math.BigDecimal类
 |0.0f
 
 |double
 |双精度64位IEEE754标准浮点数
-|
+|https://docs.oracle.com/javase/specs/jls/se7/html/jls-4.html#jls-4.2.3[文档]
 |用于十进制值。不应用于精确值（如货币），而应用java.math.BigDecimal类
 |0.0d
 
@@ -107,6 +107,9 @@ TIP: 声明变量时保证初始化是好的编程风格
 `float` 类型以`F`或`f`结尾，`double`类型以`D`或`d`结尾（可省略,默认）。
 
 小数或科学记数法。
+
+==== 数值字面值中使用下划线(7以上版本)
+只能分隔数字。用于将数字分组，提高可读性。
 
 ==== 字符与字符串字面值
 `char`类型用````包裹，`String`类型用`""`包裹。
@@ -213,6 +216,8 @@ public static void arraycopy(
 |===
 
 TIP: 多处理器系统中，使用并发升序比非并发速度更快
+
+== 运算符
 
 == 参考
 * http://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html[官方文档^]
