@@ -188,5 +188,8 @@ public static void arraycopy(
 <4> 目标数组的起始位置
 <5> 复制的元素数量
 
+==== 数组操作
+`java.util.Arrays`类的几个方法可用于数组常见操作（如复制、排序、检索）。`copyOfRange`方法
+
 == 参考
 * http://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html[官方文档^]
