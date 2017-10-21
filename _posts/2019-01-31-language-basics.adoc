@@ -220,9 +220,10 @@ public static void arraycopy(
 TIP: 多处理器系统中，使用并发升序比非并发速度更快
 
 == 运算符
-.优先级（向下降序，同行同优先级）
+=== 优先级
+向下降序，同行同优先级
 |===
-|运算符类型 |运算符
+|运算符类型 |运算符 
 
 |后缀
 |++,--
@@ -265,6 +266,7 @@ TIP: 多处理器系统中，使用并发升序比非并发速度更快
 |===
 
 IMPORTANT: 同优先级时，运算顺序为赋值运算符从右到左，其他二元运算符从左到右
+
 
 == 参考
 * http://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html[官方文档^]
