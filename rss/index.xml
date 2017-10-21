@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 21 Oct 2017 05:21:36 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[面向对象编程概念]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 21 Oct 2017 05:30:23 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[面向对象编程概念]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">目录</div>
 <ul class="sectlevel1">
 <li><a href="#__">对象</a>
@@ -148,15 +148,15 @@
 <ul class="sectlevel1">
 <li><a href="#__">变量</a>
 <ul class="sectlevel2">
-<li><a href="#___2">种类</a></li>
+<li><a href="#___2">类型</a></li>
 <li><a href="#___3">命名</a></li>
 <li><a href="#___4">数据类型</a></li>
-<li><a href="#___5">字面值</a></li>
-<li><a href="#___10">数组</a></li>
+<li><a href="#___6">字面值</a></li>
+<li><a href="#___11">数组</a></li>
 </ul>
 </li>
-<li><a href="#___15">运算符</a></li>
-<li><a href="#___16">参考</a></li>
+<li><a href="#___16">运算符</a></li>
+<li><a href="#___17">参考</a></li>
 </ul>
 </div>
 <div class="sect1">
@@ -175,7 +175,7 @@
 </table>
 </div>
 <div class="sect2">
-<h3 id="___2">种类</h3>
+<h3 id="___2">类型</h3>
 <div class="dlist">
 <dl>
 <dt class="hdlist1">实例变量(非静态字段)</dt>
@@ -184,7 +184,7 @@
 </dd>
 <dt class="hdlist1">类变量（静态字段）</dt>
 <dd>
-<p>用<code>static</code>声明的字段。它的值对每个对象不唯一。增加final声明指示该字段无法改变。</p>
+<p>用<code>static</code>声明的字段。实例化后的该变量始终是类变量的副本。可用final声明指示该字段无法改变。</p>
 </dd>
 <dt class="hdlist1">局部变量</dt>
 <dd>
@@ -304,6 +304,8 @@ Java 语言为静态类型
 </tr>
 </tbody>
 </table>
+<div class="sect3">
+<h4 id="___5">引用类型</h4>
 <div class="paragraph">
 <p>Java语言通过Java.lang.String对字符串提供支持。用双引号包裹字符串会创建一个不可变字符串对象。</p>
 </div>
@@ -332,10 +334,11 @@ Java 语言为静态类型
 </table>
 </div>
 </div>
+</div>
 <div class="sect2">
-<h3 id="___5">字面值</h3>
+<h3 id="___6">字面值</h3>
 <div class="sect3">
-<h4 id="___6">整数字面值</h4>
+<h4 id="___7">整数字面值</h4>
 <div class="paragraph">
 <p><code>long</code>类型需以<code>L</code>或<code>l</code>结尾，推荐<code>L</code>,防止与<code>1</code>混淆。</p>
 </div>
@@ -373,7 +376,7 @@ Java 语言为静态类型
 </table>
 </div>
 <div class="sect3">
-<h4 id="___7">浮点字面值</h4>
+<h4 id="___8">浮点字面值</h4>
 <div class="paragraph">
 <p><code>float</code> 类型以<code>F</code>或<code>f</code>结尾，<code>double</code>类型以<code>D</code>或<code>d</code>结尾（可省略,默认）。</p>
 </div>
@@ -388,7 +391,7 @@ Java 语言为静态类型
 </div>
 </div>
 <div class="sect3">
-<h4 id="___8">字符与字符串字面值</h4>
+<h4 id="___9">字符与字符串字面值</h4>
 <div class="paragraph">
 <p><code>char</code>类型用<code>``</code>包裹，<code>String</code>类型用<code>""</code>包裹。</p>
 </div>
@@ -450,14 +453,14 @@ Java 语言为静态类型
 </div>
 </div>
 <div class="sect3">
-<h4 id="___9">类字面值</h4>
+<h4 id="___10">类字面值</h4>
 <div class="paragraph">
 <p>语法为数据类型+<code>.class</code>，引用的是对象的类型。</p>
 </div>
 </div>
 </div>
 <div class="sect2">
-<h3 id="___10">数组</h3>
+<h3 id="___11">数组</h3>
 <div class="paragraph">
 <p>数组是保持一个固定数量的单类型值的容器对象。数组创建时长度是既定的，创建后长度是固定的。</p>
 </div>
@@ -465,7 +468,7 @@ Java 语言为静态类型
 <p>数组中的每一项称为元素，元素通过数字索引访问，索引从<code>0</code>开始。</p>
 </div>
 <div class="sect3">
-<h4 id="___11">声明变量来引用数组</h4>
+<h4 id="___12">声明变量来引用数组</h4>
 <div class="paragraph">
 <p>数据类型[] 数组名</p>
 </div>
@@ -474,7 +477,7 @@ Java 语言为静态类型
 </div>
 </div>
 <div class="sect3">
-<h4 id="___12">创建、初始化、访问数组</h4>
+<h4 id="___13">创建、初始化、访问数组</h4>
 <div class="paragraph">
 <p>创建：new 数据类型[长度]</p>
 </div>
@@ -485,14 +488,14 @@ Java 语言为静态类型
 <p>创建并初始化：={元素1,元素2}</p>
 </div>
 <div class="paragraph">
-<p>多维数组：数据类型[][] 数组名={{},{}},多个数组构成的数组集合，不同于C于Fortran，这使它的行长度可以各不相同。</p>
+<p>多维数组：数据类型[][] 数组名={{},{}},多个数组构成的数组集合，这使它的各行长度可不同。</p>
 </div>
 <div class="paragraph">
 <p>可通过<code>length</code>属性访问数组长度。</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="___13">复制数组</h4>
+<h4 id="___14">复制数组</h4>
 <div class="listingblock">
 <div class="title"><code>System</code>类的<code>arraycopy</code>方法</div>
 <div class="content">
@@ -531,7 +534,7 @@ Java 语言为静态类型
 </div>
 </div>
 <div class="sect3">
-<h4 id="___14">数组操作</h4>
+<h4 id="___15">数组操作</h4>
 <div class="paragraph">
 <p><code>java.util.Arrays</code>类的几个方法可用于数组常见操作（如复制、排序、检索）。</p>
 </div>
@@ -590,13 +593,13 @@ Java 语言为静态类型
 </div>
 </div>
 <div class="sect1">
-<h2 id="___15">运算符</h2>
+<h2 id="___16">运算符</h2>
 <div class="sectionbody">
 
 </div>
 </div>
 <div class="sect1">
-<h2 id="___16">参考</h2>
+<h2 id="___17">参考</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
