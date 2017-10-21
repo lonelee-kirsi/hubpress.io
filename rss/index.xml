@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 21 Oct 2017 02:59:52 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[面向对象编程概念]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 21 Oct 2017 03:20:10 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[面向对象编程概念]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">目录</div>
 <ul class="sectlevel1">
 <li><a href="#__">对象</a>
@@ -153,9 +153,10 @@
 <li><a href="#___4">数据类型</a></li>
 <li><a href="#___5">字面值</a></li>
 <li><a href="#___9">数组</a></li>
+<li><a href="#___11">创建、初始化、访问数组</a></li>
 </ul>
 </li>
-<li><a href="#___10">参考</a></li>
+<li><a href="#___12">参考</a></li>
 </ul>
 </div>
 <div class="sect1">
@@ -451,11 +452,38 @@ Java 语言为静态类型
 <div class="paragraph">
 <p>数组中的每一项称为元素，元素通过数字索引访问，索引从<code>0</code>开始。</p>
 </div>
+<div class="sect3">
+<h4 id="___10">声明变量来引用数组</h4>
+<div class="paragraph">
+<p>数据类型[] 数组名</p>
+</div>
+<div class="paragraph">
+<p>数据类型 数组名[]，不推荐</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="___11">创建、初始化、访问数组</h3>
+<div class="paragraph">
+<p>创建：new 数据类型[长度]</p>
+</div>
+<div class="paragraph">
+<p>初始化：数组名[索引] = 值</p>
+</div>
+<div class="paragraph">
+<p>创建并初始化：={元素1,元素2}</p>
+</div>
+<div class="paragraph">
+<p>多维数组：数据类型[][] 数组名={{},{}},多个数组构成的数组集合，不同于C于Fortran，这使它的行长度可以各不相同。</p>
+</div>
+<div class="paragraph">
+<p>可通过<code>length</code>属性访问数组长度。</p>
+</div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="___10">参考</h2>
+<h2 id="___12">参考</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
