@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 21 Oct 2017 05:43:01 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[面向对象编程概念]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 21 Oct 2017 05:52:58 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[面向对象编程概念]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">目录</div>
 <ul class="sectlevel1">
 <li><a href="#__">对象</a>
@@ -596,15 +596,15 @@ Java 语言为静态类型
 <h2 id="___16">运算符</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all spread">
-<caption class="title">Table 4. 优先级</caption>
+<caption class="title">Table 4. 优先级（向下降序，同行同优先级）</caption>
 <colgroup>
 <col style="width: 50%;">
 <col style="width: 50%;">
 </colgroup>
 <thead>
 <tr>
+<th class="tableblock halign-left valign-top">运算符类型</th>
 <th class="tableblock halign-left valign-top">运算符</th>
-<th class="tableblock halign-left valign-top">优先级</th>
 </tr>
 </thead>
 <tbody>
@@ -626,7 +626,7 @@ Java 语言为静态类型
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">位</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">&lt;&lt;,&gt;&gt;,&gt;&gt;&gt;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&lt;&lt;, <code>&gt;&gt;</code> , <code>&gt;&gt;&gt;</code></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">等式</p></td>
@@ -642,34 +642,42 @@ Java 语言为静态类型
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">按位或</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">`</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">`</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">逻辑与</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">&amp;&amp;</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">逻辑或</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">`</p></td>
 <td class="tableblock halign-left valign-top"></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">逻辑与</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&amp;&amp;</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">逻辑或</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">`</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">`</p></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">三元</p></td>
-</tr>
-<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">?,:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">赋值</p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">赋值</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">=,+=,-=,*=,/=,%=,&amp;=,^=,`</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">=`,&lt;&#8656;,&gt;&gt;=,&gt;&gt;&gt;=</p></td>
 </tr>
 </tbody>
 </table>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+同优先级时，运算顺序为赋值运算符从右到左，其他二元运算符从左到右
+</td>
+</tr>
+</table>
+</div>
 </div>
 </div>
 <div class="sect1">
