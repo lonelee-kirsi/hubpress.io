@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sun, 22 Oct 2017 03:55:11 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[面向对象编程概念]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sun, 22 Oct 2017 03:58:03 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[面向对象编程概念]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">目录</div>
 <ul class="sectlevel1">
 <li><a href="#__">对象</a>
@@ -161,6 +161,7 @@
 <li><a href="#___18">部分运算符说明</a></li>
 </ul>
 </li>
+<li><a href="#___19">参考</a></li>
 </ul>
 </div>
 <div id="preamble">
@@ -770,19 +771,32 @@ Java 语言为静态类型
 <td class="tableblock halign-left valign-top"><p class="tableblock">~</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">取反</p></td>
 </tr>
-</tbody>
-</table>
-<table class="tableblock frame-all grid-all spread">
-<colgroup>
-<col style="width: 100%;">
-</colgroup>
-<tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">== 参考
-* <a href="http://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html" target="_blank">官方文档</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&lt;&lt;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">有符左移</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>&gt;&gt;</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">有符右移</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>&gt;&gt;&gt;</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">无符右移，右移后在最左置0</p></td>
 </tr>
 </tbody>
 </table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="___19">参考</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html" target="_blank">官方文档</a></p>
+</li>
+</ul>
 </div>
 </div>
 </div>]]></description><link>https://lonelee-kirsi.github.io/2019/01/31/language-basics.html</link><guid isPermaLink="true">https://lonelee-kirsi.github.io/2019/01/31/language-basics.html</guid><category><![CDATA[Java]]></category><dc:creator><![CDATA[Lonelee]]></dc:creator><pubDate>Thu, 31 Jan 2019 00:00:00 GMT</pubDate></item><item><title><![CDATA[如何学习]]></title><description><![CDATA[<div class="sect1">
