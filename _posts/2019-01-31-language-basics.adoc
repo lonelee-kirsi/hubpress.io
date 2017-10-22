@@ -308,10 +308,17 @@ IMPORTANT: 同优先级时，运算顺序为赋值运算符从右到左，其他
 
 |~
 |取反
+
+|<<
+|有符左移
+
+|`>>`
+|有符右移
+
+|`>>>`
+|无符右移，右移后在最左置0
 |===
 
-
-|===
 
 == 参考
 * http://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html[官方文档^]
