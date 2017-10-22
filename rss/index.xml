@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sun, 22 Oct 2017 08:40:09 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[面向对象编程概念]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sun, 22 Oct 2017 14:25:47 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[面向对象编程概念]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">目录</div>
 <ul class="sectlevel1">
 <li><a href="#__">对象</a>
@@ -168,13 +168,6 @@
 </li>
 <li><a href="#___21">参考</a></li>
 </ul>
-</div>
-<div id="preamble">
-<div class="sectionbody">
-<div class="paragraph">
-<p>测试2</p>
-</div>
-</div>
 </div>
 <div class="sect1">
 <h2 id="__">变量</h2>
@@ -878,7 +871,38 @@ Java 语言为静态类型
 <div class="sectionbody">
 
 </div>
-</div>]]></description><link>https://lonelee-kirsi.github.io/2019/01/31/how-to-learn.html</link><guid isPermaLink="true">https://lonelee-kirsi.github.io/2019/01/31/how-to-learn.html</guid><category><![CDATA[learn]]></category><dc:creator><![CDATA[Lonelee]]></dc:creator><pubDate>Thu, 31 Jan 2019 00:00:00 GMT</pubDate></item><item><title><![CDATA[如何学习Android]]></title><description><![CDATA[<div id="toc" class="toc">
+</div>]]></description><link>https://lonelee-kirsi.github.io/2019/01/31/how-to-learn.html</link><guid isPermaLink="true">https://lonelee-kirsi.github.io/2019/01/31/how-to-learn.html</guid><category><![CDATA[learn]]></category><dc:creator><![CDATA[Lonelee]]></dc:creator><pubDate>Thu, 31 Jan 2019 00:00:00 GMT</pubDate></item><item><title><![CDATA[类与对象]]></title><description><![CDATA[<div class="sect1">
+<h2 id="__">类</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="___2">声明类</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-java" data-lang="java">class MyClass {
+    // field, constructor, and
+    // method declarations
+}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="___3">声明成员变量</h3>
+
+</div>
+<div class="sect2">
+<h3 id="___4">定义方法</h3>
+
+</div>
+<div class="sect2">
+<h3 id="___5">提供构造方法</h3>
+
+</div>
+<div class="sect2">
+<h3 id="___6">传递信息至方法或构造方法</h3>
+
+</div>
+</div>
+</div>]]></description><link>https://lonelee-kirsi.github.io/2019/01/31/classes-and-objects.html</link><guid isPermaLink="true">https://lonelee-kirsi.github.io/2019/01/31/classes-and-objects.html</guid><category><![CDATA[HubPress]]></category><category><![CDATA[Blog]]></category><category><![CDATA[Open_Source]]></category><dc:creator><![CDATA[Lonelee]]></dc:creator><pubDate>Thu, 31 Jan 2019 00:00:00 GMT</pubDate></item><item><title><![CDATA[如何学习Android]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">目录</div>
 <ul class="sectlevel1">
 <li><a href="#__">编程语言</a></li>
