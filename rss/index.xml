@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sun, 22 Oct 2017 14:29:20 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[面向对象编程概念]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sun, 22 Oct 2017 14:53:45 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[面向对象编程概念]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">目录</div>
 <ul class="sectlevel1">
 <li><a href="#__">对象</a>
@@ -871,15 +871,57 @@ Java 语言为静态类型
 <div class="sectionbody">
 
 </div>
-</div>]]></description><link>https://lonelee-kirsi.github.io/2019/01/31/how-to-learn.html</link><guid isPermaLink="true">https://lonelee-kirsi.github.io/2019/01/31/how-to-learn.html</guid><category><![CDATA[learn]]></category><dc:creator><![CDATA[Lonelee]]></dc:creator><pubDate>Thu, 31 Jan 2019 00:00:00 GMT</pubDate></item><item><title><![CDATA[类与对象]]></title><description><![CDATA[<div class="sect1">
+</div>]]></description><link>https://lonelee-kirsi.github.io/2019/01/31/how-to-learn.html</link><guid isPermaLink="true">https://lonelee-kirsi.github.io/2019/01/31/how-to-learn.html</guid><category><![CDATA[learn]]></category><dc:creator><![CDATA[Lonelee]]></dc:creator><pubDate>Thu, 31 Jan 2019 00:00:00 GMT</pubDate></item><item><title><![CDATA[类与对象]]></title><description><![CDATA[<div id="toc" class="toc">
+<div id="toctitle">目录</div>
+<ul class="sectlevel1">
+<li><a href="#__">类</a>
+<ul class="sectlevel2">
+<li><a href="#___2">声明类</a></li>
+<li><a href="#___3">声明成员变量</a></li>
+<li><a href="#___4">定义方法</a></li>
+<li><a href="#___5">提供构造方法</a></li>
+<li><a href="#___6">传递信息至方法或构造方法</a></li>
+</ul>
+</li>
+<li><a href="#___7">对象</a>
+<ul class="sectlevel2">
+<li><a href="#___8">创建对象</a></li>
+<li><a href="#___9">使用对象</a></li>
+</ul>
+</li>
+<li><a href="#___10">类进阶</a>
+<ul class="sectlevel2">
+<li><a href="#___11">方法返回值</a></li>
+<li><a href="#__code_this_code"><code>this</code></a></li>
+<li><a href="#___12">类成员访问控制</a></li>
+<li><a href="#___13">理解类成员</a></li>
+<li><a href="#___14">初始化字段</a></li>
+<li><a href="#___15">创建和使用类与对象的语法</a></li>
+</ul>
+</li>
+<li><a href="#___16">嵌套类</a>
+<ul class="sectlevel2">
+<li><a href="#___17">内部类</a></li>
+<li><a href="#___18">本地类</a></li>
+<li><a href="#___19">匿名类</a></li>
+<li><a href="#_lambda">Lambda表达式</a></li>
+<li><a href="#___20">各嵌套类的使用场景</a></li>
+</ul>
+</li>
+<li><a href="#___21">枚举类型</a></li>
+</ul>
+</div>
+<div class="sect1">
 <h2 id="__">类</h2>
 <div class="sectionbody">
 <div class="sect2">
 <h3 id="___2">声明类</h3>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-java" data-lang="java">class ClassName {
-    // field, constructor, and method
+<pre class="highlight"><code class="language-java" data-lang="java">修饰符 class 类名 extends 父类 implements 接口0，接口1{
+    字段
+    构造方法
+    方法
 }</code></pre>
 </div>
 </div>
@@ -900,6 +942,79 @@ Java 语言为静态类型
 <h3 id="___6">传递信息至方法或构造方法</h3>
 
 </div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="___7">对象</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="___8">创建对象</h3>
+
+</div>
+<div class="sect2">
+<h3 id="___9">使用对象</h3>
+
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="___10">类进阶</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="___11">方法返回值</h3>
+
+</div>
+<div class="sect2">
+<h3 id="__code_this_code"><code>this</code></h3>
+
+</div>
+<div class="sect2">
+<h3 id="___12">类成员访问控制</h3>
+
+</div>
+<div class="sect2">
+<h3 id="___13">理解类成员</h3>
+
+</div>
+<div class="sect2">
+<h3 id="___14">初始化字段</h3>
+
+</div>
+<div class="sect2">
+<h3 id="___15">创建和使用类与对象的语法</h3>
+
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="___16">嵌套类</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="___17">内部类</h3>
+
+</div>
+<div class="sect2">
+<h3 id="___18">本地类</h3>
+
+</div>
+<div class="sect2">
+<h3 id="___19">匿名类</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_lambda">Lambda表达式</h3>
+
+</div>
+<div class="sect2">
+<h3 id="___20">各嵌套类的使用场景</h3>
+
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="___21">枚举类型</h2>
+<div class="sectionbody">
+
 </div>
 </div>]]></description><link>https://lonelee-kirsi.github.io/2019/01/31/classes-and-objects.html</link><guid isPermaLink="true">https://lonelee-kirsi.github.io/2019/01/31/classes-and-objects.html</guid><category><![CDATA[Java]]></category><dc:creator><![CDATA[Lonelee]]></dc:creator><pubDate>Thu, 31 Jan 2019 00:00:00 GMT</pubDate></item><item><title><![CDATA[如何学习Android]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">目录</div>
