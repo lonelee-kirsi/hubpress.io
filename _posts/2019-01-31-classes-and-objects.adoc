@@ -1,16 +1,15 @@
 = 类与对象
 :hp-image: /covers/cover.png
 :published_at: 2019-01-31
-:hp-tags: HubPress, Blog, Open_Source,
+:hp-tags: Java,
 :hp-alt-title: classes and objects
 
 == 类
 === 声明类
 [source,java]
 ----
-class MyClass {
-    // field, constructor, and 
-    // method declarations
+class ClassName {
+    // field, constructor, and method 
 }
 ----
 
