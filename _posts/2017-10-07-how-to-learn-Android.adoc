@@ -105,6 +105,8 @@
 网站：
 
 http://linux.vbird.org/[鸟哥的Linux私房菜^]
+
+https://www.kernel.org/doc/[Linux官方文档]
 |
 
 |设计模式
@@ -187,21 +189,5 @@ http://linux.vbird.org/[鸟哥的Linux私房菜^]
 |
 * http://www.androidcat.com[AndrodCat^]
 |===
-
-== 博主攻略中
-Java::
-* [ ] 官方文档
-* [ ] Core Java
-Android::
-* [ ] 官方文档
-* [ ] 第一行代码
-设计模式::
-* [ ] Head First Design Patterns中译
-操作系统::
-* [ ] Understanding the Linux kernel中译
-数据结构与算法::
-* [ ] 
-网络::
-* [ ]
 
 
