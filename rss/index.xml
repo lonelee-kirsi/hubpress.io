@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sun, 22 Oct 2017 14:55:50 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[面向对象编程概念]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sun, 22 Oct 2017 15:06:45 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[面向对象编程概念]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">目录</div>
 <ul class="sectlevel1">
 <li><a href="#__">对象</a>
@@ -190,7 +190,7 @@
 <dl>
 <dt class="hdlist1">字段</dt>
 <dd>
-<p>类的成员bian&#8217;l</p>
+<p>类的成员变量</p>
 </dd>
 <dt class="hdlist1">实例变量(非静态字段)</dt>
 <dd>
@@ -320,6 +320,9 @@ Java 语言为静态类型
 </table>
 <div class="sect3">
 <h4 id="___5">引用类型</h4>
+<div class="paragraph">
+<p>字符串、数组或对象。</p>
+</div>
 <div class="paragraph">
 <p>Java语言通过Java.lang.String对字符串提供支持。用双引号包裹字符串会创建一个不可变字符串对象。</p>
 </div>
