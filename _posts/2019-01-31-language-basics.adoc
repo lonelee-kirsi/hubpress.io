@@ -1,4 +1,6 @@
-= 语言基础
+= 语言基础: Java 系列
+Lone Lee <lonelee-kirsi@gmail.com>
+v1.0, October 22, 2017: The prototype
 :hp-image: /covers/cover.png
 :published_at: 2019-01-31
 :hp-tags: Java,
