@@ -3,13 +3,17 @@
 :published_at: 2019-01-31
 :hp-tags: Java,
 :hp-alt-title: classes and objects
+:toc:
+:toc-title: 目录
 
 == 类
 === 声明类
 [source,java]
 ----
-class ClassName {
-    // field, constructor, and method 
+修饰符 class 类名 extends 父类 implements 接口0，接口1{
+    字段
+    构造方法
+    方法 
 }
 ----
 
@@ -17,3 +21,24 @@ class ClassName {
 === 定义方法
 === 提供构造方法
 === 传递信息至方法或构造方法
+
+== 对象
+=== 创建对象
+=== 使用对象
+
+== 类进阶
+=== 方法返回值
+=== `this`
+=== 类成员访问控制
+=== 理解类成员
+=== 初始化字段
+=== 创建和使用类与对象的语法
+
+== 嵌套类
+=== 内部类
+=== 本地类
+=== 匿名类
+=== Lambda表达式
+=== 各嵌套类的使用场景
+
+== 枚举类型
