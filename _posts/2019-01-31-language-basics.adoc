@@ -58,13 +58,13 @@ IMPORTANT: Java 语言为静态类型
 
 |float
 |单精度32位IEEE754标准浮点数
-|https://docs.oracle.com/javase/specs/jls/se7/html/jls-4.html#jls-4.2.3[文档]
+|https://docs.oracle.com/javase/specs/jls/se7/html/jls-4.html#jls-4.2.3[文档^]
 |内存需求大时，用于浮点数大数组中节省内存。不应用于精确值（如货币），而应用java.math.BigDecimal类
 |0.0f
 
 |double
 |双精度64位IEEE754标准浮点数
-|https://docs.oracle.com/javase/specs/jls/se7/html/jls-4.html#jls-4.2.3[文档]
+|https://docs.oracle.com/javase/specs/jls/se7/html/jls-4.html#jls-4.2.3[文档^]
 |用于十进制值。不应用于精确值（如货币），而应用java.math.BigDecimal类
 |0.0d
 
@@ -270,6 +270,48 @@ TIP: 多处理器系统中，使用并发升序比非并发速度更快
 
 IMPORTANT: 同优先级时，运算顺序为赋值运算符从右到左，其他二元运算符从左到右
 
+=== 部分运算符说明
+|===
+|运算符 |说明
+
+|+
+|一元运算符时，为取正。二元运算符时，为加法，也可用于字符串连接
+
+|-
+|一元运算符时，为取负。二元运算符时，为减法
+
+|前缀++、--
+|运算后返回变化值
+
+|后缀++、--
+|运算后返回原始值
+
+|？：
+|相当于`if-then-else`的简写法，在表达式紧凑且不造成副作用时使用（如赋值），可提高可读性
+
+|类型比较运算符`instanceof`
+|将对象与指定类型比较，用于判断对象是否是类的实例、是否是子类的实例、是否是实现特定接口的类的实例。注意`null`不是实例。
+|===
+
+
+[IMPORTANT]
+====
+只用于增减时，选择前缀还是后缀++、--并不重要，但用于复合表达式时需多加小心。
+
+条件运算符需注意短路现象。
+
+====
+
+位与位移运算符（用于整数类型）
+|===
+|运算符 |说明
+
+|~
+|取反
+|===
+
+
+|===
 
 == 参考
 * http://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html[官方文档^]
