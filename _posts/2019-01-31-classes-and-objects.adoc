@@ -8,6 +8,15 @@
 
 == 类
 === 声明类
+类有如下结构：
+
+* 修饰符
+* 类关键字
+* 类名
+* 继承
+* 接口
+* 类体
+
 [source,java]
 ----
 修饰符 class 类名 extends 父类 implements 接口0，接口1{
@@ -42,3 +51,6 @@
 === 各嵌套类的使用场景
 
 == 枚举类型
+
+== 参考
+* https://docs.oracle.com/javase/tutorial/java/javaOO/index.html[官方文档]
