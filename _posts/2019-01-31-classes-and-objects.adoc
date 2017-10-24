@@ -16,10 +16,13 @@
 * 继承
 * 接口
 * 类体
+** 字段
+** 构造方法
+** 方法
 
 [source,java]
 ----
-修饰符 class 类名 extends 父类 implements 接口0，接口1{
+修饰符 class 类名 extends 父类名 implements 接口0，接口1{
     字段
     构造方法
     方法 
