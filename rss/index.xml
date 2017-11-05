@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 24 Oct 2017 08:32:37 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[面向对象编程概念]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee  Code]]></title><description><![CDATA[Programming  lonely]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sun, 05 Nov 2017 12:37:08 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[面向对象编程概念]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">目录</div>
 <ul class="sectlevel1">
 <li><a href="#__">对象</a>
@@ -824,17 +824,27 @@ Java 语言为静态类型
 </div>]]></description><link>https://lonelee-kirsi.github.io/2019/01/31/language-basics.html</link><guid isPermaLink="true">https://lonelee-kirsi.github.io/2019/01/31/language-basics.html</guid><category><![CDATA[Java]]></category><dc:creator><![CDATA[Lonelee]]></dc:creator><pubDate>Thu, 31 Jan 2019 00:00:00 GMT</pubDate></item><item><title><![CDATA[如何学习]]></title><description><![CDATA[<div class="sect1">
 <h2 id="__">获取</h2>
 <div class="sectionbody">
+<div class="sect2">
+<h3 id="___2">阿卡西记录与灵感</h3>
+
+</div>
+<div class="sect2">
+<h3 id="___3">感受事物本身</h3>
+
+</div>
+<div class="sect2">
+<h3 id="___4">寻求媒介</h3>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>接触本体</p>
+<p>关联性事物</p>
 </li>
 <li>
-<p>知识载体</p>
+<p>承载思想之人</p>
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p>人</p>
+<p>言行</p>
 </li>
 <li>
 <p>网络</p>
@@ -849,14 +859,15 @@ Java 语言为静态类型
 </div>
 </div>
 </div>
+</div>
 <div class="sect1">
-<h2 id="___2">过滤</h2>
+<h2 id="___5">过滤</h2>
 <div class="sectionbody">
 
 </div>
 </div>
 <div class="sect1">
-<h2 id="___3">记录</h2>
+<h2 id="___6">记录</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
@@ -868,13 +879,13 @@ Java 语言为静态类型
 </div>
 </div>
 <div class="sect1">
-<h2 id="___4">反馈</h2>
+<h2 id="___7">反馈</h2>
 <div class="sectionbody">
 
 </div>
 </div>
 <div class="sect1">
-<h2 id="___5">传播</h2>
+<h2 id="___8">传播</h2>
 <div class="sectionbody">
 
 </div>
