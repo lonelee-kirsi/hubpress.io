@@ -1,0 +1,7 @@
+= 你的博客，你的归所
+:hp-image: /covers/cover.png
+:published_at: 2019-01-31
+:hp-tags: HubPress, Blog, Open_Source,
+:hp-alt-title: Your Blog Is Your Home
+
+== 为什么要有自己的博客
