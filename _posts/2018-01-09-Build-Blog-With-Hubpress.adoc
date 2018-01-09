@@ -1,0 +1,11 @@
+= HubPress 搭建博客
+:hp-image: /covers/cover.png
+:published_at: 2018-01-09
+:hp-tags: Blog,
+:hp-alt-title: Build Blog With HubPress
+
+== 何谓 HubPress
+[quote, HubPress 官方]
+____
+A web application to build your blog on GitHub 
+____
