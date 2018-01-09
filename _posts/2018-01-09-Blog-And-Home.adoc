@@ -1,8 +1,8 @@
-= 博客 ≈ 归所
+= 博客与归所
 :hp-image: /covers/cover.png
 :published_at: 2018-01-09
 :hp-tags: Blog,
-:hp-alt-title: Blog  Home
+:hp-alt-title: Blog And Home
 
 == 何谓博客
 == 博客的价值
