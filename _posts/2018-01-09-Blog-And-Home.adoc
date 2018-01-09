@@ -1,0 +1,21 @@
+= 博客 ≈ 归所
+:hp-image: /covers/cover.png
+:published_at: 2018-01-09
+:hp-tags: Blog,
+:hp-alt-title: Blog  Home
+
+== 何谓博客
+== 博客的价值
+== 搭建博客
+|===
+|方式 |说明
+
+|https://lonelee-kirsi.github.io/2018/01/09/Blog-Servers.html[博客服务^]
+|博客服务说明
+
+|博客工具
+|博客工具说明
+
+|自撸博客
+|自撸博客说明
+|===
