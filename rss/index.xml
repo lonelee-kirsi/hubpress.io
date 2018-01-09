@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 09 Jan 2018 11:30:24 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[博客服务]]></title><description><![CDATA[<div class="sect1">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 09 Jan 2018 11:40:15 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[博客服务]]></title><description><![CDATA[<div class="sect1">
 <h2 id="__">免费</h2>
 <div class="sectionbody">
 <div class="ulist">
@@ -49,22 +49,22 @@
 </colgroup>
 <thead>
 <tr>
+<th class="tableblock halign-left valign-top">选择基准</th>
 <th class="tableblock halign-left valign-top">方式</th>
-<th class="tableblock halign-left valign-top">说明</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://lonelee-kirsi.github.io/2018/01/09/Blog-Servers.html" target="_blank">博客服务</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">博客服务说明</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">只想搭建博客</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://lonelee-kirsi.github.io/2018/01/09/Blog-Servers.html" target="_blank">使用服务</a></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">博客工具</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">博客工具说明</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">学习</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">借助工具</p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">高度自定义</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">从零开始</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">从零开始说明</p></td>
 </tr>
 </tbody>
 </table>
