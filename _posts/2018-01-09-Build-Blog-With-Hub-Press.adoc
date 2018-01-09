@@ -1,4 +1,4 @@
-= 用 HubPress 搭建博客
+= HubPress 搭建博客
 :hp-image: /covers/cover.png
 :published_at: 2018-01-09
 :hp-tags: Blog,
