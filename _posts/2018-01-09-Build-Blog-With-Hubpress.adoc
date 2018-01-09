@@ -2,7 +2,7 @@
 :hp-image: /covers/cover.png
 :published_at: 2018-01-09
 :hp-tags: Blog,
-:hp-alt-title: Build Blog With HubPress
+:hp-alt-title: Build Blog With Hubpress
 
 == 何谓 HubPress
 [quote, HubPress 官方]
