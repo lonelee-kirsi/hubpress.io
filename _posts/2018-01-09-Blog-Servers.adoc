@@ -4,6 +4,6 @@
 :hp-tags: Blog, 
 :hp-alt-title: Blog Servers
 
-== 世界
+== 增值
 * https://www.blogger.com/about/?r=1-null_user[Blogger^]
 * https://zh-cn.wordpress.com/[WordPress.com^]
