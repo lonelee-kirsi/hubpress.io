@@ -1,6 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 09 Jan 2018 06:18:03 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[博客，归所]]></title><description><![CDATA[<div class="sect1">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 09 Jan 2018 06:23:15 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[博客，归所]]></title><description><![CDATA[<div class="sect1">
 <h2 id="__">为什么要有自己的博客</h2>
 <div class="sectionbody">
 
+</div>
+</div>
+<div class="sect1">
+<h2 id="___2">如何搭建博客</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">方式</th>
+<th class="tableblock halign-left valign-top">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">博客服务</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">博客服务说明</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">博客工具</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">博客工具说明</p></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>]]></description><link>https://lonelee-kirsi.github.io/2018/01/09/Your-Blog-Is-Your-Home.html</link><guid isPermaLink="true">https://lonelee-kirsi.github.io/2018/01/09/Your-Blog-Is-Your-Home.html</guid><category><![CDATA[Blog]]></category><dc:creator><![CDATA[Lonelee]]></dc:creator><pubDate>Tue, 09 Jan 2018 00:00:00 GMT</pubDate></item></channel></rss>
