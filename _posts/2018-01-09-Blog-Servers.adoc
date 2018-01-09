@@ -4,6 +4,10 @@
 :hp-tags: Blog, 
 :hp-alt-title: Blog Servers
 
-== 增值
+== 免费
 * https://www.blogger.com/about/?r=1-null_user[Blogger^]
+* https://www.tumblr.com/[Tumblr^]
+* https://www.jianshu.com/[简书^]
+
+== 增值
 * https://zh-cn.wordpress.com/[WordPress.com^]
