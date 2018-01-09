@@ -1,4 +1,4 @@
-= 你的博客，你的归所
+= 博客，归所
 :hp-image: /covers/cover.png
 :published_at: 2018-01-09
 :hp-tags: Blog,
