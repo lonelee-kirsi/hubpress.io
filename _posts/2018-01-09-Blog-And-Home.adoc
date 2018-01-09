@@ -8,14 +8,14 @@
 == 博客的意义
 == 搭建博客
 |===
-|方式 |说明
+|选择基准 |方式
 
-|https://lonelee-kirsi.github.io/2018/01/09/Blog-Servers.html[博客服务^]
-|博客服务说明
+|只想搭建博客
+|https://lonelee-kirsi.github.io/2018/01/09/Blog-Servers.html[使用服务^]
 
-|博客工具
-|博客工具说明
+|学习
+|借助工具
 
+|高度自定义
 |从零开始
-|从零开始说明
 |===
