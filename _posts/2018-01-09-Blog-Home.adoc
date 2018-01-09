@@ -2,7 +2,7 @@
 :hp-image: /covers/cover.png
 :published_at: 2018-01-09
 :hp-tags: Blog,
-:hp-alt-title: Your Blog Is Your Home
+:hp-alt-title: Blog  Home
 
 == 为什么要有自己的博客
 == 如何搭建博客
@@ -14,4 +14,7 @@
 
 |博客工具
 |博客工具说明
+
+|自撸博客
+|自撸博客说明
 |===
