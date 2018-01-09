@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 09 Jan 2018 12:01:38 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[HubPress 搭建博客]]></title><description><![CDATA[<div class="sect1">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 09 Jan 2018 12:15:35 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[HubPress 搭建博客]]></title><description><![CDATA[<div class="sect1">
 <h2 id="__hubpress">何谓 HubPress</h2>
 <div class="sectionbody">
 <div class="quoteblock">
 <blockquote>
-<div class="paragraph">
-<p>A web application to build your blog on GitHub</p>
-</div>
+A web application to build your blog on GitHub
 </blockquote>
 <div class="attribution">
 &#8212; HubPress 官方
@@ -17,6 +15,9 @@
 <div class="sectionbody">
 <div class="ulist">
 <ul>
+<li>
+<p><a href="https://www.blogger.com/about/?r=1-null_user" target="_blank">Blogger</a></p>
+</li>
 <li>
 <p><a href="https://www.tumblr.com/" target="_blank">Tumblr</a></p>
 </li>
@@ -32,9 +33,6 @@
 <div class="sectionbody">
 <div class="ulist">
 <ul>
-<li>
-<p><a href="https://www.blogger.com/about/?r=1-null_user" target="_blank">Blogger</a></p>
-</li>
 <li>
 <p><a href="https://zh-cn.wordpress.com/" target="_blank">WordPress.com</a></p>
 </li>
