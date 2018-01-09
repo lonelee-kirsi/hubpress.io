@@ -5,4 +5,4 @@
 :hp-alt-title: Blog Servers
 
 == 世界
-* https://www.blogger.com/about/?r=1-null_user[Blogger]
+* https://www.blogger.com/about/?r=1-null_user[Blogger^]
