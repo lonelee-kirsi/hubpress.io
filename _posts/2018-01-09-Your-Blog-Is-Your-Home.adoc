@@ -9,7 +9,7 @@
 |===
 |方式 |说明
 
-|https://lonelee-kirsi.github.io/2019/01/31/Blog-Servers.html[博客服务^]
+|https://lonelee-kirsi.github.io/2018/01/09/Blog-Servers.html[博客服务^]
 |博客服务说明
 
 |博客工具
