@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 10 Jan 2018 13:42:58 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[计算机网络]]></title><description><![CDATA[<div class="sect1">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 10 Jan 2018 13:49:21 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[计算机网络]]></title><description><![CDATA[<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#__">计算机网络和因特网</a>
+<ul class="sectlevel2">
+<li><a href="#___2">各种工</a></li>
+<li><a href="#___3">网络交换方式</a></li>
+<li><a href="#___4">协议</a></li>
+</ul>
+</li>
+<li><a href="#___8">应用层</a>
+<ul class="sectlevel2">
+<li><a href="#_rtt">RTT</a></li>
+<li><a href="#_http_get">HTTP 条件 GET</a></li>
+<li><a href="#_smtp_http">SMTP 与 HTTP 比较</a></li>
+<li><a href="#_dns_http_ip">DNS、HTTP、IP 综合工作</a></li>
+<li><a href="#_http">HTTP 工作流程</a></li>
+<li><a href="#_dns">DNS</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sect1">
 <h2 id="__">计算机网络和因特网</h2>
 <div class="sectionbody">
 <div class="sect2">
@@ -82,7 +104,7 @@
 </table>
 </div>
 <div class="sect3">
-<h4 id="___7">常用协议</h4>
+<h4 id="___7">常用协议及其端口</h4>
 <table class="tableblock frame-all grid-all spread">
 <colgroup>
 <col style="width: 50%;">
@@ -153,23 +175,35 @@
 </li>
 </ol>
 </div>
-<div class="sect4">
-<h5 id="___12">不同</h5>
+</div>
+<div class="sect3">
+<h4 id="___12">不同</h4>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
 <p>HTTP 主要是拉协议，SMTP 基本上是推协议</p>
 </li>
 <li>
-<p>SMTP 的报文使用7比特 ASCII 码格式，HTTP 没有该限制</p>
+<p>SMTP 的报文使用 7 比特 ASCII 码格式，HTTP 没有该限制</p>
 </li>
 <li>
-<p>处理超文本文档时，HTTP 把每个对象封装到自身的响应报文中，SMTP 把所有报文对象封装到报文中</p>
+<p>处理超文本文档时，HTTP 把每个对象封装到自身的响应报文中，SMTP 把所有报文对象封装到一个报文中</p>
 </li>
 </ol>
 </div>
 </div>
 </div>
+<div class="sect2">
+<h3 id="_dns_http_ip">DNS、HTTP、IP 综合工作</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_http">HTTP 工作流程</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_dns">DNS</h3>
+
 </div>
 </div>
 </div>]]></description><link>https://lonelee-kirsi.github.io/2019/01/31/Computer-Network.html</link><guid isPermaLink="true">https://lonelee-kirsi.github.io/2019/01/31/Computer-Network.html</guid><category><![CDATA[draft]]></category><dc:creator><![CDATA[Lonelee]]></dc:creator><pubDate>Thu, 31 Jan 2019 00:00:00 GMT</pubDate></item><item><title><![CDATA[博客工具]]></title><description><![CDATA[<div class="sect1">
