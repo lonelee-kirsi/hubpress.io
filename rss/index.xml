@@ -1,4 +1,72 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 10 Jan 2018 08:14:52 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[HubPress 搭建博客]]></title><description><![CDATA[<div class="sect1">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 10 Jan 2018 08:16:11 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[博客工具]]></title><description><![CDATA[<div class="sect1">
+<h2 id="__">动态</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://wordpress.org/" target="_blank">WordPress</a></p>
+</li>
+<li>
+<p><a href="https://www.drupal.org/" target="_blank">Drupal</a></p>
+</li>
+<li>
+<p><a href="https://www.joomla.org/" target="_blank">Joomla!</a></p>
+</li>
+<li>
+<p><a href="https://getgrav.org/" target="_blank">Grav</a></p>
+</li>
+<li>
+<p><a href="https://medium.com/" target="_blank">Medium</a></p>
+</li>
+<li>
+<p><a href="https://modx.com/" target="_blank">Modx</a></p>
+</li>
+<li>
+<p><a href="http://processwire.com/" target="_blank">ProcessWire</a></p>
+</li>
+<li>
+<p><a href="https://anchorcms.com/" target="_blank">Anchor</a></p>
+</li>
+<li>
+<p><a href="https://pagekit.com/" target="_blank">Pagekit</a></p>
+</li>
+<li>
+<p><a href="https://www.squarespace.com/?channel=pp&amp;subchannel=general&amp;source=twentysevenkilobyte" target="_blank">Squarespace</a></p>
+</li>
+<li>
+<p><a href="https://sites.google.com/" target="_blank">Google Sites</a></p>
+</li>
+<li>
+<p><a href="https://www.weebly.com/?lang=en" target="_blank">Weebly</a></p>
+</li>
+<li>
+<p><a href="https://www.prestashop.com/en" target="_blank">PrestaShop</a></p>
+</li>
+<li>
+<p><a href="https://webflow.com/" target="_blank">Webflow</a></p>
+</li>
+<li>
+<p><a href="https://www.wix.com/" target="_blank">Wix</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="___2">静态</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Hexo</p>
+</li>
+<li>
+<p><a href="https://jekyllrb.com/" target="_blank">jekyll</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>]]></description><link>https://lonelee-kirsi.github.io/2019/01/31/Blog-Tools.html</link><guid isPermaLink="true">https://lonelee-kirsi.github.io/2019/01/31/Blog-Tools.html</guid><category><![CDATA[Blog]]></category><dc:creator><![CDATA[Lonelee]]></dc:creator><pubDate>Thu, 31 Jan 2019 00:00:00 GMT</pubDate></item><item><title><![CDATA[HubPress 搭建博客]]></title><description><![CDATA[<div class="sect1">
 <h2 id="__hubpress">何谓 HubPress</h2>
 <div class="sectionbody">
 <div class="quoteblock">
