@@ -1,0 +1,16 @@
+= 博客工具
+:hp-image: /covers/cover.png
+:published_at: 2019-01-31
+:hp-tags: Blog,
+:hp-alt-title: Blog Tools
+
+== 动态
+* https://wordpress.org/[WordPress^]
+* https://www.drupal.org/[Drupal^]
+* https://www.joomla.org/[Joomla!^]
+* https://getgrav.org/[Grav^]
+* https://medium.com/[Medium^]
+
+== 静态
+* Hexo
+* https://jekyllrb.com/[jekyll^]
