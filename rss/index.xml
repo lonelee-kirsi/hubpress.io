@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 10 Jan 2018 09:32:45 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[计算机网络]]></title><description><![CDATA[<div class="sect1">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 10 Jan 2018 10:51:53 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[计算机网络]]></title><description><![CDATA[<div class="sect1">
 <h2 id="__">计算机网络和因特网</h2>
 <div class="sectionbody">
 <div class="sect2">
@@ -6,19 +6,19 @@
 <div class="ulist">
 <ul>
 <li>
-<p>单工</p>
+<p>单工：单信道，单向传输</p>
 </li>
 <li>
-<p>半双工</p>
+<p>半双工：单信道，异时双向传输</p>
 </li>
 <li>
-<p>双工</p>
+<p>双工：双信道，同时双向传输</p>
 </li>
 </ul>
 </div>
 </div>
 <div class="sect2">
-<h3 id="___3">各种交换</h3>
+<h3 id="___3">网络交换方式</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -28,6 +28,46 @@
 <p>分组交换</p>
 </li>
 </ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="___4">排队时延</h3>
+
+</div>
+<div class="sect2">
+<h3 id="___5">协议</h3>
+<div class="sect3">
+<h4 id="___6">概念</h4>
+
+</div>
+<div class="sect3">
+<h4 id="___7">分层</h4>
+
+</div>
+<div class="sect3">
+<h4 id="___8">常用协议</h4>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">协议</th>
+<th class="tableblock halign-left valign-top">端口</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">FTP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">21</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">FTP-DATA</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">20</p></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </div>
