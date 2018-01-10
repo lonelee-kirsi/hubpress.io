@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 10 Jan 2018 13:49:21 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[计算机网络]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 10 Jan 2018 14:16:42 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[计算机网络]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
 <li><a href="#__">计算机网络和因特网</a>
@@ -15,7 +15,33 @@
 <li><a href="#_smtp_http">SMTP 与 HTTP 比较</a></li>
 <li><a href="#_dns_http_ip">DNS、HTTP、IP 综合工作</a></li>
 <li><a href="#_http">HTTP 工作流程</a></li>
-<li><a href="#_dns">DNS</a></li>
+<li><a href="#_dns">DNS 工作流程</a></li>
+</ul>
+</li>
+<li><a href="#___13">传输层</a>
+<ul class="sectlevel2">
+<li><a href="#___14">复用、分解的概念</a></li>
+<li><a href="#_tcp_udp">TCP、UDP 的复用及分解</a></li>
+<li><a href="#_tcp">TCP 协议头</a></li>
+<li><a href="#_tcp_2">TCP 的三次握手和解除连接的过程</a></li>
+<li><a href="#_tcp_3">TCP 的流量控制、拥塞控制</a></li>
+</ul>
+</li>
+<li><a href="#___15">网络层</a>
+<ul class="sectlevel2">
+<li><a href="#___16">转发表的使用</a></li>
+<li><a href="#_ip">IP 头的内容、格式、标准大小</a></li>
+<li><a href="#__ip_ip">分段如何实现、为什么，IP 地址的计算、分类，特殊 IP</a></li>
+<li><a href="#_icmp_ping">ICMP 协议作用，ping</a></li>
+<li><a href="#___17">距离矢量和链状路由以及比较</a></li>
+<li><a href="#___18">距离矢量计算</a></li>
+<li><a href="#_rip_rip_1_0_rip_2_0">RIP 协议，RIP 1.0 和 RIP 2.0 的比较</a></li>
+<li><a href="#_ospf">OSPF 协议</a></li>
+</ul>
+</li>
+<li><a href="#___19">链路层</a>
+<ul class="sectlevel2">
+<li><a href="#_arp">ARP</a></li>
 </ul>
 </li>
 </ul>
@@ -202,7 +228,78 @@
 
 </div>
 <div class="sect2">
-<h3 id="_dns">DNS</h3>
+<h3 id="_dns">DNS 工作流程</h3>
+
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="___13">传输层</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="___14">复用、分解的概念</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_tcp_udp">TCP、UDP 的复用及分解</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_tcp">TCP 协议头</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_tcp_2">TCP 的三次握手和解除连接的过程</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_tcp_3">TCP 的流量控制、拥塞控制</h3>
+
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="___15">网络层</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="___16">转发表的使用</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_ip">IP 头的内容、格式、标准大小</h3>
+
+</div>
+<div class="sect2">
+<h3 id="__ip_ip">分段如何实现、为什么，IP 地址的计算、分类，特殊 IP</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_icmp_ping">ICMP 协议作用，ping</h3>
+
+</div>
+<div class="sect2">
+<h3 id="___17">距离矢量和链状路由以及比较</h3>
+
+</div>
+<div class="sect2">
+<h3 id="___18">距离矢量计算</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_rip_rip_1_0_rip_2_0">RIP 协议，RIP 1.0 和 RIP 2.0 的比较</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_ospf">OSPF 协议</h3>
+
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="___19">链路层</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_arp">ARP</h3>
 
 </div>
 </div>
