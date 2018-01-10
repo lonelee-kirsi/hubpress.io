@@ -1,0 +1,15 @@
+= 计算机网络
+:hp-image: /covers/cover.png
+:published_at: 2019-01-31
+:hp-tags: draft
+:hp-alt-title: Computer Network
+
+== 计算机网络和因特网
+=== 各种工
+* 单工
+* 半双工
+* 双工
+
+=== 各种交换
+* 电路交换
+* 分组交换
