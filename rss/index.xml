@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 10 Jan 2018 12:55:04 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[计算机网络]]></title><description><![CDATA[<div class="sect1">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 10 Jan 2018 13:27:27 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[计算机网络]]></title><description><![CDATA[<div class="sect1">
 <h2 id="__">计算机网络和因特网</h2>
 <div class="sectionbody">
 <div class="sect2">
@@ -30,19 +30,21 @@
 </ul>
 </div>
 <div class="paragraph">
-<p>排队时延</p>
+<p>排队时延：路由器上排队等待所消耗的时间</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="___4">协议</h3>
 <div class="sect3">
 <h4 id="___5">概念</h4>
-
+<div class="paragraph">
+<p>网络协议规定通信双方具体的通信规则，包含三个要素：语法、语义、同步。</p>
+</div>
 </div>
 <div class="sect3">
 <h4 id="___6">分层</h4>
 <div class="paragraph">
-<p>原因：</p>
+<p>原因：简单、容易学习、便于讨论。模块化的设计便于讨论，也简化了维护和升级，具体表现在某层次的服务对系统的其他层次透明，且某个层次改变后，只需改变与其相邻层次的接口。</p>
 </div>
 <table class="tableblock frame-all grid-all spread">
 <colgroup>
@@ -51,7 +53,7 @@
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-top">名称</th>
+<th class="tableblock halign-left valign-top">层名</th>
 <th class="tableblock halign-left valign-top">数据名</th>
 </tr>
 </thead>
