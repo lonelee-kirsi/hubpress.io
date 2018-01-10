@@ -10,6 +10,16 @@
 * https://www.joomla.org/[Joomla!^]
 * https://getgrav.org/[Grav^]
 * https://medium.com/[Medium^]
+* https://modx.com/[Modx^]
+* http://processwire.com/[ProcessWire^]
+* https://anchorcms.com/[Anchor^]
+* https://pagekit.com/[Pagekit^]
+* https://www.squarespace.com/?channel=pp&subchannel=general&source=twentysevenkilobyte[Squarespace^]
+* https://sites.google.com/[Google Sites^]
+* https://www.weebly.com/?lang=en[Weebly^]
+* https://www.prestashop.com/en[PrestaShop^]
+* https://webflow.com/[Webflow^]
+* https://www.wix.com/[Wix^]
 
 == 静态
 * Hexo
