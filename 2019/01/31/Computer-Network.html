@@ -38,9 +38,9 @@
     <link href="//fonts.googleapis.com/" rel="dns-prefetch">
     <link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Open+Sans:700,400&subset=latin,latin-ext" rel="stylesheet">
 
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/main.min.css?v=1515590847141"/>
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/custom.css?v=1515590847141"/>
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1515590847141"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/main.min.css?v=1515591778343"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/custom.css?v=1515591778343"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1515591778343"/>
 
 
 
@@ -70,7 +70,7 @@
       GHOSTIUM.enablePjax = typeof enable_pjax !== 'undefined' ? enable_pjax : true;
     </script>
 
-    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1515590847141"></script>
+    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1515591778343"></script>
 
     <link rel="canonical" href="https://lonelee-kirsi.github.io/2019/01/31/Computer-Network.html" />
     <meta name="referrer" content="origin" />
@@ -337,14 +337,45 @@
 <div class="sect3">
 <h4 id="___9">作用</h4>
 <div class="paragraph">
-<p>解决缓存陈旧
-==== 过程</p>
+<p>解决缓存陈旧</p>
 </div>
+</div>
+<div class="sect3">
+<h4 id="___10">过程</h4>
+
 </div>
 </div>
 <div class="sect2">
 <h3 id="_smtp_http">SMTP 与 HTTP 比较</h3>
-
+<div class="sect3">
+<h4 id="___11">相同</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>都用于从一台主机向另一主机传送文件</p>
+</li>
+<li>
+<p>进行文件传送时，持续的 HTTP 和 SMTP 都使用持续连接</p>
+</li>
+</ol>
+</div>
+<div class="sect4">
+<h5 id="___12">不同</h5>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>HTTP 主要是拉协议，SMTP 基本上是推协议</p>
+</li>
+<li>
+<p>SMTP 的报文使用7比特 ASCII 码格式，HTTP 没有该限制</p>
+</li>
+<li>
+<p>处理超文本文档时，HTTP 把每个对象封装到自身的响应报文中，SMTP 把所有报文对象封装到报文中</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -408,7 +439,7 @@
         hljs.initHighlightingOnLoad();
       </script>
 
-    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1515590847141"></script>
+    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1515591778343"></script>
 
 
   </body>
