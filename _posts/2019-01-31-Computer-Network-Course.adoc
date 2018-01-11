@@ -1,8 +1,8 @@
-= 计算机网络
+= 计算机网络课程
 :hp-image: /covers/cover.png
 :published_at: 2019-01-31
 :hp-tags: draft
-:hp-alt-title: Computer Network
+:hp-alt-title: Computer Network Course
 :toc:
 
 == 计算机网络和因特网
