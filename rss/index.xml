@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 11 Jan 2018 06:18:13 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[计算机网络]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 11 Jan 2018 06:29:52 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[计算机网络]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
 <li><a href="#__">历史</a></li>
@@ -7,12 +7,12 @@
 <li><a href="#___4">网络拓扑</a>
 <ul class="sectlevel2">
 <li><a href="#___5">网络链路</a></li>
-<li><a href="#___6">网络节点</a></li>
-<li><a href="#___7">网络结构</a></li>
+<li><a href="#___12">网络节点</a></li>
+<li><a href="#___13">网络结构</a></li>
 </ul>
 </li>
-<li><a href="#___8">通信协议</a></li>
-<li><a href="#___9">参考</a></li>
+<li><a href="#___14">通信协议</a></li>
+<li><a href="#___15">参考</a></li>
 </ul>
 </div>
 <div id="preamble">
@@ -46,28 +46,53 @@
 <div class="sect1">
 <h2 id="___4">网络拓扑</h2>
 <div class="sectionbody">
+<div class="paragraph">
+<p>连接网络节点的拓扑通常比网络的物理布局更重要。大多描述物理网络的图基于拓扑，而非地理。图上的符号通常表示网络链路和网络节点。</p>
+</div>
 <div class="sect2">
 <h3 id="___5">网络链路</h3>
+<div class="sect3">
+<h4 id="___6">有线技术</h4>
+<div class="sect4">
+<h5 id="___7">同轴电缆</h5>
+
+</div>
+<div class="sect4">
+<h5 id="___8">双绞线</h5>
+
+</div>
+<div class="sect4">
+<h5 id="___9">光纤</h5>
+
+</div>
+</div>
+<div class="sect3">
+<h4 id="___10">无线技术</h4>
+
+</div>
+<div class="sect3">
+<h4 id="___11">其他技术</h4>
+
+</div>
+</div>
+<div class="sect2">
+<h3 id="___12">网络节点</h3>
 
 </div>
 <div class="sect2">
-<h3 id="___6">网络节点</h3>
-
-</div>
-<div class="sect2">
-<h3 id="___7">网络结构</h3>
+<h3 id="___13">网络结构</h3>
 
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="___8">通信协议</h2>
+<h2 id="___14">通信协议</h2>
 <div class="sectionbody">
 
 </div>
 </div>
 <div class="sect1">
-<h2 id="___9">参考</h2>
+<h2 id="___15">参考</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
