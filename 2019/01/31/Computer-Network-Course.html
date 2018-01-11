@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>计算机网络课程</title>
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta name="description" content="">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="计算机网络课程">
+    <meta name="twitter:description" content="">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="计算机网络课程">
+    <meta property="og:description" content="">
+
+    <!-- <meta name="twitter:site" content="">
+
+<meta name="twitter:creator" content="">
+
+<meta name="google-site-verification" content="">
+
+<meta property="fb:admins" content="">
+ -->
+
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
+
+    <link href="//fonts.googleapis.com/" rel="dns-prefetch">
+    <link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Open+Sans:700,400&subset=latin,latin-ext" rel="stylesheet">
+
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/main.min.css?v=1515648527255"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/custom.css?v=1515648527255"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1515648527255"/>
+
+
+
+
+    <script type="text/javascript">
+      var ga_ua = 'UA-XXXXX-X';
+      
+      var disqus_shortname = 'example';
+      
+      var enable_pjax = true;
+
+      // Pace Options
+      // ==============
+      window.paceOptions = {
+        catchupTime: 100,
+        minTime: 100,
+        elements: false,
+        restartOnRequestAfter: 500,
+        startOnPageLoad: false
+      }
+
+      // Ghostium Globals
+      // ==============
+      window.GHOSTIUM = {};
+      GHOSTIUM.haveGA = typeof ga_ua !== 'undefined' && ga_ua !== 'UA-XXXXX-X';
+      GHOSTIUM.haveDisqus = typeof disqus_shortname !== 'undefined' && disqus_shortname !== 'example';
+      GHOSTIUM.enablePjax = typeof enable_pjax !== 'undefined' ? enable_pjax : true;
+    </script>
+
+    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1515648527255"></script>
+
+    <link rel="canonical" href="https://lonelee-kirsi.github.io/2019/01/31/Computer-Network-Course.html" />
+    <meta name="referrer" content="origin" />
+    
+    <meta property="og:site_name" content="Lonelee" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="计算机网络课程" />
+    <meta property="og:description" content="Table of Contents 计算机网络和因特网 各种工 网络交换方式 协议 应用层 RTT HTTP 条件 GET SMTP 与 HTTP 比较 DNS、HTTP、IP 综合工作 HTTP 工作流程 DNS 工作流程 传输层 复用与分解 TCP、UDP 的复用及分解 TCP 首部字段 TCP 的三次握手和解除连接的过程 TCP 的流量控制、拥塞控制 网络层 转发表的使用 IP 头的内容、格式、标准大小 分段如何实现、为什么，IP 地址的计算、分类，特殊 IP ICMP" />
+    <meta property="og:url" content="https://lonelee-kirsi.github.io/2019/01/31/Computer-Network-Course.html" />
+    <meta property="og:image" content="/covers/cover.png" />
+    <meta property="article:published_time" content="2019-01-31T00:00:00.000Z" />
+    <meta property="article:tag" content="draft" />
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="计算机网络课程" />
+    <meta name="twitter:description" content="Table of Contents 计算机网络和因特网 各种工 网络交换方式 协议 应用层 RTT HTTP 条件 GET SMTP 与 HTTP 比较 DNS、HTTP、IP 综合工作 HTTP 工作流程 DNS 工作流程 传输层 复用与分解 TCP、UDP 的复用及分解 TCP 首部字段 TCP 的三次握手和解除连接的过程 TCP 的流量控制、拥塞控制 网络层 转发表的使用 IP 头的内容、格式、标准大小 分段如何实现、为什么，IP 地址的计算、分类，特殊 IP ICMP" />
+    <meta name="twitter:url" content="https://lonelee-kirsi.github.io/2019/01/31/Computer-Network-Course.html" />
+    <meta name="twitter:image:src" content="/covers/cover.png" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "Lonelee",
+    "author": {
+        "@type": "Person",
+        "name": "Lonelee",
+        "image": "https://avatars1.githubusercontent.com/u/30468555?v=4",
+        "url": "https://lonelee-kirsi.github.io/author/lonelee-kirsi/",
+        "description": "For fun"
+    },
+    "headline": "计算机网络课程",
+    "url": "https://lonelee-kirsi.github.io/2019/01/31/Computer-Network-Course.html",
+    "datePublished": "2019-01-31T00:00:00.000Z",
+    "image": "/covers/cover.png",
+    "keywords": "draft",
+    "description": "Table of Contents 计算机网络和因特网 各种工 网络交换方式 协议 应用层 RTT HTTP 条件 GET SMTP 与 HTTP 比较 DNS、HTTP、IP 综合工作 HTTP 工作流程 DNS 工作流程 传输层 复用与分解 TCP、UDP 的复用及分解 TCP 首部字段 TCP 的三次握手和解除连接的过程 TCP 的流量控制、拥塞控制 网络层 转发表的使用 IP 头的内容、格式、标准大小 分段如何实现、为什么，IP 地址的计算、分类，特殊 IP ICMP"
+}
+    </script>
+
+    <meta name="generator" content="HubPress" />
+    <link rel="alternate" type="application/rss+xml" title="Lonelee" href="https://lonelee-kirsi.github.io/rss/" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/atom-one-dark.min.css">
+    
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+  </head>
+  <body class="post-template tag-draft">
+
+    <button data-action="open-drawer" id="drawer-button" class="drawer-button"><i class="fa fa-bars"></i></button>
+    <nav tabindex="-1" class="drawer">
+      <div class="drawer-container">
+        <!--.drawer-search(role="search")-->
+        <ul role="navigation" class="drawer-list">
+          
+          <li class="drawer-list-item">
+            <a href="https://lonelee-kirsi.github.io" data-pjax>
+              <i class="fa fa-home"></i>Home
+            </a>
+          </li>
+          <!-- <li class="drawer-list-item">
+            <a href="https://lonelee-kirsi.github.io" title="Lonelee" data-pjax>
+              <i class="fa fa-list-alt"></i>All posts
+            </a>
+          </li> -->
+          <li class="drawer-list-item">
+            <a href="https://lonelee-kirsi.github.io/rss/">
+              <i class="fa fa-rss"></i>Subscribe to Feed
+            </a>
+          </li>
+          <li class="drawer-list-divider"></li>
+          <li class="drawer-list-item drawer-list-title">
+            Follow me
+          </li>
+          
+          
+          <li class="drawer-list-item">
+            <a href="https://github.com/lonelee-kirsi" title="Github" target="_blank">
+              <i class="fa fa-github"></i>Github
+            </a>
+          </li>
+          <li class="drawer-list-item">
+            <a href="mailto:lonelee.kirsi@gmail.com" title="Email" target="_blank">
+              <i class="fa fa-envelope-o"></i>Email
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="drawer-overlay"></div>
+    <main id="container" role="main" class="container">
+      <div class="surface">
+        <div class="surface-container">
+          <div data-pjax-container class="content">
+            
+<section class="wrapper wrapper-post">
+  <div class="wrapper-container">
+    <article itemscope itemtype="http://schema.org/BlogPosting" role="article" class="post post tag-draft">
+        <section class="post-container">
+          <header class="post-header">
+            <ul class="post-meta-list">
+              <li class="post-meta-item">
+                <time datetime="2019-01-31" itemprop="datePublished">
+                  in a year
+                </time>
+              </li>
+                <li class="post-meta-item">
+                  <span class="tags"><i class="fa fa-tags"></i>
+                      <span>
+                      <a href="https://lonelee-kirsi.github.io/tag/draft/">draft</a></span>
+                  </span>
+                </li>
+              <li class="post-meta-item">
+                <a href="#disqus_thread" data-disqus-identifier="">Comments</a>
+              </li>
+            </ul>
+            <h1 itemprop="name headline" class="post-title"><a href="https://lonelee-kirsi.github.io/2019/01/31/Computer-Network-Course.html" itemprop="url" data-pjax title="计算机网络课程">计算机网络课程</a></h1>
+            <!--h2 itemprop="about" class="post-subtitle"></h2-->
+          </header>
+          <aside class="post-side">
+            <div class="post-author">
+                <a href="" class="post-author-avatar">
+                  <img src="https://avatars1.githubusercontent.com/u/30468555?v&#x3D;4" alt="Lonelee">
+                </a>
+              <div class="post-author-info">
+                <a href="" class="post-author-name">
+                  Lonelee
+                </a>
+                <p class="post-author-bio">For fun</p>
+              </div>
+            </div>
+          </aside>
+          <div itemprop="articleBody" class="post-body">
+            <div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#__">计算机网络和因特网</a>
+<ul class="sectlevel2">
+<li><a href="#___2">各种工</a></li>
+<li><a href="#___3">网络交换方式</a></li>
+<li><a href="#___4">协议</a></li>
+</ul>
+</li>
+<li><a href="#___8">应用层</a>
+<ul class="sectlevel2">
+<li><a href="#_rtt">RTT</a></li>
+<li><a href="#_http_get">HTTP 条件 GET</a></li>
+<li><a href="#_smtp_http">SMTP 与 HTTP 比较</a></li>
+<li><a href="#_dns_http_ip">DNS、HTTP、IP 综合工作</a></li>
+<li><a href="#_http">HTTP 工作流程</a></li>
+<li><a href="#_dns">DNS 工作流程</a></li>
+</ul>
+</li>
+<li><a href="#___13">传输层</a>
+<ul class="sectlevel2">
+<li><a href="#___14">复用与分解</a></li>
+<li><a href="#_tcp_udp">TCP、UDP 的复用及分解</a></li>
+<li><a href="#_tcp">TCP 首部字段</a></li>
+<li><a href="#_tcp_2">TCP 的三次握手和解除连接的过程</a></li>
+<li><a href="#_tcp_3">TCP 的流量控制、拥塞控制</a></li>
+</ul>
+</li>
+<li><a href="#___15">网络层</a>
+<ul class="sectlevel2">
+<li><a href="#___16">转发表的使用</a></li>
+<li><a href="#_ip">IP 头的内容、格式、标准大小</a></li>
+<li><a href="#__ip_ip">分段如何实现、为什么，IP 地址的计算、分类，特殊 IP</a></li>
+<li><a href="#_icmp_ping">ICMP 协议作用，ping</a></li>
+<li><a href="#___17">距离矢量和链状路由以及比较</a></li>
+<li><a href="#___18">距离矢量计算</a></li>
+<li><a href="#_rip_rip_1_0_rip_2_0">RIP 协议，RIP 1.0 和 RIP 2.0 的比较</a></li>
+<li><a href="#_ospf">OSPF 协议</a></li>
+</ul>
+</li>
+<li><a href="#___19">链路层</a>
+<ul class="sectlevel2">
+<li><a href="#_arp">ARP</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="__">计算机网络和因特网</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="___2">各种工</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>单工：单信道，单向传输</p>
+</li>
+<li>
+<p>半双工：单信道，异时双向传输</p>
+</li>
+<li>
+<p>双工：双信道，同时双向传输</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="___3">网络交换方式</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>电路交换</p>
+</li>
+<li>
+<p>分组交换</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>排队时延：路由器上排队等待所消耗的时间</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="___4">协议</h3>
+<div class="sect3">
+<h4 id="___5">概念</h4>
+<div class="paragraph">
+<p>网络协议规定通信双方具体的通信规则，包含三个要素：语法、语义、同步。</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="___6">分层</h4>
+<div class="paragraph">
+<p>原因：简单、容易学习、便于讨论。模块化的设计便于讨论，也简化了维护和升级，具体表现在某层次的服务对系统的其他层次透明，且某个层次改变后，只需改变与其相邻层次的接口。</p>
+</div>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">层名</th>
+<th class="tableblock halign-left valign-top">数据名</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">物理层</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">比特流</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">链路层</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">帧</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">网络层</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">数据报</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">传输层</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">报文段</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">应用层</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">报文</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="___7">常用协议及其端口</h4>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">协议</th>
+<th class="tableblock halign-left valign-top">端口</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">FTP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">21</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">SMTP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">25</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">DNS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">53</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">HTTP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">80</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="___8">应用层</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_rtt">RTT</h3>
+<div class="paragraph">
+<p>一个短分组从客户到服务器再返回客户的时间。包括分组传播时延、分组在中间路由器和交换机上的排队时延及分组处理时延。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_http_get">HTTP 条件 GET</h3>
+<div class="sect3">
+<h4 id="___9">作用</h4>
+<div class="paragraph">
+<p>解决缓存陈旧</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="___10">过程</h4>
+
+</div>
+</div>
+<div class="sect2">
+<h3 id="_smtp_http">SMTP 与 HTTP 比较</h3>
+<div class="sect3">
+<h4 id="___11">相同</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>都用于从一台主机向另一主机传送文件</p>
+</li>
+<li>
+<p>进行文件传送时，持续的 HTTP 和 SMTP 都使用持续连接</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="___12">不同</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>HTTP 主要是拉协议，SMTP 基本上是推协议</p>
+</li>
+<li>
+<p>SMTP 的报文使用 7 比特 ASCII 码格式，HTTP 没有该限制</p>
+</li>
+<li>
+<p>处理超文本文档时，HTTP 把每个对象封装到自身的响应报文中，SMTP 把所有报文对象封装到一个报文中</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_dns_http_ip">DNS、HTTP、IP 综合工作</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_http">HTTP 工作流程</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_dns">DNS 工作流程</h3>
+
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="___13">传输层</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="___14">复用与分解</h3>
+<div class="paragraph">
+<p>将运输层报文段中的数据交付到正确的套接字的工作称为多路分解。</p>
+</div>
+<div class="paragraph">
+<p>在源主机从不同套接字中收集数据块，并为每个数据块封装上首部信息从而生成报文段，然后将报文段传递到网络层。这称为多路复用。</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_tcp_udp">TCP、UDP 的复用及分解</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_tcp">TCP 首部字段</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>源端口号和目的端口号</p>
+</li>
+<li>
+<p>序号</p>
+</li>
+<li>
+<p>确认号</p>
+</li>
+<li>
+<p>接收窗口</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_tcp_2">TCP 的三次握手和解除连接的过程</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_tcp_3">TCP 的流量控制、拥塞控制</h3>
+
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="___15">网络层</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="___16">转发表的使用</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_ip">IP 头的内容、格式、标准大小</h3>
+
+</div>
+<div class="sect2">
+<h3 id="__ip_ip">分段如何实现、为什么，IP 地址的计算、分类，特殊 IP</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_icmp_ping">ICMP 协议作用，ping</h3>
+
+</div>
+<div class="sect2">
+<h3 id="___17">距离矢量和链状路由以及比较</h3>
+
+</div>
+<div class="sect2">
+<h3 id="___18">距离矢量计算</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_rip_rip_1_0_rip_2_0">RIP 协议，RIP 1.0 和 RIP 2.0 的比较</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_ospf">OSPF 协议</h3>
+
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="___19">链路层</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_arp">ARP</h3>
+
+</div>
+</div>
+</div>
+          </div>
+          <footer class="post-footer">
+            <div itemprop="author" itemscope itemtype="http://schema.org/Person" class="post-author">
+                <a href="" class="post-author-avatar">
+                  <img itemprop="image" src="https://avatars1.githubusercontent.com/u/30468555?v&#x3D;4" alt="Lonelee">
+                </a>
+              <div class="post-author-info">
+                <h4 class="post-footer-heading">Written By</h4>
+                <a href="" itemprop="url" class="post-author-name">
+                  <span itemprop="name">Lonelee</span>
+                </a>
+                <p itemprop="description" class="post-author-bio">For fun</p>
+                  <p class="post-author-location">FuJian, China</p>
+                <p class="post-info">
+                  <b class="post-info-title">Published on</b>
+                  <time class="post-date">January 31, 2019</time>
+                </p>
+              </div>
+            </div>
+            <div class="post-social">
+              <h4 class="post-footer-heading">Spread the word</h4>
+              <a href="#" data-action="share-twitter"><i class="fa fa-fw fa-lg fa-twitter"></i></a>
+              <a href="#" data-action="share-facebook"><i class="fa fa-fw fa-lg fa-facebook"></i></a>
+              <a href="#" data-action="share-gplus"><i class="fa fa-fw fa-lg fa-google-plus"></i></a>
+            </div>
+          </footer>
+        </section>
+      <section itemprop="comment" class="post-comments">
+        <div id="disqus_thread"></div>
+      </section>
+    </article>
+
+    <footer role="contentinfo" class="footer">
+      <p><small>Copyright &copy; <span itemprop="copyrightHolder">Lonelee</span>. 2018. All Rights Reserved.</small></p>
+      <p><small><a href="http://ghostium.oswaldoacauan.com/" target="_blank">Ghostium Theme</a> by <a href="http://twitter.com/oswaldoacauan" target="_blank">@oswaldoacauan</a></small></p>
+      <p><small>Adapted by <a href="https://twitter.com/mgreau">Maxime Gréau</a></small></p>
+      <p><small>Published with <a href="http://hubpress.io">HubPress</a></small></p>
+    </footer>
+  </div>
+</section>
+
+
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
+
+        hljs.initHighlightingOnLoad();
+      </script>
+
+    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1515648527255"></script>
+
+
+  </body>
+</html>
