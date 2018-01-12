@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 11 Jan 2018 06:29:52 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[计算机网络]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 12 Jan 2018 14:26:32 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[计算机网络]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
 <li><a href="#__">历史</a></li>
@@ -51,6 +51,9 @@
 </div>
 <div class="sect2">
 <h3 id="___5">网络链路</h3>
+<div class="paragraph">
+<p>传输介质用于链接设备以形成计算机网络，属于 OSI 模型的物理层与数据链路层。</p>
+</div>
 <div class="sect3">
 <h4 id="___6">有线技术</h4>
 <div class="sect4">
@@ -135,15 +138,15 @@
 <ul class="sectlevel2">
 <li><a href="#___16">转发表的使用</a></li>
 <li><a href="#_ip">IP 头的内容、格式、标准大小</a></li>
-<li><a href="#__ip_ip">分段如何实现、为什么，IP 地址的计算、分类，特殊 IP</a></li>
+<li><a href="#__ip_2">分段如何实现、为什么，IP 地址的计算</a></li>
 <li><a href="#_icmp_ping">ICMP 协议作用，ping</a></li>
-<li><a href="#___17">距离矢量和链状路由以及比较</a></li>
-<li><a href="#___18">距离矢量计算</a></li>
+<li><a href="#___18">距离矢量和链状路由以及比较</a></li>
+<li><a href="#___19">距离矢量计算</a></li>
 <li><a href="#_rip_rip_1_0_rip_2_0">RIP 协议，RIP 1.0 和 RIP 2.0 的比较</a></li>
 <li><a href="#_ospf">OSPF 协议</a></li>
 </ul>
 </li>
-<li><a href="#___19">链路层</a>
+<li><a href="#___20">链路层</a>
 <ul class="sectlevel2">
 <li><a href="#_arp">ARP</a></li>
 </ul>
@@ -391,10 +394,115 @@
 </div>
 <div class="sect2">
 <h3 id="_ip">IP 头的内容、格式、标准大小</h3>
-
+<div class="sect3">
+<h4 id="___17">分类</h4>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 16.6666%;">
+<col style="width: 16.6666%;">
+<col style="width: 16.6666%;">
+<col style="width: 16.6666%;">
+<col style="width: 16.6666%;">
+<col style="width: 16.667%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">类别</th>
+<th class="tableblock halign-left valign-top">网络号位数</th>
+<th class="tableblock halign-left valign-top">主机号位数</th>
+<th class="tableblock halign-left valign-top">网络个数</th>
+<th class="tableblock halign-left valign-top">主机个数</th>
+<th class="tableblock halign-left valign-top">地址范围</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A 类</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">24</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2<sup>7</sup>-2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2<sup>24</sup>-2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.0.0——126.255.255.255</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">B 类</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">16</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">16</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2<sup>14</sup></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2<sup>16</sup>-2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">128.0.0.0——191.255.255.255</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">C 类</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">32</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2<sup>21</sup></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2<sup>8</sup>-2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">192.0.0.0——223.255.255.255</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">D 类</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">224.0.0.0——239.255.255.255</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="__ip">特殊 IP</h4>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">名称</th>
+<th class="tableblock halign-left valign-top">地址</th>
+<th class="tableblock halign-left valign-top">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">广播地址</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">主机号全1</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">网络地址</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">主机号全0</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">内网地址（私有地址）</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10.0.0.0——10.255.255.255，172.16.0.0——172.31.255.255，192.168.0.0——192.168.255.255</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">内部网络使用的地址，不能用于公网</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">链路本地地址</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">169.254.0.0~169.254.255.255</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">无 IP 地址时操作系统临时分配的 IP 地址</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">本地环回地址</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">127.0.0.0——127.255.255.255</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">本地链路广播地址</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">255.255.255.255</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 <div class="sect2">
-<h3 id="__ip_ip">分段如何实现、为什么，IP 地址的计算、分类，特殊 IP</h3>
+<h3 id="__ip_2">分段如何实现、为什么，IP 地址的计算</h3>
 
 </div>
 <div class="sect2">
@@ -402,11 +510,11 @@
 
 </div>
 <div class="sect2">
-<h3 id="___17">距离矢量和链状路由以及比较</h3>
+<h3 id="___18">距离矢量和链状路由以及比较</h3>
 
 </div>
 <div class="sect2">
-<h3 id="___18">距离矢量计算</h3>
+<h3 id="___19">距离矢量计算</h3>
 
 </div>
 <div class="sect2">
@@ -420,7 +528,7 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="___19">链路层</h2>
+<h2 id="___20">链路层</h2>
 <div class="sectionbody">
 <div class="sect2">
 <h3 id="_arp">ARP</h3>
