@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 12 Jan 2018 14:35:09 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[计算机网络]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 12 Jan 2018 14:47:25 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[计算机网络]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
 <li><a href="#__">历史</a></li>
@@ -142,7 +142,7 @@
 <li><a href="#_icmp">ICMP</a></li>
 <li><a href="#___19">距离矢量和链状路由以及比较</a></li>
 <li><a href="#___20">距离矢量计算</a></li>
-<li><a href="#_rip_rip_1_0_rip_2_0">RIP 协议，RIP 1.0 和 RIP 2.0 的比较</a></li>
+<li><a href="#_rip">RIP</a></li>
 <li><a href="#_ospf">OSPF 协议</a></li>
 </ul>
 </li>
@@ -545,8 +545,19 @@
 
 </div>
 <div class="sect2">
-<h3 id="_rip_rip_1_0_rip_2_0">RIP 协议，RIP 1.0 和 RIP 2.0 的比较</h3>
-
+<h3 id="_rip">RIP</h3>
+<div class="paragraph">
+<p>RIP 使用距离向量路由算法，用 UDP 传输（端口 520），以固定时间间隔（30s）交换路由信息。RIP 将距离定义为跳数，每经过一个路由器跳数加1，最大值为15（16则表示不可到达）。使用毒性逆转（向某条路由对应的出接口通告该路由为无穷大路由）等方法缓解环路影响。</p>
+</div>
+<div class="sect3">
+<h4 id="_rip_1_0_rip_2_0">RIP 1.0 和 RIP 2.0 的比较</h4>
+<div class="paragraph">
+<p>RIP 1.0 通过广播通告路由信息，不支持验证和 CIDR。</p>
+</div>
+<div class="paragraph">
+<p>RIP 2.0 通过组播通告路由信息，支持验证和 CIDR。</p>
+</div>
+</div>
 </div>
 <div class="sect2">
 <h3 id="_ospf">OSPF 协议</h3>

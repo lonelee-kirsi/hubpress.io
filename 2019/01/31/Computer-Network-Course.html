@@ -38,9 +38,9 @@
     <link href="//fonts.googleapis.com/" rel="dns-prefetch">
     <link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Open+Sans:700,400&subset=latin,latin-ext" rel="stylesheet">
 
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/main.min.css?v=1515767709389"/>
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/custom.css?v=1515767709389"/>
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1515767709389"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/main.min.css?v=1515768445148"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/custom.css?v=1515768445148"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1515768445148"/>
 
 
 
@@ -70,7 +70,7 @@
       GHOSTIUM.enablePjax = typeof enable_pjax !== 'undefined' ? enable_pjax : true;
     </script>
 
-    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1515767709389"></script>
+    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1515768445148"></script>
 
     <link rel="canonical" href="https://lonelee-kirsi.github.io/2019/01/31/Computer-Network-Course.html" />
     <meta name="referrer" content="origin" />
@@ -241,7 +241,7 @@
 <li><a href="#_icmp">ICMP</a></li>
 <li><a href="#___19">距离矢量和链状路由以及比较</a></li>
 <li><a href="#___20">距离矢量计算</a></li>
-<li><a href="#_rip_rip_1_0_rip_2_0">RIP 协议，RIP 1.0 和 RIP 2.0 的比较</a></li>
+<li><a href="#_rip">RIP</a></li>
 <li><a href="#_ospf">OSPF 协议</a></li>
 </ul>
 </li>
@@ -644,8 +644,19 @@
 
 </div>
 <div class="sect2">
-<h3 id="_rip_rip_1_0_rip_2_0">RIP 协议，RIP 1.0 和 RIP 2.0 的比较</h3>
-
+<h3 id="_rip">RIP</h3>
+<div class="paragraph">
+<p>RIP 使用距离向量路由算法，用 UDP 传输（端口 520），以固定时间间隔（30s）交换路由信息。RIP 将距离定义为跳数，每经过一个路由器跳数加1，最大值为15（16则表示不可到达）。使用毒性逆转（向某条路由对应的出接口通告该路由为无穷大路由）等方法缓解环路影响。</p>
+</div>
+<div class="sect3">
+<h4 id="_rip_1_0_rip_2_0">RIP 1.0 和 RIP 2.0 的比较</h4>
+<div class="paragraph">
+<p>RIP 1.0 通过广播通告路由信息，不支持验证和 CIDR。</p>
+</div>
+<div class="paragraph">
+<p>RIP 2.0 通过组播通告路由信息，支持验证和 CIDR。</p>
+</div>
+</div>
 </div>
 <div class="sect2">
 <h3 id="_ospf">OSPF 协议</h3>
@@ -722,7 +733,7 @@
         hljs.initHighlightingOnLoad();
       </script>
 
-    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1515767709389"></script>
+    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1515768445148"></script>
 
 
   </body>
