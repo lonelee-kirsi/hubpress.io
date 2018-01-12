@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 12 Jan 2018 14:26:32 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[计算机网络]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 12 Jan 2018 14:35:09 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[计算机网络]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
 <li><a href="#__">历史</a></li>
@@ -139,14 +139,14 @@
 <li><a href="#___16">转发表的使用</a></li>
 <li><a href="#_ip">IP 头的内容、格式、标准大小</a></li>
 <li><a href="#__ip_2">分段如何实现、为什么，IP 地址的计算</a></li>
-<li><a href="#_icmp_ping">ICMP 协议作用，ping</a></li>
-<li><a href="#___18">距离矢量和链状路由以及比较</a></li>
-<li><a href="#___19">距离矢量计算</a></li>
+<li><a href="#_icmp">ICMP</a></li>
+<li><a href="#___19">距离矢量和链状路由以及比较</a></li>
+<li><a href="#___20">距离矢量计算</a></li>
 <li><a href="#_rip_rip_1_0_rip_2_0">RIP 协议，RIP 1.0 和 RIP 2.0 的比较</a></li>
 <li><a href="#_ospf">OSPF 协议</a></li>
 </ul>
 </li>
-<li><a href="#___20">链路层</a>
+<li><a href="#___21">链路层</a>
 <ul class="sectlevel2">
 <li><a href="#_arp">ARP</a></li>
 </ul>
@@ -484,7 +484,7 @@
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">链路本地地址</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">169.254.0.0~169.254.255.255</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">169.254.0.0——169.254.255.255</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">无 IP 地址时操作系统临时分配的 IP 地址</p></td>
 </tr>
 <tr>
@@ -506,15 +506,42 @@
 
 </div>
 <div class="sect2">
-<h3 id="_icmp_ping">ICMP 协议作用，ping</h3>
+<h3 id="_icmp">ICMP</h3>
+<div class="sect3">
+<h4 id="___18">作用</h4>
+<div class="paragraph">
+<p>用于因特网的传输控制和差错报告，主要是分组传输过程中的异常报告，包括如下：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>目标地址不可达</p>
+</li>
+<li>
+<p>网络拥塞</p>
+</li>
+<li>
+<p>TTL 到期</p>
+</li>
+<li>
+<p>IP 分组检验和失败</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_ping">ping</h4>
+<div class="paragraph">
+<p>ping 使用 ICMP 的回送请求和回送响应报文</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="___19">距离矢量和链状路由以及比较</h3>
 
 </div>
 <div class="sect2">
-<h3 id="___18">距离矢量和链状路由以及比较</h3>
-
-</div>
-<div class="sect2">
-<h3 id="___19">距离矢量计算</h3>
+<h3 id="___20">距离矢量计算</h3>
 
 </div>
 <div class="sect2">
@@ -528,7 +555,7 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="___20">链路层</h2>
+<h2 id="___21">链路层</h2>
 <div class="sectionbody">
 <div class="sect2">
 <h3 id="_arp">ARP</h3>
