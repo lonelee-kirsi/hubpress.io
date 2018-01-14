@@ -38,9 +38,9 @@
     <link href="//fonts.googleapis.com/" rel="dns-prefetch">
     <link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Open+Sans:700,400&subset=latin,latin-ext" rel="stylesheet">
 
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/main.min.css?v=1515914448833"/>
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/custom.css?v=1515914448833"/>
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1515914448833"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/main.min.css?v=1515915298278"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/custom.css?v=1515915298278"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1515915298278"/>
 
 
 
@@ -70,7 +70,7 @@
       GHOSTIUM.enablePjax = typeof enable_pjax !== 'undefined' ? enable_pjax : true;
     </script>
 
-    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1515914448833"></script>
+    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1515915298278"></script>
 
     <link rel="canonical" href="https://lonelee-kirsi.github.io/2019/01/31/Computer-Network-Course.html" />
     <meta name="referrer" content="origin" />
@@ -648,11 +648,21 @@
 </div>
 <div class="sect4">
 <h5 id="___21">实现</h5>
-
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>将 IP 数据报中的数据分片成两个或更多个较小的 IP 数据报，用单独的链路层帧将其封装，
+再向数据链路上发送这些帧</p>
+</li>
+<li>
+<p>当一台目的主机从相同源收到一系列数据报时，根据数据报首部中的标识号是否相同，判断哪些数据报是一个大数据报的片。又根据标志是否为0，来确定是否对原始数据报已接收完毕。最后根据偏移字段来重新按序组装片为原始数据报</p>
+</li>
+</ol>
+</div>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_ip_2">IP 地址的计算</h4>
+<h4 id="_ip_2">IP 地址计算</h4>
 
 </div>
 </div>
@@ -704,7 +714,7 @@
 <p>RIP 使用距离向量路由算法，用 UDP 传输（端口 520），以固定时间间隔（30s）交换路由信息。RIP 将距离定义为跳数，每经过一个路由器跳数加1，最大值为15（16则表示不可到达）。使用毒性逆转（向某条路由对应的出接口通告该路由为无穷大路由）等方法缓解环路影响。</p>
 </div>
 <div class="sect3">
-<h4 id="_rip_1_0_rip_2_0">RIP 1.0 和 RIP 2.0 的比较</h4>
+<h4 id="_rip_1_0_rip_2_0">RIP 1.0、RIP 2.0 的比较</h4>
 <div class="paragraph">
 <p>RIP 1.0 通过广播通告路由信息，不支持验证和 CIDR。</p>
 </div>
@@ -788,7 +798,7 @@
         hljs.initHighlightingOnLoad();
       </script>
 
-    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1515914448833"></script>
+    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1515915298278"></script>
 
 
   </body>

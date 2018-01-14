@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sun, 14 Jan 2018 07:20:48 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[计算机网络]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sun, 14 Jan 2018 07:34:58 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[计算机网络]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
 <li><a href="#__">历史</a></li>
@@ -549,11 +549,21 @@
 </div>
 <div class="sect4">
 <h5 id="___21">实现</h5>
-
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>将 IP 数据报中的数据分片成两个或更多个较小的 IP 数据报，用单独的链路层帧将其封装，
+再向数据链路上发送这些帧</p>
+</li>
+<li>
+<p>当一台目的主机从相同源收到一系列数据报时，根据数据报首部中的标识号是否相同，判断哪些数据报是一个大数据报的片。又根据标志是否为0，来确定是否对原始数据报已接收完毕。最后根据偏移字段来重新按序组装片为原始数据报</p>
+</li>
+</ol>
+</div>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_ip_2">IP 地址的计算</h4>
+<h4 id="_ip_2">IP 地址计算</h4>
 
 </div>
 </div>
@@ -605,7 +615,7 @@
 <p>RIP 使用距离向量路由算法，用 UDP 传输（端口 520），以固定时间间隔（30s）交换路由信息。RIP 将距离定义为跳数，每经过一个路由器跳数加1，最大值为15（16则表示不可到达）。使用毒性逆转（向某条路由对应的出接口通告该路由为无穷大路由）等方法缓解环路影响。</p>
 </div>
 <div class="sect3">
-<h4 id="_rip_1_0_rip_2_0">RIP 1.0 和 RIP 2.0 的比较</h4>
+<h4 id="_rip_1_0_rip_2_0">RIP 1.0、RIP 2.0 的比较</h4>
 <div class="paragraph">
 <p>RIP 1.0 通过广播通告路由信息，不支持验证和 CIDR。</p>
 </div>
