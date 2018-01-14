@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sun, 14 Jan 2018 07:45:04 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[计算机网络课程]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sun, 14 Jan 2018 08:24:08 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[计算机网络课程]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
 <li><a href="#__">计算机网络和因特网</a>
@@ -37,7 +37,7 @@
 <li><a href="#_ospf">OSPF 协议</a></li>
 </ul>
 </li>
-<li><a href="#___29">链路层</a>
+<li><a href="#___30">链路层</a>
 <ul class="sectlevel2">
 <li><a href="#_arp">ARP</a></li>
 </ul>
@@ -497,7 +497,9 @@
 <h3 id="___23">链路状态路由选择算法、距离向量路由选择算法</h3>
 <div class="sect3">
 <h4 id="___24">链路状态路由选择算法</h4>
-
+<div class="paragraph">
+<p>这是一种全局式路由选择算法</p>
+</div>
 </div>
 <div class="sect3">
 <h4 id="___25">距离向量路由选择算法</h4>
@@ -507,11 +509,26 @@
 <h4 id="___26">比较</h4>
 <div class="sect4">
 <h5 id="___27">相同</h5>
-
+<div class="paragraph">
+<p>都采用互补的方法来解决路由选择计算问题。</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="___28">区别</h5>
+<div class="ulist">
+<ul>
+<li>
+<p>LS 算法：每个结点与所有其他结点交谈，提供与其直接相连链路的费用</p>
+</li>
+<li>
+<p>DV 算法：每个结点仅与直接相连邻居交谈，提供自己到其他所有结点的最低费用估计</p>
+</li>
+</ul>
+</div>
 </div>
 </div>
 <div class="sect3">
-<h4 id="___28">距离矢量计算</h4>
+<h4 id="___29">距离向量计算</h4>
 
 </div>
 </div>
@@ -537,7 +554,7 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="___29">链路层</h2>
+<h2 id="___30">链路层</h2>
 <div class="sectionbody">
 <div class="sect2">
 <h3 id="_arp">ARP</h3>
