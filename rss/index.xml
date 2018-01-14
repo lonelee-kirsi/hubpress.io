@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sun, 14 Jan 2018 08:24:08 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[计算机网络课程]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sun, 14 Jan 2018 10:09:24 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[计算机网络课程]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
 <li><a href="#__">计算机网络和因特网</a>
@@ -34,10 +34,10 @@
 <li><a href="#_icmp">ICMP</a></li>
 <li><a href="#___23">链路状态路由选择算法、距离向量路由选择算法</a></li>
 <li><a href="#_rip">RIP</a></li>
-<li><a href="#_ospf">OSPF 协议</a></li>
+<li><a href="#_ospf">OSPF</a></li>
 </ul>
 </li>
-<li><a href="#___30">链路层</a>
+<li><a href="#___29">链路层</a>
 <ul class="sectlevel2">
 <li><a href="#_arp">ARP</a></li>
 </ul>
@@ -76,7 +76,7 @@
 </ul>
 </div>
 <div class="paragraph">
-<p>排队时延：路由器上排队等待所消耗的时间</p>
+<p>排队时延：在队列中，当分组在链路上等待传输时经受的时延。</p>
 </div>
 </div>
 <div class="sect2">
@@ -84,7 +84,7 @@
 <div class="sect3">
 <h4 id="___5">概念</h4>
 <div class="paragraph">
-<p>网络协议规定通信双方具体的通信规则，包含三个要素：语法、语义、同步。</p>
+<p>定义两个或多个通信实体间交换的报文格式和次序，以及报文发送和/或接收一条报文或其他事件所采取的动作。</p>
 </div>
 </div>
 <div class="sect3">
@@ -518,18 +518,14 @@
 <div class="ulist">
 <ul>
 <li>
-<p>LS 算法：每个结点与所有其他结点交谈，提供与其直接相连链路的费用</p>
+<p>LS 算法：每个结点与所有其他结点交谈，提供其直接相连链路的费用</p>
 </li>
 <li>
-<p>DV 算法：每个结点仅与直接相连邻居交谈，提供自己到其他所有结点的最低费用估计</p>
+<p>DV 算法：每个结点与直接相连邻居交谈，提供自己到其他所有结点的最低费用估计</p>
 </li>
 </ul>
 </div>
 </div>
-</div>
-<div class="sect3">
-<h4 id="___29">距离向量计算</h4>
-
 </div>
 </div>
 <div class="sect2">
@@ -548,13 +544,13 @@
 </div>
 </div>
 <div class="sect2">
-<h3 id="_ospf">OSPF 协议</h3>
+<h3 id="_ospf">OSPF</h3>
 
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="___30">链路层</h2>
+<h2 id="___29">链路层</h2>
 <div class="sectionbody">
 <div class="sect2">
 <h3 id="_arp">ARP</h3>
