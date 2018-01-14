@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sun, 14 Jan 2018 07:41:06 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[计算机网络课程]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sun, 14 Jan 2018 07:45:04 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[计算机网络课程]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
 <li><a href="#__">计算机网络和因特网</a>
@@ -32,13 +32,12 @@
 <li><a href="#___16">转发表的使用</a></li>
 <li><a href="#_ip">IP</a></li>
 <li><a href="#_icmp">ICMP</a></li>
-<li><a href="#___23">距离矢量和链状路由以及比较</a></li>
-<li><a href="#___24">距离矢量计算</a></li>
+<li><a href="#___23">链路状态路由选择算法、距离向量路由选择算法</a></li>
 <li><a href="#_rip">RIP</a></li>
 <li><a href="#_ospf">OSPF 协议</a></li>
 </ul>
 </li>
-<li><a href="#___25">链路层</a>
+<li><a href="#___29">链路层</a>
 <ul class="sectlevel2">
 <li><a href="#_arp">ARP</a></li>
 </ul>
@@ -495,12 +494,26 @@
 </div>
 </div>
 <div class="sect2">
-<h3 id="___23">距离矢量和链状路由以及比较</h3>
+<h3 id="___23">链路状态路由选择算法、距离向量路由选择算法</h3>
+<div class="sect3">
+<h4 id="___24">链路状态路由选择算法</h4>
 
 </div>
-<div class="sect2">
-<h3 id="___24">距离矢量计算</h3>
+<div class="sect3">
+<h4 id="___25">距离向量路由选择算法</h4>
 
+</div>
+<div class="sect3">
+<h4 id="___26">比较</h4>
+<div class="sect4">
+<h5 id="___27">相同</h5>
+
+</div>
+</div>
+<div class="sect3">
+<h4 id="___28">距离矢量计算</h4>
+
+</div>
 </div>
 <div class="sect2">
 <h3 id="_rip">RIP</h3>
@@ -524,7 +537,7 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="___25">链路层</h2>
+<h2 id="___29">链路层</h2>
 <div class="sectionbody">
 <div class="sect2">
 <h3 id="_arp">ARP</h3>
