@@ -38,9 +38,9 @@
     <link href="//fonts.googleapis.com/" rel="dns-prefetch">
     <link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Open+Sans:700,400&subset=latin,latin-ext" rel="stylesheet">
 
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/main.min.css?v=1515924564143"/>
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/custom.css?v=1515924564143"/>
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1515924564143"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/main.min.css?v=1516003151820"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/custom.css?v=1516003151820"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1516003151820"/>
 
 
 
@@ -70,7 +70,7 @@
       GHOSTIUM.enablePjax = typeof enable_pjax !== 'undefined' ? enable_pjax : true;
     </script>
 
-    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1515924564143"></script>
+    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1516003151820"></script>
 
     <link rel="canonical" href="https://lonelee-kirsi.github.io/2019/01/31/Computer-Network-Course.html" />
     <meta name="referrer" content="origin" />
@@ -388,7 +388,22 @@
 </div>
 <div class="sect3">
 <h4 id="___10">过程</h4>
-
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>代理缓存器代替浏览器，向 Web 服务器请求某对象，Web 服务器向代理缓存器返回包含该对象的响应报文，其中包含Last-Modified</p>
+</li>
+<li>
+<p>缓存器将该对象转发给浏览器，并在本地存储该对象和最后修改日期</p>
+</li>
+<li>
+<p>一定日期后，另一用户请求同对象，因为服务器上的该对象可能已修改而缓存仍陈旧，因此对服务器发起条件 GET（包含 If-Modified-Since，值等于 Last-Modified）</p>
+</li>
+<li>
+<p>如果没有修改，服务器发回304状态码，缓存器直接将缓存发回浏览器；若已修改，则再次缓存</p>
+</li>
+</ol>
+</div>
 </div>
 </div>
 <div class="sect2">
@@ -824,7 +839,7 @@
         hljs.initHighlightingOnLoad();
       </script>
 
-    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1515924564143"></script>
+    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1516003151820"></script>
 
 
   </body>
