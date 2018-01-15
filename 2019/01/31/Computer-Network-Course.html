@@ -38,9 +38,9 @@
     <link href="//fonts.googleapis.com/" rel="dns-prefetch">
     <link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Open+Sans:700,400&subset=latin,latin-ext" rel="stylesheet">
 
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/main.min.css?v=1516004644644"/>
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/custom.css?v=1516004644644"/>
-    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1516004644644"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/main.min.css?v=1516005926007"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/custom.css?v=1516005926007"/>
+    <link rel="stylesheet" href="//lonelee-kirsi.github.io/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1516005926007"/>
 
 
 
@@ -70,7 +70,7 @@
       GHOSTIUM.enablePjax = typeof enable_pjax !== 'undefined' ? enable_pjax : true;
     </script>
 
-    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1516004644644"></script>
+    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/head-scripts.min.js?v=1516005926007"></script>
 
     <link rel="canonical" href="https://lonelee-kirsi.github.io/2019/01/31/Computer-Network-Course.html" />
     <meta name="referrer" content="origin" />
@@ -516,7 +516,16 @@
 </div>
 <div class="sect2">
 <h3 id="_tcp_4">TCP 的流量控制、拥塞控制</h3>
-
+<div class="ulist">
+<ul>
+<li>
+<p>流量控制：首部定义了窗口大小，接收方明确通过首部窗口字段发送接收窗口大小，从而限制发送方发送窗口的最大值，而发送方保证发送窗口大小不超过对方发送的接收窗口的大小</p>
+</li>
+<li>
+<p>拥塞控制：第一、使用拥塞窗口cwnd控制发送窗口大小，发送窗口上限值=MIN（rwnd，cwnd）；第二、分组超时则认为拥塞，反之收到确认则认为网络未拥塞；第三、拥塞则少发（cwnd减小），未拥塞则多发（cwnd增大）；第四、网络未知的情况下，cwnd从最小开始，收到确认后cwnd逐渐增大；第五、为提高效率，开始增加速度快，到了一定阶段后增速变慢</p>
+</li>
+</ul>
+</div>
 </div>
 </div>
 </div>
@@ -862,7 +871,7 @@
         hljs.initHighlightingOnLoad();
       </script>
 
-    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1516004644644"></script>
+    <script src="//lonelee-kirsi.github.io/themes/ghostium/assets/js/foot-scripts.min.js?v=1516005926007"></script>
 
 
   </body>

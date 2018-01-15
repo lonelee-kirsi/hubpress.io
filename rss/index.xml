@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 15 Jan 2018 08:24:04 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[计算机网络课程]]></title><description><![CDATA[<div id="toc" class="toc">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lonelee]]></title><description><![CDATA[For fun]]></description><link>https://lonelee-kirsi.github.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 15 Jan 2018 08:45:25 GMT</lastBuildDate><atom:link href="https://lonelee-kirsi.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[计算机网络课程]]></title><description><![CDATA[<div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
 <li><a href="#__">计算机网络和因特网</a>
@@ -310,7 +310,16 @@
 </div>
 <div class="sect2">
 <h3 id="_tcp_4">TCP 的流量控制、拥塞控制</h3>
-
+<div class="ulist">
+<ul>
+<li>
+<p>流量控制：首部定义了窗口大小，接收方明确通过首部窗口字段发送接收窗口大小，从而限制发送方发送窗口的最大值，而发送方保证发送窗口大小不超过对方发送的接收窗口的大小</p>
+</li>
+<li>
+<p>拥塞控制：第一、使用拥塞窗口cwnd控制发送窗口大小，发送窗口上限值=MIN（rwnd，cwnd）；第二、分组超时则认为拥塞，反之收到确认则认为网络未拥塞；第三、拥塞则少发（cwnd减小），未拥塞则多发（cwnd增大）；第四、网络未知的情况下，cwnd从最小开始，收到确认后cwnd逐渐增大；第五、为提高效率，开始增加速度快，到了一定阶段后增速变慢</p>
+</li>
+</ul>
+</div>
 </div>
 </div>
 </div>
