@@ -1,0 +1,12 @@
+= 并发
+:hp-image: /covers/cover.png
+:published_at: 2018-02-06
+:hp-tags: 并发,
+:hp-alt-title: Concurrency
+
+== 何谓并发
+== 并发的基本执行单元
+== 相关问题
+* 哲学家就餐
+
+== 参考
